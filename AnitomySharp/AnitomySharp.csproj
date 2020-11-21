@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>AnitomySharp.NETStandard</PackageId>
+        <PackageVersion>0.3.0</PackageVersion>
+        <Authors>senritsu</Authors>
+        <Description>AnitomySharp is a C# port of Anitomy by erengy, a library for parsing anime video filenames. All credit to erengy for the actual library and logic.
+
+This fork of AnitomySharp by tabratton supports netstandard2.0, alongside some minor changes to project setup.</Description>
+        <PackageLicenseUrl>https://www.mozilla.org/en-US/MPL/2.0/</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/senritsu/AnitomySharp.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+</Project>
