@@ -262,8 +262,3 @@ __pycache__/
 
 # JetBrains Rider IDE
 .idea/
-/AnitomySharpTests/Resource.resx
-/AnitomySharpTests/Resource.Designer.cs
-/AnitomySharpTests/AnitomySharpTests.csproj
-/AnitomySharp.sln
-/AnitomySharp/AnitomySharp.csproj
