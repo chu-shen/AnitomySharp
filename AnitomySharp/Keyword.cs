@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (c) 2014-2017, Eren Okka
  * Copyright (c) 2016-2017, Paul Miller
  * Copyright (c) 2017-2018, Tyler Bratton
@@ -104,7 +104,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsDefault,
-        new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX"});
+        new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX", "REV", "REPACK", "FIN"});
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsUnidentifiable,
