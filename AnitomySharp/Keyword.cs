@@ -38,11 +38,12 @@ namespace AnitomySharp
       
       Add(Element.ElementCategory.ElementAnimeType,
         optionsUnidentifiable,
-        new List<string> {"GEKIJOUBAN", "MOVIE", "OAD", "OAV", "ONA", "OVA", "SPECIAL", "SPECIALS", "TV"});
+        new List<string> {"GEKIJOUBAN", "MOVIE", "OAD", "OAV", "ONA", "OVA", "SPECIAL", "SPECIALS", "TV", "SP"});
 
-      Add(Element.ElementCategory.ElementAnimeType,
-        optionsUnidentifiableUnsearchable,
-        new List<string> {"SP"}); // e.g. "Yumeiro Patissiere SP Professional"
+//       add "SP" to ElementAnimeType with optionsUnidentifiable
+//       Add(Element.ElementCategory.ElementAnimeType,
+//         optionsUnidentifiableUnsearchable,
+//         new List<string> {"SP"}); // e.g. "Yumeiro Patissiere SP Professional"
 
       Add(Element.ElementCategory.ElementAnimeType,
         optionsUnidentifiableInvalid,
