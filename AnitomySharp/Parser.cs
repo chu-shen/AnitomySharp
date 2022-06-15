@@ -178,6 +178,9 @@ namespace AnitomySharp
 
       var tokenBegin = Token.FindToken(Tokens, 0, Tokens.Count, Token.TokenFlag.FlagNotEnclosed, Token.TokenFlag.FlagUnknown);
 
+      // without ReleaseGroup, only anime title e.g. "[2005][Paniponi Dash!][BDRIP][1080P][1-26Fin+OVA+SP]"
+      var tokenBeginWithNoReleaseGroup = Tokens.Count;
+
       // If that doesn't work, find the first unknown token in the second enclosed
       // group, assuming that the first one is the release group
       if (!Token.InListRange(tokenBegin, Tokens))
@@ -189,6 +192,7 @@ namespace AnitomySharp
         do
         {
           tokenBegin = Token.FindToken(Tokens, tokenBegin, Tokens.Count, Token.TokenFlag.FlagUnknown);
+          tokenBeginWithNoReleaseGroup = tokenBegin;
           if (!Token.InListRange(tokenBegin, Tokens)) break;
 
           // Ignore groups that are composed of non-Latin characters
@@ -200,6 +204,10 @@ namespace AnitomySharp
           // Get the first unknown token of the next group
           tokenBegin = Token.FindToken(Tokens, tokenBegin, Tokens.Count, Token.TokenFlag.FlagBracket);
           tokenBegin = Token.FindToken(Tokens, tokenBegin, Tokens.Count, Token.TokenFlag.FlagUnknown);
+          // make sure the new token don't in Element.ElementCategory
+          if (Token.InListRange(tokenBegin, Tokens) && KeywordManager.Contains(Element.ElementCategory.ElementAnimeType, Tokens[tokenBegin].Content)){
+            tokenBegin = tokenBeginWithNoReleaseGroup;
+          }
           skippedPreviousGroup = true;
         } while (Token.InListRange(tokenBegin, Tokens));
       }
