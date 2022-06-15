@@ -111,11 +111,10 @@ namespace AnitomySharp
           "Pussub","POPGO","philosophy-raws","PPP-Raw","QTS","RARBG","RATH","ReinForce","RUELL-Next","RUELL-Raws",
           "r1RAW","Snow-Raws","SFEO-Raws","Shinsen-Subs","Shirokoi","SweetSub","SumiSora","SOFCJ-Raws","T.H.X","TSDM",
           "THORA","TUcaptions","TxxZ","UCCUSS","UHA-WINGS","U2-RIP","VCB-Studio","VCB-S","x_x","xyx98","XKsub","Xrip",
-          "异域-11番小队","YYDM","Yusyabu","YlbudSub","Yuuki","Zagzad",
+          "异域-11番小队","YYDM","Yusyabu","YlbudSub","Yuuki","Zagzad", 
+          "HYSUB", "Sakurato", "Skymoon-Raws", "Comicat&KissSub", 
           // bangumi
-          "ANi", "NC-Raws", "HYSUB", "Lilith-Raws", "星空字幕组", "动漫国字幕组", "幻樱字幕组", "悠哈璃羽字幕社", 
-          "喵萌奶茶屋", "漫游字幕组", "极影字幕社", "桜都字幕组", "Skymoon-Raws", "c.c动漫", "雪飘工作室", "	豌豆字幕组",
-          "轻之国度字幕组", "NaN-Raws"
+          "ANi", "NC-Raws", "Lilith-Raws", "NaN-Raws"
         });
 
       Add(Element.ElementCategory.ElementReleaseInformation,
