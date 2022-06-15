@@ -121,7 +121,8 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsDefault,
-        new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX", "REV", "REPACK", "FIN", "生肉", "熟肉", "18禁", "18禁アニメ", "15禁", "無修正", "无修正", "无码", "無碼", "有码", "No Watermark", "有码", "有码"});
+        new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX", "REV", "REPACK", "FIN", 
+        "生肉", "熟肉", "18禁", "18禁アニメ", "15禁", "無修正", "无修正", "无码", "無碼", "有码", "No Watermark", "有码", "有码"});
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsUnidentifiable,
@@ -133,7 +134,11 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementSource,
         optionsDefault,
-        new List<string> {"BD", "BDRIP", "BD-BOX", "BDBOX", "UHD", "UHDRIP", "BLURAY", "BLU-RAY", "DVD", "DVD5", "DVD9", "DVD-R2J", "DVDRIP", "DVD-RIP", "R2DVD", "R2J", "R2JDVD", "R2JDVDRIP", "HDTV", "HDTVRIP", "TVRIP", "TV-RIP", "WEBCAST", "WEBRIP", "WEB-DL", "WEB", "DLrip"});
+        new List<string> {"BD", "BDRIP", "BD-BOX", "BDBOX", "UHD", "UHDRIP", "BLURAY", "BLU-RAY", 
+        "DVD", "DVD5", "DVD9", "DVD-R2J", "DVDRIP", "DVD-RIP", 
+        "R2DVD", "R2J", "R2JDVD", "R2JDVDRIP", 
+        "HDTV", "HDTVRIP", "TVRIP", "TV-RIP", 
+        "WEBCAST", "WEBRIP", "WEB-DL", "WEB", "DLrip"});
 
       Add(Element.ElementCategory.ElementSubtitles,
         optionsDefault,
@@ -150,7 +155,7 @@ namespace AnitomySharp
           "H264", "H265", "H.264", "H.265", "X264", "X265", "X.264",
           "AVC", "HEVC", "HEVC2", "DIVX", "DIVX5", "DIVX6", "XVID",
           "YUV420", "YUV420P8", "YUV420P10", "YUV420P10LE", "YUV444", "YUV444P10", "YUV444P10LE",
-          "Main10", "Main10p", "Main12",, "Main12p",
+          "Main10", "Main10p", "Main12", "Main12p",
           "HDR", "HDR10",
           // Video format
           "AVI", "RMVB", "WMV", "WMV3", "WMV9", "MKV", "MPEG",
