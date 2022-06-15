@@ -38,7 +38,7 @@ namespace AnitomySharp
       
       Add(Element.ElementCategory.ElementAnimeType,
         optionsUnidentifiable,
-        new List<string> {"GEKIJOUBAN", "MOVIE", "OAD", "OAV", "ONA", "OVA", "SPECIAL", "SPECIALS", "TV", "SP"});
+        new List<string> {"GEKIJOUBAN", "MOVIE", "OAD", "OAV", "ONA", "OVA", "SPECIAL", "SPECIALS", "TV", "SP", "番外編", "總集編"});
 
 //       add "SP" to ElementAnimeType with optionsUnidentifiable
 //       Add(Element.ElementCategory.ElementAnimeType,
@@ -65,7 +65,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementDeviceCompatibility,
         optionsDefault,
-        new List<string> {"IPAD3", "IPHONE5", "IPOD", "PS3", "XBOX", "XBOX360"});
+        new List<string> {"IPAD3", "IPHONE5", "IPOD", "PS3", "PS3アプコン", "XBOX", "XBOX360"});
 
       Add(Element.ElementCategory.ElementDeviceCompatibility,
         optionsUnidentifiable,
@@ -105,7 +105,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsDefault,
-        new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX", "REV", "REPACK", "FIN"});
+        new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX", "REV", "REPACK", "FIN", "生肉", "熟肉", "18禁", "18禁アニメ", "15禁", "無修正", "无修正", "无码", "無碼", "有码", "No Watermark", "有码", "有码"});
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsUnidentifiable,
@@ -127,7 +127,7 @@ namespace AnitomySharp
         optionsDefault,
         new List<string> {
           // Frame rate
-          "23.976FPS", "24FPS", "29.97FPS", "30FPS", "60FPS", "120FPS", "VFR", "CFR",
+          "23.976FPS", "24FPS", "29.97FPS", "30FPS", "60FPS", "120FPS",
           // Video codec
           "8BIT", "8-BIT", "10BIT", "10BITS", "10-BIT", "10-BITS",
           "HI10", "HI10P", "MA10P", "HI444", "HI444P", "HI444PP",
