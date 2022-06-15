@@ -53,11 +53,12 @@ namespace AnitomySharp
         optionsDefault,
         new List<string> {
         // Audio channels
-        "2.0CH", "2CH", "5.1", "5.1CH", "DTS", "DTS-ES", "DTS5.1",
-        "TRUEHD5.1",
+        "2.0CH", "2CH", "5.1", "5.1CH", "7.1", "7.1CH", "DTS", "DTS-ES", "DTS-MA", "DTS5.1",
+        "TRUEHD5.1", "TRUE-HD", "TrueHD", "THD",
         // Audio codec
         "AAC", "AACX2", "AACX3", "AACX4", "AC3", "EAC3", "E-AC-3",
         "FLAC", "FLACX2", "FLACX3", "FLACX4", "LOSSLESS", "MP3", "OGG", "VORBIS",
+        "ATOMS",
         // Audio language
         "DUALAUDIO", "DUAL AUDIO"
       });
@@ -116,7 +117,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementSource,
         optionsDefault,
-        new List<string> {"BD", "BDRIP", "UHDRIP", "BLURAY", "BLU-RAY", "DVD", "DVD5", "DVD9", "DVD-R2J", "DVDRIP", "DVD-RIP", "R2DVD", "R2J", "R2JDVD", "R2JDVDRIP", "HDTV", "HDTVRIP", "TVRIP", "TV-RIP", "WEBCAST", "WEBRIP", "WEB-DL", "DLrip"});
+        new List<string> {"BD", "BDRIP", "BD-BOX", "BDBOX", "UHD", "UHDRIP", "BLURAY", "BLU-RAY", "DVD", "DVD5", "DVD9", "DVD-R2J", "DVDRIP", "DVD-RIP", "R2DVD", "R2J", "R2JDVD", "R2JDVDRIP", "HDTV", "HDTVRIP", "TVRIP", "TV-RIP", "WEBCAST", "WEBRIP", "WEB-DL", "WEB", "DLrip"});
 
       Add(Element.ElementCategory.ElementSubtitles,
         optionsDefault,
@@ -126,7 +127,7 @@ namespace AnitomySharp
         optionsDefault,
         new List<string> {
           // Frame rate
-          "23.976FPS", "24FPS", "29.97FPS", "30FPS", "60FPS", "120FPS",
+          "23.976FPS", "24FPS", "29.97FPS", "30FPS", "60FPS", "120FPS", "VFR", "CFR",
           // Video codec
           "8BIT", "8-BIT", "10BIT", "10BITS", "10-BIT", "10-BITS",
           "HI10", "HI10P", "MA10P", "HI444", "HI444P", "HI444PP",
@@ -136,7 +137,7 @@ namespace AnitomySharp
           "Main10", "Main10p", "Main12",, "Main12p",
           "HDR", "HDR10",
           // Video format
-          "AVI", "RMVB", "WMV", "WMV3", "WMV9",
+          "AVI", "RMVB", "WMV", "WMV3", "WMV9", "MKV", "MPEG",
           // Video quality
           "HQ", "LQ",
           // Video resolution
