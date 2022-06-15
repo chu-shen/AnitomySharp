@@ -25,8 +25,8 @@ namespace AnitomySharp
     public const int AnimeYearMax = 2100;
     private const int EpisodeNumberMax = AnimeYearMax - 1;
     private const int VolumeNumberMax = 50;
-    private const string RegexMatchOnlyStart = @"\A(?:";
-    private const string RegexMatchOnlyEnd = @")\z";
+    public const string RegexMatchOnlyStart = @"\A(?:";
+    public const string RegexMatchOnlyEnd = @")\z";
 
     private readonly Parser _parser;
 

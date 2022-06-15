@@ -10,6 +10,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace AnitomySharp
 {
@@ -305,13 +306,22 @@ namespace AnitomySharp
       for (var i = 0; i < Tokens.Count; i++)
       {
         var token = Tokens[i];
-        if (token.Category != Token.TokenCategory.Unknown || !StringHelper.IsNumericString(token.Content) ||
-            !ParseHelper.IsTokenIsolated(i))
+        var tokenContent = token.Content;
+
+        // e.g. "2016-17"
+        const string regexPattern = ParserNumber.RegexMatchOnlyStart + @"(\d{1,4})([-~&+])(\d{2,4})" + ParserNumber.RegexMatchOnlyEnd;
+        var match = Regex.Match(token.Content, regexPattern);
+        if (match.Success) {
+          tokenContent = tokenContent.Split(match.Groups[2].Value)[0];
+        } 
+        // add newtype e.g. "2021 OVA"
+        if (token.Category != Token.TokenCategory.Unknown || !StringHelper.IsNumericString(tokenContent) ||
+            !(ParseHelper.IsTokenContainAnimeType(i) ^ ParseHelper.IsTokenIsolated(i)))
         {
           continue;
         }
 
-        var number = StringHelper.StringToInt(token.Content);
+        var number = StringHelper.StringToInt(tokenContent);
 
         // Anime year
         if (number >= ParserNumber.AnimeYearMin && number <= ParserNumber.AnimeYearMax)
@@ -325,10 +335,16 @@ namespace AnitomySharp
         }
 
         // Video resolution
-        if (number != 480 && number != 720 && number != 1080) continue;
+        if (number != 480 && number != 720 && number != 1080) {
+          // otherwise add to ReleaseInformation. e.g. "[220527][あんてきぬすっ！]OVA異世界"
+          Elements.Add(new Element(Element.ElementCategory.ElementReleaseInformation, token.Content));
+          // 将此token类型修改为Identifier
+          token.Category = Token.TokenCategory.Identifier;
+          continue;
+        }
         // If these numbers are isolated, it's more likely for them to be the
         // video resolution rather than the episode number. Some fansub groups use these without the "p" suffix.
-        if (!Empty(Element.ElementCategory.ElementVideoResolution)) continue;
+        // if (!Empty(Element.ElementCategory.ElementVideoResolution)) continue;
         Elements.Add(new Element(Element.ElementCategory.ElementVideoResolution, token.Content));
         token.Category = Token.TokenCategory.Identifier;
       }

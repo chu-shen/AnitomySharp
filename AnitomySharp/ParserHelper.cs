@@ -185,6 +185,17 @@ namespace AnitomySharp
     }
 
     /// <summary>
+    /// Returns whether or not a token at the current <code>pos+1</code> is ElementAnimeType.
+    /// </summary>
+    public bool IsTokenContainAnimeType(int pos)
+    {
+      var prevToken = Token.FindPrevToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
+      if (!IsTokenCategory(prevToken, Token.TokenCategory.Bracket)) return false;
+      var nextToken = Token.FindNextToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
+      return KeywordManager.Contains(Element.ElementCategory.ElementAnimeType, _parser.Tokens[nextToken].Content);
+    }
+
+    /// <summary>
     /// Finds and sets the anime season keyword.
     /// </summary>
     public bool CheckAndSetAnimeSeasonKeyword(Token token, int currentTokenPos)
