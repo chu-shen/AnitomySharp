@@ -101,7 +101,22 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementReleaseGroup,
         optionsDefault,
-        new List<string> {"THORA"});
+        new List<string> {
+          // rip group
+          "AI-Raws","A.I.R.nesSub","Airota","ANK-Raws","ANK","ANE","Akatomba-Raws","ATTKC","BeanSub","Beatrice-Raws",
+          "CASO","CoolComic","Commie","DanNi","DMG","Dymy","Eupho","EMTP-Raws","EnkanRec","Exiled-Destiny","FLsnow",
+          "FREEWIND","FUDAN_NRC","FZSD","GTX-Raws","GST","Hakugetsu","HQR","HKG","JYFanSub","Jsum","Kagura","Kametsu",
+          "Kamigami-Raws","Kamigami","诸神字幕组","KNA-Subs","KoeiSub","KTXP","LowPower-Raws","LKSUB","Lilith-Raws",
+          "Liuyun","LoliHouse","LittleBakas!","Mabors","mawen1250","MGRT","MMZY-Sub","MH","Moozzi2","Nekomoe kissaten",
+          "Pussub","POPGO","philosophy-raws","PPP-Raw","QTS","RARBG","RATH","ReinForce","RUELL-Next","RUELL-Raws",
+          "r1RAW","Snow-Raws","SFEO-Raws","Shinsen-Subs","Shirokoi","SweetSub","SumiSora","SOFCJ-Raws","T.H.X","TSDM",
+          "THORA","TUcaptions","TxxZ","UCCUSS","UHA-WINGS","U2-RIP","VCB-Studio","VCB-S","x_x","xyx98","XKsub","Xrip",
+          "异域-11番小队","YYDM","Yusyabu","YlbudSub","Yuuki","Zagzad",
+          // bangumi
+          "ANi", "NC-Raws", "HYSUB", "Lilith-Raws", "星空字幕组", "动漫国字幕组", "幻樱字幕组", "悠哈璃羽字幕社", 
+          "喵萌奶茶屋", "漫游字幕组", "极影字幕社", "桜都字幕组", "Skymoon-Raws", "c.c动漫", "雪飘工作室", "	豌豆字幕组",
+          "轻之国度字幕组", "NaN-Raws"
+        });
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsDefault,
