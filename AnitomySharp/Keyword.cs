@@ -88,7 +88,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementLanguage,
         optionsDefault,
-        new List<string> {"ENG", "ENGLISH", "ESPANO", "JAP", "PT-BR", "SPANISH", "VOSTFR"});
+        new List<string> {"ENG", "ENGLISH", "ESPANO", "JAP", "PT-BR", "SPANISH", "VOSTFR", "zh-Hans", "zh-Hant", "CHS", "CHT", "CHN", "JPN"});
 
       Add(Element.ElementCategory.ElementLanguage,
         optionsUnidentifiable,
@@ -120,7 +120,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementSubtitles,
         optionsDefault,
-        new List<string> {"ASS", "BIG5", "DUB", "DUBBED", "HARDSUB", "HARDSUBS", "RAW", "SOFTSUB", "SOFTSUBS", "SUB", "SUBBED", "SUBTITLED"});
+        new List<string> {"ASS", "GB", "BIG5", "DUB", "DUBBED", "HARDSUB", "HARDSUBS", "RAW", "SOFTSUB", "SOFTSUBS", "SUB", "SUBBED", "SUBTITLED"});
 
       Add(Element.ElementCategory.ElementVideoTerm,
         optionsDefault,
