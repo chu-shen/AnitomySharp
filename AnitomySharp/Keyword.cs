@@ -116,7 +116,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementSource,
         optionsDefault,
-        new List<string> {"BD", "BDRIP", "BLURAY", "BLU-RAY", "DVD", "DVD5", "DVD9", "DVD-R2J", "DVDRIP", "DVD-RIP", "R2DVD", "R2J", "R2JDVD", "R2JDVDRIP", "HDTV", "HDTVRIP", "TVRIP", "TV-RIP", "WEBCAST", "WEBRIP"});
+        new List<string> {"BD", "BDRIP", "UHDRIP", "BLURAY", "BLU-RAY", "DVD", "DVD5", "DVD9", "DVD-R2J", "DVDRIP", "DVD-RIP", "R2DVD", "R2J", "R2JDVD", "R2JDVDRIP", "HDTV", "HDTVRIP", "TVRIP", "TV-RIP", "WEBCAST", "WEBRIP", "WEB-DL", "DLrip"});
 
       Add(Element.ElementCategory.ElementSubtitles,
         optionsDefault,
