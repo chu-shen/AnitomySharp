@@ -210,6 +210,7 @@ namespace AnitomySharp
 
       word = word.Trim(" -".ToCharArray());
 
+      // 根据前后是否为数字进行分流处理
       var numericFront = char.IsDigit(word[0]);
       var numericBack = char.IsDigit(word[word.Length - 1]);
 
@@ -261,6 +262,14 @@ namespace AnitomySharp
         return true;
       }
       
+      // e.g. "01-24Fin"
+      if (word.IndexOf("fin", StringComparison.OrdinalIgnoreCase) >= 0){
+        if (MatchMultiEpisodePattern(word, token))
+        {
+          return true;
+        }
+      }
+
       // U+8A71 is used as counter for stories, episodes of TV series, etc.
       return numericFront && MatchJapaneseCounterPattern(word, token);
     }
@@ -284,14 +293,14 @@ namespace AnitomySharp
     }
 
     /// <summary>
-    /// Match a multi episode pattern. e.g. "01-02", "03-05v2".
+    /// Match a multi episode pattern. e.g. "01-02", "03-05v2", "01-24Fin".
     /// </summary>
     /// <param name="word">the word</param>
     /// <param name="token">the token</param>
     /// <returns>true if the token matched</returns>
     private bool MatchMultiEpisodePattern(string word, Token token)
     {
-      const string regexPattern = RegexMatchOnlyStart + @"(\d{1,3})(?:[vV](\d))?[-~&+](\d{1,3})(?:[vV](\d))?" + RegexMatchOnlyEnd;
+      const string regexPattern = RegexMatchOnlyStart + @"(\d{1,3})(?:[vV](\d))?[-~&+](\d{1,3})(?:[vV](\d))?(FIN|Fin|fin)?" + RegexMatchOnlyEnd;
       var match = Regex.Match(word, regexPattern);
       if (!match.Success) return false;
       
@@ -309,6 +318,10 @@ namespace AnitomySharp
       if (!string.IsNullOrEmpty(match.Groups[4].Value))
       {
         _parser.Elements.Add(new Element(Element.ElementCategory.ElementReleaseVersion, match.Groups[4].Value));
+      }
+      if (!string.IsNullOrEmpty(match.Groups[5].Value))
+      {
+        _parser.Elements.Add(new Element(Element.ElementCategory.ElementReleaseInformation, match.Groups[5].Value));
       }
       return true;
 

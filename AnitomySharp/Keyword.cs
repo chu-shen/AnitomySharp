@@ -122,7 +122,8 @@ namespace AnitomySharp
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsDefault,
         new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX", "REV", "REPACK", "FIN", 
-        "生肉", "熟肉", "18禁", "18禁アニメ", "15禁", "無修正", "无修正", "无码", "無碼", "有码", "No Watermark", "有码", "有码"});
+        "生肉", "熟肉", "18禁", "18禁アニメ", "15禁", "無修正", "无修正", "无码", "無碼", "有码", "No Watermark", "有码", "有码",
+        "BiliBili", "Baha"});
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsUnidentifiable,
