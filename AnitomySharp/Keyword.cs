@@ -133,12 +133,14 @@ namespace AnitomySharp
           "H264", "H265", "H.264", "H.265", "X264", "X265", "X.264",
           "AVC", "HEVC", "HEVC2", "DIVX", "DIVX5", "DIVX6", "XVID",
           "YUV420", "YUV420P8", "YUV420P10", "YUV420P10LE", "YUV444", "YUV444P10", "YUV444P10LE",
+          "Main10", "Main10p", "Main12",, "Main12p",
+          "HDR", "HDR10",
           // Video format
           "AVI", "RMVB", "WMV", "WMV3", "WMV9",
           // Video quality
           "HQ", "LQ",
           // Video resolution
-          "HD", "SD"});
+          "UHD", "HD", "SD"});
 
       Add(Element.ElementCategory.ElementVolumePrefix,
         optionsDefault,
@@ -148,7 +150,7 @@ namespace AnitomySharp
       {
         Tuple.Create(Element.ElementCategory.ElementAudioTerm, new List<string> { "Dual Audio" }),
         Tuple.Create(Element.ElementCategory.ElementVideoTerm, new List<string> { "H264", "H.264", "h264", "h.264" }),
-        Tuple.Create(Element.ElementCategory.ElementVideoResolution, new List<string> { "480p", "720p", "1080p" }),
+        Tuple.Create(Element.ElementCategory.ElementVideoResolution, new List<string> { "480p", "720p", "1080p", "2160p", "4k", "6k", "8k" }),
         Tuple.Create(Element.ElementCategory.ElementSource, new List<string> { "Blu-Ray" })
       };
     }
