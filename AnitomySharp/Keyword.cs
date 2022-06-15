@@ -128,9 +128,10 @@ namespace AnitomySharp
           "23.976FPS", "24FPS", "29.97FPS", "30FPS", "60FPS", "120FPS",
           // Video codec
           "8BIT", "8-BIT", "10BIT", "10BITS", "10-BIT", "10-BITS",
-          "HI10", "HI10P", "HI444", "HI444P", "HI444PP",
+          "HI10", "HI10P", "MA10P", "HI444", "HI444P", "HI444PP",
           "H264", "H265", "H.264", "H.265", "X264", "X265", "X.264",
           "AVC", "HEVC", "HEVC2", "DIVX", "DIVX5", "DIVX6", "XVID",
+          "YUV420", "YUV420P8", "YUV420P10", "YUV420P10LE", "YUV444", "YUV444P10", "YUV444P10LE",
           // Video format
           "AVI", "RMVB", "WMV", "WMV3", "WMV9",
           // Video quality
