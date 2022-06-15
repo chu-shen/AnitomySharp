@@ -114,7 +114,9 @@ namespace AnitomySharp
           "异域-11番小队","YYDM","Yusyabu","YlbudSub","Yuuki","Zagzad", 
           "HYSUB", "Sakurato", "Skymoon-Raws", "Comicat&KissSub", 
           // bangumi
-          "ANi", "NC-Raws", "Lilith-Raws", "NaN-Raws"
+          "ANi", "NC-Raws", "Lilith-Raws", "NaN-Raws",
+          // other
+          "脸肿字幕组","魔穗字幕组","桜都字幕组","Maho.sub","MahoXOkazu","Okazu.Sub","Thunder.Sub"
         });
 
       Add(Element.ElementCategory.ElementReleaseInformation,
