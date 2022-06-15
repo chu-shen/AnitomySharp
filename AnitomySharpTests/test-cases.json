@@ -1,4 +1,54 @@
 ﻿[ {
+  "file_name" : "[220527][あんてきぬすっ！]OVA異世界ヤリサー＃1 女戦士と新米女冒険者 異世界でもハメちゃうっしょw.chs.mp4",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[220527][あんてきぬすっ！]OVA異世界ヤリサー＃1 女戦士と新米女冒険者 異世界でもハメちゃうっしょw.chs",
+    "ElementAnimeTitle" : "OVA異世界ヤリサー＃1 女戦士と新米女冒険者 異世界でもハメちゃうっしょw",
+    "ElementReleaseGroup": "あんてきぬすっ！",
+    "ElementAnimeYear": "220527"
+  }
+},{
+  "file_name" : "[2021 OVA][The Idolmaster Series Concept Movie 2021 Voyager][BDRIP][1080P+SP]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[2021 OVA][The Idolmaster Series Concept Movie 2021 Voyager][BDRIP][1080P+SP]",
+    "ElementAnimeTitle" : "The Idolmaster Series Concept Movie 2021 Voyager",
+    "ElementAnimeType" : ["OVA", "SP"],
+    "ElementAnimeYear": "2021",
+    "ElementSource": "BDRIP",
+    "ElementVideoResolution": "1080P"
+  }
+},{
+  "file_name" : "[2016-17 OVA][Gundam Build Fighters Special Build Disc][BDRIP][1080P][OVAx7 Fin+SP]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[2016-17 OVA][Gundam Build Fighters Special Build Disc][BDRIP][1080P][OVAx7 Fin+SP]",
+    "ElementAnimeTitle" : "Gundam Build Fighters Special Build Disc",
+    "ElementAnimeType" : ["OVA", "SP"],
+    "ElementAnimeYear": "2016-17",
+    "ElementSource": "BDRIP",
+    "ElementVideoResolution": "1080P"
+  }
+},{
+  "file_name" : "[2005][Paniponi Dash!][BDRIP][1080P][1-26Fin+OVA+SP]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[2005][Paniponi Dash!][BDRIP][1080P][1-26Fin+OVA+SP]",
+    "ElementAnimeTitle" : "Paniponi Dash!",
+    "ElementAnimeType" : ["OVA","SP"],
+    "ElementAnimeYear": "2005",
+    "ElementEpisodeNumber": [
+      "1",
+      "26"
+    ],
+    "ElementSource": "BDRIP",
+    "ElementVideoResolution": "1080P"
+  }
+},{
   "file_name" : "[TaigaSubs]_Toradora!_(2008)_-_01v2_-_Tiger_and_Dragon_[1280x720_H.264_FLAC][1234ABCD].mkv",
   "id" : 4224,
   "ignore" : false,
@@ -1897,7 +1947,7 @@
     "ElementFileChecksum" : "0CDC2145",
     "ElementFileExtension" : "mkv",
     "ElementFileName" : "Neko no Ongaeshi - [HQR.remux-DualAudio][NTV.1280x692.h264](0CDC2145)",
-    "ElementReleaseGroup" : "HQR.remux-DualAudio",
+    "ElementReleaseGroup" : "HQR",
     "ElementVideoResolution" : "1280x692",
     "ElementVideoTerm" : "h264"
   }
