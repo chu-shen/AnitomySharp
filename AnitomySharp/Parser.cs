@@ -270,6 +270,8 @@ namespace AnitomySharp
 
         // Continue until a bracket or identifier is found
         tokenEnd = Token.FindToken(Tokens, tokenBegin, Tokens.Count, Token.TokenFlag.FlagBracket, Token.TokenFlag.FlagIdentifier);
+        // 去除纯数字发布组
+        if (Regex.Match(Tokens[tokenBegin].Content, ParserNumber.RegexMatchOnlyStart + @"^[0-9]+$" + ParserNumber.RegexMatchOnlyEnd).Success) continue;
         if (!Token.InListRange(tokenEnd, Tokens) || Tokens[tokenEnd].Category != Token.TokenCategory.Bracket) continue;
 
         // Ignore if it's not the first non-delimiter token in group
@@ -343,13 +345,7 @@ namespace AnitomySharp
         }
 
         // Video resolution
-        if (number != 480 && number != 720 && number != 1080) {
-          // otherwise add to ReleaseInformation. e.g. "[220527][あんてきぬすっ！]OVA異世界"
-          Elements.Add(new Element(Element.ElementCategory.ElementReleaseInformation, token.Content));
-          // 将此token类型修改为Identifier
-          token.Category = Token.TokenCategory.Identifier;
-          continue;
-        }
+        if (number != 480 && number != 720 && number != 1080) continue;
         // If these numbers are isolated, it's more likely for them to be the
         // video resolution rather than the episode number. Some fansub groups use these without the "p" suffix.
         // if (!Empty(Element.ElementCategory.ElementVideoResolution)) continue;
