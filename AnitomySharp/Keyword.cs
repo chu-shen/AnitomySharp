@@ -55,7 +55,7 @@ namespace AnitomySharp
         // Audio channels
         "2.0CH", "2CH", "5.1", "5.1CH", "7.1", "7.1CH", "6CH", 
         "DTS", "DTS-ES", "DTS-MA", "DTS5.1", "DTS-HD", "MA.5.1", "MA.2.0", "MA.7.1",
-        "TRUEHD5.1", "TRUE-HD", "TrueHD", "THD",
+        "TRUEHD5.1", "TRUE-HD", "TRUEHD", "THD",
         // Audio codec
         "AAC", "AACX2", "AACX3", "AACX4", "AC3", "EAC3", "E-AC-3",
         "FLAC", "FLACX2", "FLACX3", "FLACX4", "LOSSLESS", "MP3", "OGG", "VORBIS",
@@ -120,11 +120,12 @@ namespace AnitomySharp
           "脸肿字幕组","魔穗字幕组","桜都字幕组","Maho.sub","MahoXOkazu","Okazu.Sub","Thunder.Sub"
         });
 
+      // UPPER
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsDefault,
         new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX", "REV", "REPACK", "FIN", 
-        "生肉", "熟肉", "18禁", "18禁アニメ", "15禁", "無修正", "无修正", "无码", "無碼", "有码", "No Watermark", "有码", "有码",
-        "BiliBili", "Baha", "GYAO!"});
+        "生肉", "熟肉", "18禁", "18禁アニメ", "15禁", "無修正", "无修正", "无码", "無碼", "有码", "NO WATERMARK", "有码", "有码",
+        "BILIBILI", "BAHA", "GYAO!"});
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsUnidentifiable,
@@ -141,7 +142,7 @@ namespace AnitomySharp
         "R2DVD", "R2J", "R2JDVD", "R2JDVDRIP", 
         "HDTV", "HDTVRIP", "TVRIP", "TV-RIP", 
         "WEBCAST", "WEBRIP", "WEB-DL", "WEB", 
-        "DLrip"});
+        "DLRIP"});
 
       Add(Element.ElementCategory.ElementSubtitles,
         optionsDefault,
@@ -162,7 +163,7 @@ namespace AnitomySharp
           "Main10", "Main10p", "Main12", "Main12p",
           "HDR", "HDR10", "HMAX",
           // Video format
-          "AVI", "RMVB", "WMV", "WMV3", "WMV9", "MKV", "MPEG",
+          "AVI", "RMVB", "WMV", "WMV3", "WMV9", "MKV", "MP4", "MPEG",
           // Video quality
           "HQ", "LQ",
           // Video resolution
