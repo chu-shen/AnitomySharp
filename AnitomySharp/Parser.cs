@@ -202,12 +202,17 @@ namespace AnitomySharp
             break;
           }
 
-          // Get the first unknown token of the next group
-          tokenBegin = Token.FindToken(Tokens, tokenBegin, Tokens.Count, Token.TokenFlag.FlagBracket);
-          tokenBegin = Token.FindToken(Tokens, tokenBegin, Tokens.Count, Token.TokenFlag.FlagUnknown);
+          // if ReleaseGroup is empty
+          if (Options.ParseReleaseGroup && Empty(Element.ElementCategory.ElementReleaseGroup))
+          {
+            // Get the first unknown token of the next group
+            tokenBegin = Token.FindToken(Tokens, tokenBegin, Tokens.Count, Token.TokenFlag.FlagBracket);
+            tokenBegin = Token.FindToken(Tokens, tokenBegin, Tokens.Count, Token.TokenFlag.FlagUnknown);
+          }
           // make sure the new token don't in Element.ElementCategory
           // if in or outListRange
           // return pretoken
+          // TODO match other ElementCategory
           if ((Token.InListRange(tokenBegin, Tokens) && KeywordManager.Contains(Element.ElementCategory.ElementAnimeType, Tokens[tokenBegin].Content.ToUpper()))
             || tokenBegin == Tokens.Count){
             tokenBegin = tokenBeginWithNoReleaseGroup;
