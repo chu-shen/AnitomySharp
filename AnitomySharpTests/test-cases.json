@@ -1,4 +1,14 @@
 ﻿[{
+  "file_name" : "[Moozzi2] Dennou Coil - TV + SP",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[Moozzi2] Dennou Coil - TV + SP",
+    "ElementAnimeType" : ["TV","SP"],
+    "ElementReleaseGroup": "Moozzi2",
+    "ElementAnimeTitle" : "Dennou Coil - TV + SP"
+  }
+},{
   "file_name" : "[Moozzi2] Mugen no Ryvius BD-BOX - TV + SP",
   "id" : 490,
   "ignore" : false,
