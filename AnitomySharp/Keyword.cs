@@ -173,7 +173,7 @@ namespace AnitomySharp
       {
         Tuple.Create(Element.ElementCategory.ElementAudioTerm, new List<string> { "Dual Audio" }),
         Tuple.Create(Element.ElementCategory.ElementVideoTerm, new List<string> { "H264", "H.264", "h264", "h.264" }),
-        Tuple.Create(Element.ElementCategory.ElementVideoResolution, new List<string> { "480p", "720p", "1080p", "2160p", "4k", "6k", "8k" }),
+        Tuple.Create(Element.ElementCategory.ElementVideoResolution, new List<string> { "480p", "720p", "1080p", "2160p", "4k", "6k", "8k", "480P", "720P", "1080P", "2160P", "4K", "6K", "8K" }),
         Tuple.Create(Element.ElementCategory.ElementSource, new List<string> { "Blu-Ray" })
       };
     }
