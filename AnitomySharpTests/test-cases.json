@@ -1,4 +1,402 @@
 ﻿[{
+  "file_name" : "[Moozzi2] Mugen no Ryvius BD-BOX - TV + SP",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[Moozzi2] Mugen no Ryvius BD-BOX - TV + SP",
+    "ElementSource": "BD-BOX",
+    "ElementAnimeType" : ["TV","SP"],
+    "ElementReleaseGroup": "Moozzi2",
+    "ElementAnimeTitle" : "Mugen no Ryvius"
+  }
+},{
+  "file_name" : "[异域-11番小队][神是中学生 Kamichu][01-16][BDRIP][1902x1062][X264-10bit_FLAC_AACx2]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[异域-11番小队][神是中学生 Kamichu][01-16][BDRIP][1902x1062][X264-10bit_FLAC_AACx2]",
+    "ElementSource": "BDRIP",
+    "ElementReleaseGroup": "异域-11番小队",
+    "ElementReleaseVersion": "2",
+    "ElementVideoResolution": "1902x1062",
+    "ElementVideoTerm": "X264-10bit",
+    "ElementAudioTerm": ["AACx2","FLAC"],
+    "ElementEpisodeNumber": [
+      "01",
+      "16"
+    ]
+  }
+},{
+  "file_name" : "[Kagura] Royal Space Force： The Wings of Honneamise [BDRip 1790x1028 x264 Hi10P TrueHD][v2]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[Kagura] Royal Space Force： The Wings of Honneamise [BDRip 1790x1028 x264 Hi10P TrueHD][v2]",
+    "ElementSource": "BDRip",
+    "ElementReleaseGroup": "Kagura",
+    "ElementReleaseVersion": "2",
+    "ElementVideoResolution": "1790x1028",
+    "ElementVideoTerm": ["x264","Hi10P"],
+    "ElementAnimeTitle" : "Royal Space Force： The Wings of Honneamise"
+  }
+},{
+  "file_name" : "[FLsnow][Summer_Wars][BDRIP][Collection]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[FLsnow][Summer_Wars][BDRIP][Collection]",
+    "ElementSource": "BDRIP",
+    "ElementReleaseGroup": "FLsnow",
+    "ElementAnimeTitle" : "Summer Wars"
+  }
+},{
+  "file_name" : "[ひまじん] 魔法少女沙枝 (DVD 960x720 x264 AAC)v2.mp4",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[ひまじん] 魔法少女沙枝 (DVD 960x720 x264 AAC)v2",
+    "ElementVideoTerm": "x264",
+    "ElementAudioTerm": "AAC",
+    "ElementSource": "DVD",
+    "ElementFileExtension": "mp4",
+    "ElementVideoResolution": "960x720",
+    "ElementReleaseVersion": "2",
+    "ElementReleaseGroup": "ひまじん",
+    "ElementAnimeTitle" : "魔法少女沙枝"
+  }
+},{
+  "file_name" : "OVA ノ・ゾ・キ・ア・ナ Sexy増量版 (BD 1920x1080 x264 AAC).mp4",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "OVA ノ・ゾ・キ・ア・ナ Sexy増量版 (BD 1920x1080 x264 AAC)",
+    "ElementVideoTerm": "x264",
+    "ElementAnimeType" : "OVA",
+    "ElementAudioTerm": "AAC",
+    "ElementSource": "BD",
+    "ElementFileExtension": "mp4",
+    "ElementVideoResolution": "1920x1080",
+    "ElementAnimeTitle" : "OVA ノ・ゾ・キ・ア・ナ Sexy増量版"
+  }
+},{
+  "file_name" : "(無修正) [Milky] 彼女×彼女×彼女～三姉妹とのドキドキ共同生活～ (BD 1920x1080 x264 FLAC).mp4",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "(無修正) [Milky] 彼女×彼女×彼女～三姉妹とのドキドキ共同生活～ (BD 1920x1080 x264 FLAC)",
+    "ElementVideoTerm": "x264",
+    "ElementAudioTerm": "FLAC",
+    "ElementSource": "BD",
+    "ElementFileExtension": "mp4",
+    "ElementReleaseInformation": "無修正",
+    "ElementVideoResolution": "1920x1080",
+    "ElementReleaseGroup": "Milky",
+    "ElementAnimeTitle" : "彼女×彼女×彼女～三姉妹とのドキドキ共同生活～"
+  }
+},{
+  "file_name" : "[Lilith-Raws] Kaguya-sama wa Kokurasetai S03 - 10 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4].mp4",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[Lilith-Raws] Kaguya-sama wa Kokurasetai S03 - 10 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
+    "ElementVideoTerm": "AVC",
+    "ElementAudioTerm": "AAC",
+    "ElementLanguage": "CHT",
+    "ElementSource": "WEB-DL",
+    "ElementFileExtension": "mp4",
+    "ElementVideoResolution": "1080p",
+    "ElementEpisodeNumber": "10",
+    "ElementReleaseGroup": "Lilith-Raws",
+    "ElementAnimeTitle" : "Kaguya-sama wa Kokurasetai S03"
+  }
+},{
+  "file_name" : "[贴吧大鳥希汉化] Summer Time Rendering [01][1080P H.264 AAC][CHS].mp4",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[贴吧大鳥希汉化] Summer Time Rendering [01][1080P H.264 AAC][CHS]",
+    "ElementVideoTerm": "H.264",
+    "ElementAudioTerm": "AAC",
+    "ElementLanguage": "CHS",
+    "ElementVideoResolution": "1080P",
+    "ElementEpisodeNumber": "01",
+    "ElementReleaseGroup": "贴吧大鳥希汉化",
+    "ElementAnimeTitle" : "Summer Time Rendering"
+  }
+},{
+  "file_name" : "[AI-Raws][羅小黒戦記 ぼくが選ぶ未来_The Legend of Hei][4K+1080p+SP][BDRip][MKV]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[AI-Raws][羅小黒戦記 ぼくが選ぶ未来_The Legend of Hei][4K+1080p+SP][BDRip][MKV]",
+    "ElementSource": "BDRip",
+    "ElementReleaseGroup": "AI-Raws",
+    "ElementAnimeType" : "SP",
+    "ElementVideoResolution": ["4K","1080p"],
+    "ElementVideoTerm": "MKV",
+    "ElementAnimeTitle" : "羅小黒戦記 ぼくが選ぶ未来 The Legend of Hei"
+  }
+},{
+  "file_name" : "[③魔法之星愛美][小小魔術師][Mahou no Star Magical Emi][DVDRip][TV 01-38 Fin+OVA x2+總集編]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[③魔法之星愛美][小小魔術師][Mahou no Star Magical Emi][DVDRip][TV 01-38 Fin+OVA x2+總集編]",
+    "ElementSource": "DVDRip",
+    "ElementAnimeType" : ["TV","OVA", "總集編"],
+    "ElementAnimeTitle" : "小小魔術師",
+    "ElementReleaseInformation": "Fin",
+    "ElementReleaseGroup": "③魔法之星愛美",
+    "ElementEpisodeNumber": [
+      "01",
+      "38"
+    ]
+  }
+},{
+  "file_name" : "Yu-Gi-Oh!",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "Yu-Gi-Oh!",
+    "ElementAnimeTitle" : "Yu-Gi-Oh!"
+  }
+},{
+  "file_name" : "How.to.Train.Your.Dragon.2010.2160p.120FPS.SVFI.2.3.Blu-ray.x265.10bit.HDR.DTS-HD.MA.5.1-toothless",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "How.to.Train.Your.Dragon.2010.2160p.120FPS.SVFI.2.3.Blu-ray.x265.10bit.HDR.DTS-HD.MA.5.1-toothless",
+    "ElementAnimeTitle" : "How to Train Your Dragon",
+    "ElementVideoResolution": "2160p",
+    "ElementEpisodeNumber": "2010",
+    "ElementVideoTerm": ["120FPS","x265","10bit","HDR"],
+    "ElementAudioTerm": "DTS-HD",
+    "ElementSource": "Blu-ray",
+    "ElementEpisodeTitle": "SVFI.2.3"
+  }
+},{
+  "file_name" : "[冷番补完字幕组][魔神Z][マジンガーZ][Mazinger Z][1972][01-92 Fin][BD][1080p]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[冷番补完字幕组][魔神Z][マジンガーZ][Mazinger Z][1972][01-92 Fin][BD][1080p]",
+    "ElementAnimeTitle" : "魔神Z",
+    "ElementVideoResolution": "1080p",
+    "ElementReleaseInformation": "Fin",
+    "ElementAnimeYear": "1972",
+    "ElementReleaseGroup": "冷番补完字幕组",
+    "ElementSource": "BD",
+    "ElementEpisodeNumber": [
+      "01",
+      "92"
+    ]
+  }
+},{
+  "file_name" : "[VCB-Studio] PSYCHO-PASS 3",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[VCB-Studio] PSYCHO-PASS 3",
+    "ElementAnimeTitle" : "PSYCHO-PASS",
+    "ElementReleaseGroup": "VCB-Studio",
+    "ElementEpisodeNumber": "3"
+  }
+},{
+  "file_name" : "[TODO]_Trava_[480p_10bit_h264][6ch_ac3][C789A1BA]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[TODO]_Trava_[480p_10bit_h264][6ch_ac3][C789A1BA]",
+    "ElementAnimeTitle" : "Trava",
+    "ElementVideoTerm": ["h264","10bit"],
+    "ElementAudioTerm": ["ac3","6ch"],
+    "ElementFileChecksum": "C789A1BA",
+    "ElementVideoResolution": "480p",
+    "ElementReleaseGroup": "TODO"
+  }
+},{
+  "file_name" : "[Omar Hidan] Tennis no Ouji-sama (The Prince of Tennis) 2001 [Batch 001 – 178] RAW [1080p GYAO!] v2",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[Omar Hidan] Tennis no Ouji-sama (The Prince of Tennis) 2001 [Batch 001 – 178] RAW [1080p GYAO!] v2",
+    "ElementAnimeTitle" : "Tennis no Ouji-sama (The Prince of Tennis)",
+    "ElementVideoResolution": "1080p",
+    "ElementReleaseInformation": ["Batch","GYAO!"],
+    "ElementReleaseGroup": "Omar Hidan",
+    "ElementAnimeYear": "2001",
+    "ElementReleaseVersion": "2",
+    "ElementSubtitles": "RAW",
+    "ElementEpisodeNumber": "178"
+  }
+},{
+  "file_name" : "[AI-Raws][彼女、お借りします_Rent a Girlfriend][TV 01-12+SP Fin][BDRip][MKV][Repack]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[AI-Raws][彼女、お借りします_Rent a Girlfriend][TV 01-12+SP Fin][BDRip][MKV][Repack]",
+    "ElementAnimeTitle" : "彼女、お借りします Rent a Girlfriend",
+    "ElementSource": "BDRip",
+    "ElementReleaseInformation": ["Repack","Fin"],
+    "ElementAnimeType" : ["TV","SP"],
+    "ElementReleaseGroup": "AI-Raws",
+    "ElementVideoTerm": "MKV",
+    "ElementEpisodeNumber": [
+      "01",
+      "12"
+    ]
+  }
+},{
+  "file_name" : "[2020][Re：Zero Kara Hajimeru Isekai Seikatsu 2nd Season][BDRIP][1080P][1-25Fin+SP]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[2020][Re：Zero Kara Hajimeru Isekai Seikatsu 2nd Season][BDRIP][1080P][1-25Fin+SP]",
+    "ElementAnimeTitle" : "Re：Zero Kara Hajimeru Isekai Seikatsu",
+    "ElementSource": "BDRIP",
+    "ElementVideoResolution": "1080P",
+    "ElementReleaseInformation": "Fin",
+    "ElementAnimeType" : "SP",
+    "ElementAnimeYear": "2020",
+    "ElementAnimeSeason": "2",
+    "ElementEpisodeNumber": [
+      "1",
+      "25"
+    ]
+  }
+},{
+  "file_name" : "[アニメ BD] トップをねらえ! GUNBUSTER&DIEBUSTER&合体劇場版 全12話+劇場版x2+特典+Scans(1080p HEVC 10bit FLACx3+AAC softSub(chi+eng+fra) chap)",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[アニメ BD] トップをねらえ! GUNBUSTER&DIEBUSTER&合体劇場版 全12話+劇場版x2+特典+Scans(1080p HEVC 10bit FLACx3+AAC softSub(chi+eng+fra) chap)",
+    "ElementAnimeTitle" : "トップをねらえ! GUNBUSTER&DIEBUSTER&合体劇場版 全12話 劇場版x2 特典 Scans",
+    "ElementSource": "BD",
+    "ElementVideoResolution": "1080p",
+    "ElementVideoTerm": ["HEVC","10bit"],
+    "ElementAudioTerm": ["FLACx3","AAC"],
+    "ElementLanguage": "eng"
+  }
+},{
+  "file_name" : "The.PowerPuff.Girls.S02.HMAX.WEB-DL.DD+2.0.x264-cfandora",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "The.PowerPuff.Girls.S02.HMAX.WEB-DL.DD+2.0.x264-cfandora",
+    "ElementAnimeTitle" : "The PowerPuff Girls S02",
+    "ElementSource": "WEB-DL",
+    "ElementVideoTerm": "HMAX"
+  }
+},{
+  "file_name" : "Love Hina [DVD HEVC FLAC] [km]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "Love Hina [DVD HEVC FLAC] [km]",
+    "ElementAnimeTitle" : "Love Hina",
+    "ElementReleaseGroup": "km",
+    "ElementSource": "DVD",
+    "ElementAudioTerm": "FLAC",
+    "ElementVideoTerm": "HEVC"
+  }
+},{
+  "file_name" : "Kureyon Shin-chan 1992-2017 S01-S06 1080p WEB-DL H264 AAC-99TV",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "Kureyon Shin-chan 1992-2017 S01-S06 1080p WEB-DL H264 AAC-99TV",
+    "ElementAnimeTitle" : "Kureyon Shin-chan 1992-2017 S01-S06",
+    "ElementSource": "WEB-DL",
+    "ElementVideoTerm": "H264",
+    "ElementVideoResolution": "1080p"
+  }
+},{
+  "file_name" : "Crayonshinchan Movie[1993-2018]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "Crayonshinchan Movie[1993-2018]",
+    "ElementAnimeTitle" : "Crayonshinchan Movie",
+    "ElementAnimeType" : "Movie",
+    "ElementAnimeYear": "1993-2018"
+  }
+},{
+  "file_name" : "Angel Beats! 2010 [BD 1920x1080 AVC FLAC] - mawen1250",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "Angel Beats! 2010 [BD 1920x1080 AVC FLAC] - mawen1250",
+    "ElementAnimeTitle" : "Angel Beats!",
+    "ElementEpisodeTitle": "mawen1250",
+    "ElementSource": "BD",
+    "ElementAudioTerm": "FLAC",
+    "ElementVideoTerm": "AVC",
+    "ElementVideoResolution": "1920x1080",
+    "ElementEpisodeNumber": "2010"
+  }
+},{
+  "file_name" : "[Zagzad] Memories (BDRip 1764x972 1800x976 1788x932 HEVC-10bit THD)",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[Zagzad] Memories (BDRip 1764x972 1800x976 1788x932 HEVC-10bit THD)",
+    "ElementAnimeTitle" : "Memories",
+    "ElementReleaseGroup": "Zagzad",
+    "ElementVideoTerm": "HEVC-10bit",
+    "ElementSource": "BDRip",
+    "ElementAudioTerm": "THD",
+    "ElementVideoResolution": "1764x972"
+  }
+},{
+  "file_name" : "[VCB-Studio] Sacred Seven 七合聖石戰記 [Hi10p_1080p]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[VCB-Studio] Sacred Seven 七合聖石戰記 [Hi10p_1080p]",
+    "ElementAnimeTitle" : "Sacred Seven 七合聖石戰記",
+    "ElementReleaseGroup": "VCB-Studio",
+    "ElementVideoTerm": "Hi10p",
+    "ElementVideoResolution": "1080p"
+  }
+},{
+  "file_name" : "[VCB-Studio] GO!GO!575 [Ma10p_1080p]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[VCB-Studio] GO!GO!575 [Ma10p_1080p]",
+    "ElementAnimeTitle" : "GO!GO!575",
+    "ElementReleaseGroup": "VCB-Studio",
+    "ElementVideoTerm": "Ma10p",
+    "ElementVideoResolution": "1080p"
+  }
+},{
+  "file_name" : "[LoliHouse] Uma Musume Pretty Derby Season 2 [BDRip 1080p HEVC-10bit FLAC]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[LoliHouse] Uma Musume Pretty Derby Season 2 [BDRip 1080p HEVC-10bit FLAC]",
+    "ElementAnimeTitle" : "Uma Musume Pretty Derby",
+    "ElementSource": "BDRip",
+    "ElementReleaseGroup": "LoliHouse",
+    "ElementVideoTerm": "HEVC-10bit",    
+    "ElementAudioTerm": "FLAC",
+    "ElementVideoResolution": "1080p",
+    "ElementAnimeSeason": "2"
+  }
+},{
+  "file_name" : "[Airota&LoliHouse] Toaru Kagaku no Railgun T [BDRip 1080p HEVC-10bit FLAC]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[Airota&LoliHouse] Toaru Kagaku no Railgun T [BDRip 1080p HEVC-10bit FLAC]",
+    "ElementAnimeTitle" : "Toaru Kagaku no Railgun T",
+    "ElementSource": "BDRip",
+    "ElementReleaseGroup": "Airota&LoliHouse",
+    "ElementVideoTerm": "HEVC-10bit",    
+    "ElementAudioTerm": "FLAC",
+    "ElementVideoResolution": "1080p"
+  }
+}, {
   "file_name" : "[AI-Raws][機動戦士ガンダム 閃光のハサウェイ_Mobile Suit Gundam Hathaway][MOVIE 01+SP][4K+1080p][BDRip][MKV]",
   "id" : 490,
   "ignore" : false,
