@@ -108,7 +108,7 @@
   "ignore" : false,
   "results" : {
     "ElementFileName" : "[Lilith-Raws] Kaguya-sama wa Kokurasetai S03 - 10 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-    "ElementVideoTerm": "AVC",
+    "ElementVideoTerm": ["AVC","MP4"],
     "ElementAudioTerm": "AAC",
     "ElementLanguage": "CHT",
     "ElementSource": "WEB-DL",
