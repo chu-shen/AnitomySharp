@@ -47,6 +47,16 @@ namespace AnitomySharp
     }
 
     /// <summary>
+    /// Returns whether or not the character is a Chinese character
+    /// </summary>
+    private static bool IsChineseChar(char c)
+    {
+      // We're just checking until the end of the Latin Extended-B block, 
+      // rather than all the blocks that belong to the Latin script.
+      return c <= '\u9FFF' && c >='\u4E00';
+    }
+
+    /// <summary>
     /// Returns whether or not the <code>str</code> is a hex string.
     /// </summary>
     public static bool IsHexadecimalString(string str)
@@ -61,6 +71,15 @@ namespace AnitomySharp
     {
       var length = !string.IsNullOrEmpty(str) ? 1.0 : str.Length;
       return str.Where(IsLatinChar).Count() / length >= 0.5;
+    }
+    
+    /// <summary>
+    /// Returns whether or not the <code>str</code> is mostly a Chinese string.
+    /// </summary>
+    public static bool IsMostlyChineseString(string str)
+    {
+      var length = !string.IsNullOrEmpty(str) ? 1.0 : str.Length;
+      return str.Where(IsChineseChar).Count() / length >= 0.5;
     }
 
     /// <summary>

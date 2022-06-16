@@ -195,8 +195,9 @@ namespace AnitomySharp
           tokenBeginWithNoReleaseGroup = tokenBegin;
           if (!Token.InListRange(tokenBegin, Tokens)) break;
 
-          // Ignore groups that are composed of non-Latin characters
-          if (StringHelper.IsMostlyLatinString(Tokens[tokenBegin].Content) && skippedPreviousGroup)
+          // Ignore groups that are composed of non-Latin characters or non-Chinese characters
+          // 对于同时有中英文名称，并且两者分割开来，如：“[異域字幕組][漆黑的子彈][Black Bullet][11][1280x720][繁体].mp4”，则只会返回第一个匹配到的
+          if ((StringHelper.IsMostlyLatinString(Tokens[tokenBegin].Content) || StringHelper.IsMostlyChineseString(Tokens[tokenBegin].Content) ) && skippedPreviousGroup)
           {
             break;
           }
@@ -345,7 +346,7 @@ namespace AnitomySharp
         }
 
         // Video resolution
-        if (number != 480 && number != 720 && number != 1080) continue;
+        if (number != 480 && number != 720 && number != 1080 && number != 2160) continue;
         // If these numbers are isolated, it's more likely for them to be the
         // video resolution rather than the episode number. Some fansub groups use these without the "p" suffix.
         // if (!Empty(Element.ElementCategory.ElementVideoResolution)) continue;

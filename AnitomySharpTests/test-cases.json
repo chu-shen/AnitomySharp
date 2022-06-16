@@ -1,4 +1,54 @@
-﻿[ {
+﻿[{
+  "file_name" : "[AI-Raws][機動戦士ガンダム 閃光のハサウェイ_Mobile Suit Gundam Hathaway][MOVIE 01+SP][4K+1080p][BDRip][MKV]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[AI-Raws][機動戦士ガンダム 閃光のハサウェイ_Mobile Suit Gundam Hathaway][MOVIE 01+SP][4K+1080p][BDRip][MKV]",
+    "ElementAnimeTitle" : "機動戦士ガンダム 閃光のハサウェイ Mobile Suit Gundam Hathaway",
+    "ElementSource": "BDRip",
+    "ElementReleaseGroup": "AI-Raws",
+    "ElementAnimeType" : ["SP", "MOVIE"],
+    "ElementVideoTerm": "MKV",
+    "ElementVideoResolution": ["4K","1080p"]
+  }
+}, {
+  "file_name" : "[AI-Raws][Jigokushoujo][S1-S3][DVDRip]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[AI-Raws][Jigokushoujo][S1-S3][DVDRip]",
+    "ElementAnimeTitle" : "Jigokushoujo",
+    "ElementSource": "DVDRip",
+    "ElementReleaseGroup": "AI-Raws"
+  }
+},{
+  "file_name" : "[A.I.R.nesSub][Kimi_ni_Todoke_1ST&2ND][BDRIP]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[A.I.R.nesSub][Kimi_ni_Todoke_1ST&2ND][BDRIP]",
+    "ElementAnimeTitle" : "Kimi ni Todoke 1ST&2ND",
+    "ElementSource": "BDRIP",
+    "ElementReleaseGroup": "A.I.R.nesSub"
+  }
+},{
+  "file_name" : "[1987-91][Kimagure Orange Road][BDRIP][1080P][TV1-48Fin+Movie+OVAx8+SP]",
+  "id" : 490,
+  "ignore" : false,
+  "results" : {
+    "ElementFileName" : "[1987-91][Kimagure Orange Road][BDRIP][1080P][TV1-48Fin+Movie+OVAx8+SP]",
+    "ElementAnimeTitle" : "Kimagure Orange Road",
+    "ElementAnimeType" : ["TV", "SP", "Movie"],
+    "ElementAnimeYear": "1987-91",
+    "ElementSource": "BDRIP",
+    "ElementVideoResolution": "1080P",
+    "ElementReleaseInformation": "Fin",
+    "ElementEpisodeNumber": [
+      "1",
+      "48"
+    ]
+  }
+},{
   "file_name" : "[220527][あんてきぬすっ！]OVA異世界ヤリサー＃1 女戦士と新米女冒険者 異世界でもハメちゃうっしょw.chs.mp4",
   "id" : 490,
   "ignore" : false,
@@ -1382,7 +1432,7 @@
   "id" : 20787,
   "ignore" : false,
   "results" : {
-    "ElementAnimeTitle" : "Black Bullet",
+    "ElementAnimeTitle" : "漆黑的子彈",
     "ElementEpisodeNumber" : "11",
     "ElementFileExtension" : "mp4",
     "ElementFileName" : "[異域字幕組][漆黑的子彈][Black Bullet][11][1280x720][繁体]",
