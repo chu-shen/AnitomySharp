@@ -34,7 +34,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementAnimeSeasonPrefix, 
         optionsUnidentifiable,
-        new List<string> {"SAISON", "SEASON"});
+        new List<string> {"SAISON", "Saison", "saison", "SEASON", "Season", "season"});
       
       Add(Element.ElementCategory.ElementAnimeType,
         optionsUnidentifiable,
@@ -53,7 +53,8 @@ namespace AnitomySharp
         optionsDefault,
         new List<string> {
         // Audio channels
-        "2.0CH", "2CH", "5.1", "5.1CH", "7.1", "7.1CH", "DTS", "DTS-ES", "DTS-MA", "DTS5.1",
+        "2.0CH", "2CH", "5.1", "5.1CH", "7.1", "7.1CH", "6CH", 
+        "DTS", "DTS-ES", "DTS-MA", "DTS5.1", "DTS-HD", "MA.5.1", "MA.2.0", "MA.7.1",
         "TRUEHD5.1", "TRUE-HD", "TrueHD", "THD",
         // Audio codec
         "AAC", "AACX2", "AACX3", "AACX4", "AC3", "EAC3", "E-AC-3",
@@ -89,7 +90,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementLanguage,
         optionsDefault,
-        new List<string> {"ENG", "ENGLISH", "ESPANO", "JAP", "PT-BR", "SPANISH", "VOSTFR", "zh-Hans", "zh-Hant", "CHS", "CHT", "CHN", "JPN"});
+        new List<string> {"ENG", "ENGLISH", "ESPANO", "JAP", "PT-BR", "SPANISH", "VOSTFR", "zh-Hans", "zh-Hant", "CHS", "CHT", "CHN", "JPN", "JPSC", "JPTC"});
 
       Add(Element.ElementCategory.ElementLanguage,
         optionsUnidentifiable,
@@ -123,7 +124,7 @@ namespace AnitomySharp
         optionsDefault,
         new List<string> {"BATCH", "COMPLETE", "PATCH", "REMUX", "REV", "REPACK", "FIN", 
         "生肉", "熟肉", "18禁", "18禁アニメ", "15禁", "無修正", "无修正", "无码", "無碼", "有码", "No Watermark", "有码", "有码",
-        "BiliBili", "Baha"});
+        "BiliBili", "Baha", "GYAO!"});
 
       Add(Element.ElementCategory.ElementReleaseInformation,
         optionsUnidentifiable,
@@ -139,7 +140,8 @@ namespace AnitomySharp
         "DVD", "DVD5", "DVD9", "DVD-R2J", "DVDRIP", "DVD-RIP", 
         "R2DVD", "R2J", "R2JDVD", "R2JDVDRIP", 
         "HDTV", "HDTVRIP", "TVRIP", "TV-RIP", 
-        "WEBCAST", "WEBRIP", "WEB-DL", "WEB", "DLrip"});
+        "WEBCAST", "WEBRIP", "WEB-DL", "WEB", 
+        "DLrip"});
 
       Add(Element.ElementCategory.ElementSubtitles,
         optionsDefault,
@@ -150,6 +152,7 @@ namespace AnitomySharp
         new List<string> {
           // Frame rate
           "23.976FPS", "24FPS", "29.97FPS", "30FPS", "60FPS", "120FPS",
+          "SVFI",
           // Video codec
           "8BIT", "8-BIT", "10BIT", "10BITS", "10-BIT", "10-BITS",
           "HI10", "HI10P", "MA10P", "HI444", "HI444P", "HI444PP",
@@ -157,7 +160,7 @@ namespace AnitomySharp
           "AVC", "HEVC", "HEVC2", "DIVX", "DIVX5", "DIVX6", "XVID",
           "YUV420", "YUV420P8", "YUV420P10", "YUV420P10LE", "YUV444", "YUV444P10", "YUV444P10LE",
           "Main10", "Main10p", "Main12", "Main12p",
-          "HDR", "HDR10",
+          "HDR", "HDR10", "HMAX",
           // Video format
           "AVI", "RMVB", "WMV", "WMV3", "WMV9", "MKV", "MPEG",
           // Video quality
@@ -171,6 +174,7 @@ namespace AnitomySharp
 
       PeekEntries = new List<Tuple<Element.ElementCategory, List<string>>>
       {
+        Tuple.Create(Element.ElementCategory.ElementVideoTerm, new List<string> { "HEVC-10bit", "HEVC-YUV420P10","X264-10bit","x264-10bit", "x264-Hi10P" }),
         Tuple.Create(Element.ElementCategory.ElementAudioTerm, new List<string> { "Dual Audio" }),
         Tuple.Create(Element.ElementCategory.ElementVideoTerm, new List<string> { "H264", "H.264", "h264", "h.264" }),
         Tuple.Create(Element.ElementCategory.ElementVideoResolution, new List<string> { "480p", "720p", "1080p", "2160p", "4k", "6k", "8k", "480P", "720P", "1080P", "2160P", "4K", "6K", "8K" }),
