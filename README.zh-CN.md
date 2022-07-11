@@ -1,6 +1,6 @@
 # AnitomySharp
 
-[中文指南](README.zh-CN.md)
+*施工中*
 
 >*AnitomySharp* is a C# port of [Anitomy](https://github.com/erengy/anitomy), with inspiration taken from [AnitomyJ](https://github.com/Vorror/anitomyJ), a library for parsing anime video filenames. All credit to [@erengy](https://github.com/erengy) for the actual library and logic.
 
