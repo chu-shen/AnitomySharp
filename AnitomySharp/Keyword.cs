@@ -38,7 +38,7 @@ namespace AnitomySharp
       
       Add(Element.ElementCategory.ElementAnimeType,
         optionsUnidentifiable,
-        new List<string> {"GEKIJOUBAN", "MOVIE", "OAD", "OAV", "ONA", "OVA", "SPECIAL", "SPECIALS", "TV", "SP", "番外編", "總集編"});
+        new List<string> {"GEKIJOUBAN", "MOVIE", "OAD", "OAV", "ONA", "OVA", "SPECIAL", "SPECIALS", "TV", "SP", "番外編", "總集編", "IV"});
 
 //       add "SP" to ElementAnimeType with optionsUnidentifiable
 //       Add(Element.ElementCategory.ElementAnimeType,
@@ -47,7 +47,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementAnimeType,
         optionsUnidentifiableInvalid,
-        new List<string> {"ED", "ENDING", "NCED", "NCOP", "OP", "OPENING", "PREVIEW", "PV"});
+        new List<string> {"ED", "ENDING", "NCED", "NCOP", "OP", "OPENING", "PREVIEW", "PV", "MENU", "CM", "EVENT"});
 
       Add(Element.ElementCategory.ElementAudioTerm, 
         optionsDefault,
