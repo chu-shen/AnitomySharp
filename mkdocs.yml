@@ -1,0 +1,10 @@
+site_name: AnitomySharp docs
+site_description: 'docs of AnitomySharp'
+site_author: 'chu-shen'
+docs_dir: docs/
+repo_name: 'chu-shen/AnitomySharp'
+repo_url: 'https://github.com/chu-shen/AnitomySharp'
+nav:
+    - Home: README.zh-CN.md
+theme:
+  name: 'material'
