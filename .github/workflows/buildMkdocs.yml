@@ -5,6 +5,7 @@ on:
       - main
 
 jobs:
+# TODO: use https://github.com/actions/deploy-pages
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
