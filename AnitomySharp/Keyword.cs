@@ -47,7 +47,7 @@ namespace AnitomySharp
 
       Add(Element.ElementCategory.ElementAnimeType,
         optionsUnidentifiableInvalid,
-        new List<string> {"ED", "ENDING", "NCED", "NCOP", "OP", "OPENING", "PREVIEW", "PV", "MENU", "CM", "EVENT"});
+        new List<string> {"ED", "ENDING", "NCED", "NCOP", "OP", "OPENING", "PREVIEW", "PV", "MENU", "CM", "EVENT", "Tokuten", "LOGO", "Trailer", "INTERVIEW"});
 
       Add(Element.ElementCategory.ElementAudioTerm, 
         optionsDefault,
