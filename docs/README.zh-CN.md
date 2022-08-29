@@ -1,9 +1,5 @@
 # AnitomySharp
 
-*施工中*
-
-
-
 ## 示例
 
 现有如下文件：
@@ -62,7 +58,7 @@ ElementReleaseGroup: BM&T
 ElementEpisodeTitle: Pool Opening
 ```
 
-详细原理请查阅设计文档
+详细原理请查阅[设计文档](design.md)
 
 ## 安装
 
