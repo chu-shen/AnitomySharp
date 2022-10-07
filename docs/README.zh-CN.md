@@ -73,9 +73,11 @@ NuGet提供[Anitomy及其相关版本](https://www.nuget.org/packages?q=Anitomy)
 
 ## 用例
 
-- 在 jellyfin 中使用[bangumi插件](https://github.com/kookxiang/jellyfin-plugin-bangumi)解析文件名、集数、文件类型
+- 在 jellyfin 中使用[Bangumi插件](https://github.com/kookxiang/jellyfin-plugin-bangumi)解析文件名、集数、文件类型
 
-- 在 jellyfin 中使用[anilist插件](https://github.com/chu-shen/jellyfin-plugin-anilist-with-filter)解析文件名
+- 在 jellyfin 中使用[AniList插件](https://github.com/chu-shen/jellyfin-plugin-anilist-with-filter)解析文件名
+
+- 在 jellyfin 中[使用示例](./howToUseItInJellyfin.md)
 
 ## 致谢
 

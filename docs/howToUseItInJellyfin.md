@@ -90,9 +90,9 @@
 
 ```mermaid
 graph LR
-  A[AniList 识别罗马音] --> A1[AniList 返回日文标题];
+  A[AniList 识别文件夹] --> A1[AniList 返回日文标题];
   A1 --> C;
-  B[Bangumi 识别罗马音]--> B1{成功?};
+  B[Bangumi 识别文件夹]--> B1{成功?};
   B1 -->|Yes| C[正常返回];
   B1 ---->|No| A1;
   A1 ---->|获取元数据| B2[Bangumi 识别日文标题];
