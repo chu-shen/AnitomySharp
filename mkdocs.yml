@@ -38,11 +38,11 @@ markdown_extensions:
   - tables
   - pymdownx.betterem
   - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.details
   - pymdownx.emoji
-  - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.highlight:
       anchor_linenums: true
@@ -52,7 +52,17 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.tabbed:
       alternate_style: true 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+
 docs_dir: docs/
 nav:
-    - README: README.zh-CN.md
-    - 设计文档: design.md
+    - README: 
+      - README.zh-CN.md
+    - 设计文档: 
+      - design.md
+    - 使用: 
+      - howToUseItInJellyfin.md
