@@ -27,7 +27,7 @@ jobs:
       - name: Setup Docfx
         run: dotnet tool install -g docfx
       - name: Build
-        run: docfx AnitomySharp/docfx_project/docfx.json
+        run: docfx docfx_project/docfx.json
 
       - name: Deploy Docfx
         uses: peaceiris/actions-gh-pages@v3
