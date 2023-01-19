@@ -11,24 +11,48 @@
 namespace AnitomySharp
 {
 
-  /// <summary>
-  /// AnitomySharp search configuration options
-  /// </summary>
-  public class Options
-  {
-    public string AllowedDelimiters { get; }
-    public bool ParseEpisodeNumber { get; }
-    public bool ParseEpisodeTitle { get; }
-    public bool ParseFileExtension { get; }
-    public bool ParseReleaseGroup { get; }
-
-    public Options(string delimiters = " _.+,|", bool episode = true, bool title = true, bool extension = true, bool group = true)
+    /// <summary>
+    /// AnitomySharp search configuration options
+    /// 
+    /// 提取元素时的默认配置项
+    /// </summary>
+    public class Options
     {
-      AllowedDelimiters = delimiters;
-      ParseEpisodeNumber = episode;
-      ParseEpisodeTitle = title;
-      ParseFileExtension = extension;
-      ParseReleaseGroup = group;
+        /// <summary>
+        /// 提取元素时使用的分隔符
+        /// </summary>
+        public string AllowedDelimiters { get; }
+        /// <summary>
+        /// 是否尝试提取集数。`true`表示提取
+        /// </summary>
+        public bool ParseEpisodeNumber { get; }
+        /// <summary>
+        /// 是否尝试提取本集标题。`true`表示提取
+        /// </summary>
+        public bool ParseEpisodeTitle { get; }
+        /// <summary>
+        /// 是否提取文件扩展名。`true`表示提取
+        /// </summary>
+        public bool ParseFileExtension { get; }
+        /// <summary>
+        /// 是否提取发布组。`true`表示提取
+        /// </summary>
+        public bool ParseReleaseGroup { get; }
+        /// <summary>
+        /// 提取元素时的配置项
+        /// </summary>
+        /// <param name="delimiters">默认值：" _.+,|"</param>
+        /// <param name="episode">默认值：true</param>
+        /// <param name="title">默认值：true</param>
+        /// <param name="extension">默认值：true</param>
+        /// <param name="group">默认值：true</param>
+        public Options(string delimiters = " _.+,|　", bool episode = true, bool title = true, bool extension = true, bool group = true)
+        {
+            AllowedDelimiters = delimiters;
+            ParseEpisodeNumber = episode;
+            ParseEpisodeTitle = title;
+            ParseFileExtension = extension;
+            ParseReleaseGroup = group;
+        }
     }
-  }
 }

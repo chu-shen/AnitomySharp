@@ -10,15 +10,29 @@
 
 namespace AnitomySharp
 {
+    /// <summary>
+    /// 标记(token)的位置
+    /// </summary>
     public struct TokenRange
     {
-	    public int Offset;
-	    public int Size;
+        /// <summary>
+        /// 偏移值
+        /// </summary>
+        public int Offset;
+        /// <summary>
+        /// Token长度
+        /// </summary>
+        public int Size;
 
-      public TokenRange(int offset, int size)
-      {
-        Offset = offset;
-        Size = size;
-      }
+        /// <summary>
+        /// 构造<see cref="TokenRange"/>
+        /// </summary>
+        /// <param name="offset"></param>
+        /// <param name="size"></param>
+        public TokenRange(int offset, int size)
+        {
+            Offset = offset;
+            Size = size;
+        }
     }
 }
