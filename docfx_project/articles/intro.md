@@ -1,3 +1,3 @@
 # Articles
 
-[Articles](https://anitomysharp.chushen.xyz/)
+[Articles](https://anitomysharp.chushen.xyz/README.zh-CN/)
