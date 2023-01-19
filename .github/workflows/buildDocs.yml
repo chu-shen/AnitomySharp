@@ -13,10 +13,10 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v1
 
-      - name: Deploy Mkdocs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       - name: Deploy Mkdocs
+#         uses: mhausenblas/mkdocs-deploy-gh-pages@master
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
       - name: Setup .NET
