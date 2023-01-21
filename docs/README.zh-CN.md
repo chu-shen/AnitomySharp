@@ -1,5 +1,7 @@
 # AnitomySharp
 
+[![Build DLL](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml)
+
 ## 示例
 
 现有如下文件：
