@@ -40,6 +40,7 @@ jobs:
       with:
         PROJECT_FILE_PATH: AnitomySharp/AnitomySharp.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+        TAG_COMMIT: false
 
     - name: release-please
       uses: google-github-actions/release-please-action@v3
