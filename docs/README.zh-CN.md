@@ -1,6 +1,6 @@
 # AnitomySharp
 
-[![Build DLL](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml)
+[![Build](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml)
 
 ## 示例
 
@@ -65,9 +65,9 @@ ElementEpisodeTitle: Pool Opening
 
 ## 安装
 
-NuGet提供[Anitomy及其相关版本](https://www.nuget.org/packages?q=Anitomy)的历史版本下载
+最新版本请关注本项目[Releases](https://github.com/chu-shen/AnitomySharp/releases)或[NuGet](https://www.nuget.org/packages/AnitomySharp.NET6)
 
-最新版本请关注本项目[Releases](https://github.com/chu-shen/AnitomySharp/releases)
+其他版本：NuGet提供[Anitomy及其相关版本](https://www.nuget.org/packages?q=Anitomy)的历史版本下载
 
 ## Issues & Pull Requests
 

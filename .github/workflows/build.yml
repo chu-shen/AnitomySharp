@@ -1,9 +1,11 @@
-name: Build DLL
+name: Build
 
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ "main" ]
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -31,3 +33,23 @@ jobs:
         path: AnitomySharp/bin/Debug/net6.0/AnitomySharp.dll
         if-no-files-found: error
         retention-days: 30
+
+    - name: publish on version change
+      id: publish_nuget
+      uses: alirezanet/publish-nuget@v3.1.0
+      with:
+        PROJECT_FILE_PATH: AnitomySharp/AnitomySharp.csproj
+        NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+        TAG_COMMIT: false
+
+    - name: release-please
+      uses: google-github-actions/release-please-action@v3
+      id: release
+      with:
+        release-type: simple
+    - name: Upload Release Artifact
+      if: ${{ steps.release.outputs.release_created }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run:
+        gh release upload ${{ steps.release.outputs.tag_name }} /home/runner/work/AnitomySharp/AnitomySharp/AnitomySharp/bin/Debug/net6.0/AnitomySharp.dll

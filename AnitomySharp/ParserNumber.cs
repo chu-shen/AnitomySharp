@@ -702,6 +702,7 @@ namespace AnitomySharp
         /// Searches for equivalent number in a list of <c>tokens</c>. e.g. 08(114)
         /// 
         /// 匹配自带等效集数的数字，常见于分割放送
+        /// #TODO 添加等效集数中间间隔空格的情况，如：05 (41) 
         /// </summary>
         /// <param name="tokens">the list of tokens</param>
         /// <returns>true if an equivalent number was found</returns>
