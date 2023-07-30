@@ -1,10 +1,12 @@
 # AnitomySharp
 
-[![Build DLL](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml)
+[![Build](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/chu-shen/AnitomySharp/actions/workflows/build.yml)
 
 [中文指南](https://anitomysharp.chushen.xyz/README.zh-CN/)
 
 >*AnitomySharp* is a C# port of [Anitomy](https://github.com/erengy/anitomy), with inspiration taken from [AnitomyJ](https://github.com/Vorror/anitomyJ), a library for parsing anime video filenames. All credit to [@erengy](https://github.com/erengy) for the actual library and logic.
+>
+>This fork of AnitomySharp is inspired by tabratton&senritsu, which adds more custom rules.
 
 ## Examples
 
@@ -64,17 +66,9 @@ ElementReleaseGroup: BM&T
 ElementEpisodeTitle: Pool Opening
 ```
 ## Installation
-AnitomySharp is available on NuGet, and can be found under the name AnitomySharp.
 
+AnitomySharp is available on [NuGet](https://www.nuget.org/packages/AnitomySharp.NET6), and can be found under the name AnitomySharp.
 
 ## Issues & Pull Requests
 
-For the most part, AnitomyJ aims to be an exact Java replica of the original Anitomy. To make porting upstream changes easier most of the logic + file structure remain similar to their c++ counterparts. So, for the time being, I won't be accepting pull requests/issues that change the core parsing logic. I suggest opening an issue with the original Anitomy project and when it's fixed I'll merge it downstream.
-
-That being said if the output of AnitomyJ and Anitomy differ in *any way* please open an issue.
-
-## FAQ
-
-- Why didn't you write a C# wrapper since *Anitomy* is in C++?
-
-    I could have, but the main motivation behind this project was to expose myself to C# and how it was different from Java, so I figured the best way to do that would be to port the library instead of making a wrapper.
+Welcome~
