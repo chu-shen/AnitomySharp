@@ -52,4 +52,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run:
-        gh release upload ${{ steps.release.outputs.tag_name }} ./artifact/AnitomySharp-artifact.zip
+        gh release upload ${{ steps.release.outputs.tag_name }} /home/runner/work/AnitomySharp/AnitomySharp/AnitomySharp/bin/Debug/net6.0/AnitomySharp.dll
