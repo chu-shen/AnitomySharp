@@ -408,9 +408,13 @@ namespace AnitomySharp
                 {
                     tokenContent = tokenContent.Split(match.Groups[2].Value)[0];
                 }
-                // add newtype e.g. "2021 OVA"
-                if (token.Category != Token.TokenCategory.Unknown || !StringHelper.IsNumericString(tokenContent) ||
-                    !(ParseHelper.IsTokenContainAnimeType(i) ^ ParseHelper.IsTokenIsolated(i)))
+
+                if (token.Category != Token.TokenCategory.Unknown || !StringHelper.IsNumericString(tokenContent))
+                {
+                    continue;
+                }
+                // e.g. "[2021 OVA]"
+                if (!(ParseHelper.IsTokenContainAnimeType(i) ^ ParseHelper.IsTokenIsolated(i)))
                 {
                     continue;
                 }
@@ -422,7 +426,7 @@ namespace AnitomySharp
                 {
                     if (Empty(Element.ElementCategory.ElementAnimeYear))
                     {
-                        Elements.Add(new Element(Element.ElementCategory.ElementAnimeYear, token.Content));
+                        Elements.Add(new Element(Element.ElementCategory.ElementAnimeYear, tokenContent));
                         token.Category = Token.TokenCategory.Identifier;
                         continue;
                     }
