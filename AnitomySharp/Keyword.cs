@@ -24,13 +24,13 @@ namespace AnitomySharp
     public static class KeywordManager
     {
         /// <summary>
-        /// 包含所有关键词（大写）的内部关键词元素词典
+        /// 包含所有关键词的内部关键词元素词典，比较器忽略大小写
         /// </summary>
-        private static readonly Dictionary<string, Keyword> Keys = new Dictionary<string, Keyword>();
+        private static readonly Dictionary<string, Keyword> Keys = new Dictionary<string, Keyword>(StringComparer.OrdinalIgnoreCase);
         /// <summary>
-        /// 文件扩展名，无值
+        /// 文件扩展名，无值，比较器忽略大小写
         /// </summary>
-        private static readonly Dictionary<string, Keyword> Extensions = new Dictionary<string, Keyword>();
+        private static readonly Dictionary<string, Keyword> Extensions = new Dictionary<string, Keyword>(StringComparer.OrdinalIgnoreCase);
 
         /// <summary>
         /// ~~一眼真~~
