@@ -235,8 +235,7 @@
         "DTS-HD",
         "MA.5.1"
       ],
-      "ElementSource": "Blu-ray",
-      "ElementEpisodeTitle": "SVFI.2.3"
+      "ElementSource": "Blu-ray"
     }
   },
   {
@@ -415,7 +414,7 @@
       "ElementFileName": "Crayonshinchan Movie[1993-2018]",
       "ElementAnimeTitle": "Crayonshinchan Movie",
       "ElementAnimeType": "Movie",
-      "ElementAnimeYear": "1993-2018"
+      "ElementAnimeYear": "1993"
     }
   },
   {
@@ -554,7 +553,7 @@
         "SP",
         "Movie"
       ],
-      "ElementAnimeYear": "1987-91",
+      "ElementAnimeYear": "1987",
       "ElementSource": "BDRIP",
       "ElementVideoResolution": "1080P",
       "ElementReleaseInformation": "Fin",
@@ -603,7 +602,7 @@
         "OVA",
         "SP"
       ],
-      "ElementAnimeYear": "2016-17",
+      "ElementAnimeYear": "2016",
       "ElementSource": "BDRIP",
       "ElementVideoResolution": "1080P"
     }
