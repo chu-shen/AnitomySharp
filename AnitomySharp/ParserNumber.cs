@@ -699,6 +699,26 @@ namespace AnitomySharp
         }
 
         /// <summary>
+        /// 搜索同动画类型同时出现的集数
+        /// </summary>
+        /// <param name="tokens"></param>
+        /// <returns></returns>
+        public bool SearchForAnimeTypeWithEpisode(List<int> tokens)
+        {
+            foreach (var it in tokens)
+            {
+                // e.g. OVA 3
+                if (_parser.ParseHelper.IsPrevTokenContainAnimeType(it) && !_parser.ParseHelper.IsTokenIsolated(it))
+                {
+                    SetEpisodeNumber(_parser.Tokens[it].Content, _parser.Tokens[it], false);
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
         /// Searches for equivalent number in a list of <c>tokens</c>. e.g. 08(114)
         /// 
         /// 匹配自带等效集数的数字，常见于分割放送

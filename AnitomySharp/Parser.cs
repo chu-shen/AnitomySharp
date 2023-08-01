@@ -228,6 +228,9 @@ namespace AnitomySharp
             // "e.g. "[12]", "(2006)"
             if (ParseNumber.SearchForIsolatedNumbers(tokens)) return;
 
+            // "e.g. "OVA 3", "Drama 3"
+            if (ParseNumber.SearchForAnimeTypeWithEpisode(tokens)) return;
+
             // Consider using the last number as a last resort
             ParseNumber.SearchForLastNumber(tokens);
         }

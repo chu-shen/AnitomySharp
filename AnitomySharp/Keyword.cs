@@ -64,7 +64,8 @@ namespace AnitomySharp
               "GEKIJOUBAN", "MOVIE",
               "OAD", "OAV", "ONA", "OVA",
               "TV",
-              "番外編", "總集編","映像特典","特典","特典アニメ",
+              "番外編", "總集編","DRAMA",
+              "映像特典","特典","特典アニメ",
               // 特典 Special 剩下的各种类型可以全部命名成 SP，对于较特殊意义的特典也可以自定义命名
               "SPECIAL", "SPECIALS", "SP", "SPs",  
               // 真人特典 Interview/Talk/Stage... 目前我们对于节目、采访、舞台活动、制作等三次元画面的长视频，一概怼成 IV。
