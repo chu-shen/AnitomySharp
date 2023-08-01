@@ -85,7 +85,7 @@ namespace AnitomySharp
               // 无字 OP/ED Non-Credit Opening/Ending
               "ED", "ENDING", "NCED", "NCOP", "OP", "OPENING",
               // 预告 Preview 预告下一话内容 注意编号表示其预告的是第几话的内容而不是跟在哪一话后面
-              "PREVIEW",
+              "PREVIEW", "YOKOKU",
               // 菜单 Menu BD/DVD 播放选择菜单
               "MENU",
               // 广告 Commercial Message 电视放送广告，时长一般在 7s/15s/30s/45s/... 左右

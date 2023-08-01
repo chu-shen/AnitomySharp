@@ -179,6 +179,7 @@ namespace AnitomySharp
         private void SearchForEpisodeNumber()
         {
             var tokens = new List<int>();
+            var allTokens = new List<int>();
             for (var i = 0; i < Tokens.Count; i++)
             {
                 var token = Tokens[i];
@@ -187,6 +188,7 @@ namespace AnitomySharp
                     ParserHelper.IndexOfFirstDigit(token.Content) != -1)
                 {
                     tokens.Add(i);
+                    allTokens.Add(i);
                 }
             }
 
@@ -228,8 +230,9 @@ namespace AnitomySharp
             // "e.g. "[12]", "(2006)"
             if (ParseNumber.SearchForIsolatedNumbers(tokens)) return;
 
-            // "e.g. "OVA 3", "Drama 3"
-            if (ParseNumber.SearchForAnimeTypeWithEpisode(tokens)) return;
+            // "e.g. "OVA 3", "OtherToken[Hint05]": maybe incorrect, so put the last
+            if (Empty(Element.ElementCategory.ElementEpisodeNumber))
+                if(ParseNumber.SearchForSymbolWithEpisode(allTokens)) return;
 
             // Consider using the last number as a last resort
             ParseNumber.SearchForLastNumber(tokens);

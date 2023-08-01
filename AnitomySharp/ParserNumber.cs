@@ -703,7 +703,7 @@ namespace AnitomySharp
         /// </summary>
         /// <param name="tokens"></param>
         /// <returns></returns>
-        public bool SearchForAnimeTypeWithEpisode(List<int> tokens)
+        public bool SearchForSymbolWithEpisode(List<int> tokens)
         {
             foreach (var it in tokens)
             {
@@ -712,6 +712,21 @@ namespace AnitomySharp
                 {
                     SetEpisodeNumber(_parser.Tokens[it].Content, _parser.Tokens[it], false);
                     return true;
+                }
+                // e.g. OtherToken[Hint05]
+                // it>1: makesure this token is not first one
+                if (it>1 &&_parser.Tokens[it].Enclosed && _parser.ParseHelper.IsTokenIsolated(it))
+                {
+                    var tokenContent = _parser.Tokens[it].Content;
+                    var numberBegin = ParserHelper.IndexOfFirstDigit(tokenContent);
+                    var prefix = StringHelper.SubstringWithCheck(tokenContent, 0, numberBegin);
+                    var number = StringHelper.SubstringWithCheck(tokenContent, numberBegin, tokenContent.Length - numberBegin);
+                    // token should be: alphaNumeric
+                    if (prefix != "" && StringHelper.IsAlphaString(prefix) && StringHelper.IsNumericString(number))
+                    {
+                        SetEpisodeNumber(number, _parser.Tokens[it], true);
+                        return true;
+                    }
                 }
             }
 
