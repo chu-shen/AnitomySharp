@@ -231,8 +231,7 @@ namespace AnitomySharp
             if (ParseNumber.SearchForIsolatedNumbers(tokens)) return;
 
             // "e.g. "OVA 3", "OtherToken[Hint05]": maybe incorrect, so put the last
-            if (Empty(Element.ElementCategory.ElementEpisodeNumber))
-                if(ParseNumber.SearchForSymbolWithEpisode(allTokens)) return;
+            if(ParseNumber.SearchForSymbolWithEpisode(allTokens)) return;
 
             // Consider using the last number as a last resort
             ParseNumber.SearchForLastNumber(tokens);

@@ -73,10 +73,10 @@ namespace AnitomySharp
               // 音乐视频 Music Video
               "MV"});
 
-            //       add "SP" to ElementAnimeType with optionsUnidentifiable
-            //       Add(Element.ElementCategory.ElementAnimeType,
-            //         optionsUnidentifiableUnsearchable,
-            //         new List<string> {"SP"}); // e.g. "Yumeiro Patissiere SP Professional"
+            // add "SP" to ElementAnimeType with optionsUnidentifiable
+            // Add(Element.ElementCategory.ElementAnimeType,
+            //   optionsUnidentifiableUnsearchable,
+            //   new List<string> { "SP" }); // e.g. "Yumeiro Patissiere SP Professional", but it is widely used to represent special
 
             Add(Element.ElementCategory.ElementAnimeType,
               optionsUnidentifiableInvalid,
