@@ -149,7 +149,7 @@ namespace AnitomySharp
 
             Add(Element.ElementCategory.ElementOther,
               optionsDefault,
-              new List<string> { "REMASTER", "REMASTERED", "UNCUT", "TS", "VFR", "WIDESCREEN", "WS", "SPURSENGINE" });
+              new List<string> { "REMASTER", "REMASTERED", "UNCUT", "TS", "VFR", "WIDESCREEN", "WS", "SPURSENGINE","DISC" });
 
             Add(Element.ElementCategory.ElementReleaseGroup,
               optionsDefault,
@@ -279,6 +279,16 @@ namespace AnitomySharp
             }
 
             return false;
+        }
+        /// <summary>
+        /// 判断预处理元素列表中是否包含给定的字符串(<paramref name="keyword"/>)
+        /// </summary>
+        /// <param name="category">元素类别</param>
+        /// <param name="keyword">待判断的字符串</param>
+        /// <returns>`true`表示包含</returns>
+        public static bool ContainsInPeekEntries(Element.ElementCategory category, string keyword)
+        {
+            return PeekEntries.Any(entry => entry.Item1 == category && entry.Item2.Contains(keyword, StringComparer.OrdinalIgnoreCase));
         }
 
         /// <summary>

@@ -287,6 +287,18 @@ namespace AnitomySharp
             if (!IsTokenCategory(nextToken, Token.TokenCategory.Bracket)) return false;
             return KeywordManager.Contains(Element.ElementCategory.ElementAnimeType, _parser.Tokens[prevToken].Content);
         }
+        /// <summary>
+        /// 判断当前标记(token)的上一个标记的类型是否为ElementAnimeType（在 PeekEntries 中）。如果是，则返回`true`
+        /// </summary>
+        /// <param name="pos"></param>
+        /// <returns></returns>
+        public bool IsPrevTokenContainAnimeTypeInPeekEntries(int pos)
+        {
+            var prevToken = Token.FindPrevToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
+            var nextToken = Token.FindNextToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
+            if (!IsTokenCategory(nextToken, Token.TokenCategory.Bracket)) return false;
+            return KeywordManager.ContainsInPeekEntries(Element.ElementCategory.ElementAnimeType, _parser.Tokens[prevToken].Content);
+        }
 
         /// <summary>
         /// Finds and sets the anime season keyword.

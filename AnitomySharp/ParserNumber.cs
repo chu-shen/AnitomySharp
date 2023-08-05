@@ -707,15 +707,15 @@ namespace AnitomySharp
         {
             foreach (var it in tokens)
             {
-                // e.g. OVA 3
-                if (_parser.ParseHelper.IsPrevTokenContainAnimeType(it) && !_parser.ParseHelper.IsTokenIsolated(it))
+                // e.g. OVA 3, [Web Preview 06]: Web Preview in PeekEntries
+                if ((_parser.ParseHelper.IsPrevTokenContainAnimeType(it) || _parser.ParseHelper.IsPrevTokenContainAnimeTypeInPeekEntries(it)) && !_parser.ParseHelper.IsTokenIsolated(it))
                 {
                     SetEpisodeNumber(_parser.Tokens[it].Content, _parser.Tokens[it], false);
                     return true;
                 }
                 // e.g. OtherToken[Hint05]
                 // it>1: makesure this token is not first one
-                if (it>1 &&_parser.Tokens[it].Enclosed && _parser.ParseHelper.IsTokenIsolated(it))
+                if (it > 1 && _parser.Tokens[it].Enclosed && _parser.ParseHelper.IsTokenIsolated(it))
                 {
                     var tokenContent = _parser.Tokens[it].Content;
                     var numberBegin = ParserHelper.IndexOfFirstDigit(tokenContent);
