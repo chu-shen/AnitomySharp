@@ -230,8 +230,8 @@ namespace AnitomySharp
             // "e.g. "[12]", "(2006)"
             if (ParseNumber.SearchForIsolatedNumbers(tokens)) return;
 
-            // "e.g. "OVA 3", "OtherToken[Hint05]": maybe incorrect, so put the last
-            if(ParseNumber.SearchForSymbolWithEpisode(allTokens)) return;
+            // "e.g. "OVA 3", "OtherToken[Hint05]", "[Web Preview 06]": maybe incorrect, so put the last
+            if (ParseNumber.SearchForSymbolWithEpisode(allTokens)) return;
 
             // Consider using the last number as a last resort
             ParseNumber.SearchForLastNumber(tokens);
@@ -240,7 +240,7 @@ namespace AnitomySharp
         /// <summary>
         /// Search for anime title
         /// 
-        /// 搜索动画名
+        /// 搜索动画名 
         /// </summary>
         private void SearchForAnimeTitle()
         {
@@ -288,6 +288,13 @@ namespace AnitomySharp
                     {
                         tokenBegin = tokenBeginWithNoReleaseGroup;
                     }
+                    // 去除纯数字标题
+                    // skip token with only number
+                    if (Regex.Match(Tokens[tokenBegin].Content, ParserNumber.RegexMatchOnlyStart + @"^[0-9]+$" + ParserNumber.RegexMatchOnlyEnd).Success)
+                    {
+                        tokenBegin = tokenBeginWithNoReleaseGroup;
+                    }
+
                     skippedPreviousGroup = true;
                 } while (Token.InListRange(tokenBegin, Tokens));
             }
