@@ -230,8 +230,11 @@ namespace AnitomySharp
             // "e.g. "[12]", "(2006)"
             if (ParseNumber.SearchForIsolatedNumbers(tokens)) return;
 
-            // "e.g. "OVA 3", "OtherToken[Hint05]", "[Web Preview 06]": maybe incorrect, so put the last
+            // e.g. "OVA 3", "OtherToken[Hint05]", "[Web Preview 06]": maybe incorrect, so put the last
             if (ParseNumber.SearchForSymbolWithEpisode(allTokens)) return;
+
+            // e.g. [13(341)], [13 (341)]
+            if (ParseNumber.SearchForEquivalentNumbersWithBracket(allTokens)) return;
 
             // Consider using the last number as a last resort
             ParseNumber.SearchForLastNumber(tokens);
@@ -410,7 +413,7 @@ namespace AnitomySharp
             {
                 var token = Tokens[i];
                 /** 跳过括号标记类型的标记 */
-                if (token.Category == Token.TokenCategory.Bracket) continue;
+                if (token.Category != Token.TokenCategory.Unknown) continue;
                 var tokenContent = token.Content;
 
                 // e.g. "2016-17"
@@ -421,15 +424,19 @@ namespace AnitomySharp
                     tokenContent = tokenContent.Split(match.Groups[2].Value)[0];
                 }
 
-                if (token.Category != Token.TokenCategory.Unknown || !StringHelper.IsNumericString(tokenContent))
+                if (!StringHelper.IsNumericString(tokenContent))
                 {
                     continue;
                 }
+
                 // e.g. "[2021 OVA]"
-                if (!(ParseHelper.IsTokenContainAnimeType(i) ^ ParseHelper.IsTokenIsolated(i)))
-                {
-                    continue;
-                }
+                if(ParseHelper.IsNextTokenContainAnimeType(i)&&!ParseHelper.IsTokenIsolated(i)){}
+
+                // TODO may not be necessary
+                // if (!ParseHelper.IsTokenIsolated(i))
+                // {
+                //     continue;
+                // }
 
                 var number = StringHelper.StringToInt(tokenContent);
 

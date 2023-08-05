@@ -268,7 +268,7 @@ namespace AnitomySharp
         /// </summary>
         /// <param name="pos"></param>
         /// <returns></returns>
-        public bool IsTokenContainAnimeType(int pos)
+        public bool IsNextTokenContainAnimeType(int pos)
         {
             var prevToken = Token.FindPrevToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
             if (!IsTokenCategory(prevToken, Token.TokenCategory.Bracket)) return false;
