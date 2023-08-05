@@ -249,16 +249,16 @@ namespace AnitomySharp
         /// <summary>
         /// Returns whether or not a token at the current <c>pos</c> is isolated(surrounded by braces, delimiter).
         /// 
-        /// 判断当前位置标记(token)是否孤立，紧邻的前后是否被括号、分隔符包裹
+        /// 判断当前位置标记(token)是否孤立，前面是否为分隔符，后面是否为括号包裹
         /// </summary>
         /// <param name="pos"></param>
         /// <returns></returns>
-        public bool IsTokenIsolatedWithDelimiter(int pos)
+        public bool IsTokenIsolatedWithDelimiterAndBracket(int pos)
         {
             var prevToken = Token.FindPrevToken(_parser.Tokens, pos, Token.TokenFlag.FlagNone);
-            if (!(IsTokenCategory(prevToken, Token.TokenCategory.Delimiter) ||IsTokenCategory(prevToken, Token.TokenCategory.Bracket))) return false;
-            var nextToken = Token.FindNextToken(_parser.Tokens, pos, Token.TokenFlag.FlagNone);
-            return IsTokenCategory(nextToken, Token.TokenCategory.Delimiter)||IsTokenCategory(nextToken, Token.TokenCategory.Bracket);
+            if (!IsTokenCategory(prevToken, Token.TokenCategory.Delimiter)) return false;
+            var nextToken = Token.FindNextToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
+            return IsTokenCategory(nextToken, Token.TokenCategory.Bracket);
         }
 
         /// <summary>

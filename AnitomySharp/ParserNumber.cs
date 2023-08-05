@@ -728,6 +728,12 @@ namespace AnitomySharp
                         return true;
                     }
                 }
+                // e.g. OtherToken[Disc 01]
+                if (it > 1 &&  _parser.Tokens[it].Enclosed && _parser.ParseHelper.IsTokenIsolatedWithDelimiterAndBracket(it) && StringHelper.IsNumericString(_parser.Tokens[it].Content))
+                {
+                    SetEpisodeNumber(_parser.Tokens[it].Content, _parser.Tokens[it], true);
+                    return true;
+                }
             }
 
             return false;
@@ -821,11 +827,6 @@ namespace AnitomySharp
                     return true;
                 }
             }
-            // consider a better way to match, not sure this rule of episode is common
-            // sadly this rule will match year
-            // return tokens
-            //   .Where(it => _parser.Tokens[it].Enclosed && _parser.ParseHelper.IsTokenIsolatedWithDelimiter(it))
-            //   .Any(it => SetEpisodeNumber(_parser.Tokens[it].Content, _parser.Tokens[it], true));
 
             return false;
         }
