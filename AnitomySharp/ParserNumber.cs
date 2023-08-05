@@ -412,7 +412,7 @@ namespace AnitomySharp
             _parser.Tokens.Insert(foundIdx,
               new Token(options.Identifiable ? Token.TokenCategory.Identifier : Token.TokenCategory.Unknown, token.Enclosed, prefix));
 
-            return true;
+                return true;
 
         }
 
@@ -705,8 +705,11 @@ namespace AnitomySharp
         /// <returns></returns>
         public bool SearchForSymbolWithEpisode(List<int> tokens)
         {
-            foreach (var it in tokens)
+            // Match from back to front
+            for (int i = tokens.Count - 1; i >= 0; i--)
             {
+                var it = tokens[i];
+
                 // e.g. OVA 3, [Web Preview 06]: Web Preview in PeekEntries
                 if ((_parser.ParseHelper.IsPrevTokenContainAnimeType(it) || _parser.ParseHelper.IsPrevTokenContainAnimeTypeInPeekEntries(it)) && !_parser.ParseHelper.IsTokenIsolated(it))
                 {
@@ -729,7 +732,7 @@ namespace AnitomySharp
                     }
                 }
                 // e.g. OtherToken[Disc 01]
-                if (it > 1 &&  _parser.Tokens[it].Enclosed && _parser.ParseHelper.IsTokenIsolatedWithDelimiterAndBracket(it) && StringHelper.IsNumericString(_parser.Tokens[it].Content))
+                if (it > 1 && _parser.Tokens[it].Enclosed && _parser.ParseHelper.IsTokenIsolatedWithDelimiterAndBracket(it) && StringHelper.IsNumericString(_parser.Tokens[it].Content))
                 {
                     SetEpisodeNumber(_parser.Tokens[it].Content, _parser.Tokens[it], true);
                     return true;
@@ -743,7 +746,6 @@ namespace AnitomySharp
         /// Searches for equivalent number in a list of <c>tokens</c>. e.g. 08(114)
         /// 
         /// 匹配自带等效集数的数字，常见于分割放送
-        /// #TODO 添加等效集数中间间隔空格的情况，如：05 (41) 
         /// </summary>
         /// <param name="tokens">the list of tokens</param>
         /// <returns>true if an equivalent number was found</returns>
@@ -772,10 +774,7 @@ namespace AnitomySharp
                     continue;
                 }
 
-                var list = new List<Token>
-        {
-          _parser.Tokens[it], _parser.Tokens[nextToken]
-        };
+                var list = new List<Token> { _parser.Tokens[it], _parser.Tokens[nextToken] };
 
                 list.Sort((o1, o2) => StringHelper.StringToInt(o1.Content) - StringHelper.StringToInt(o2.Content));
                 SetEpisodeNumber(list[0].Content, list[0], false);
@@ -783,6 +782,50 @@ namespace AnitomySharp
                 return true;
             }
 
+            return false;
+        }
+        /// <summary>
+        /// Searches for equivalent number in a list of <c>tokens</c>. e.g. 08(114)
+        /// 
+        /// 匹配自带等效集数的数字，常见于分割放送，匹配括号包裹的数字
+        /// </summary>
+        /// <param name="tokens">the list of tokens</param>
+        /// <returns>true if an equivalent number was found</returns>
+        public bool SearchForEquivalentNumbersWithBracket(List<int> tokens)
+        {
+            foreach (var it in tokens)
+            {
+                // Find the first enclosed, non-delimiter token
+                var nextToken = Token.FindNextToken(_parser.Tokens, it, Token.TokenFlag.FlagNotDelimiter);
+                if (!Token.InListRange(nextToken, _parser.Tokens) || !(_parser.Tokens[it].Content.Contains("(") || _parser.Tokens[nextToken].Content.Contains(")")))
+                {
+                    continue;
+                }
+
+                // e.g. [13(341)]
+                if (it > 1 && _parser.Tokens[it].Enclosed && _parser.ParseHelper.IsTokenIsolated(it))
+                {
+                    string[] episodes = _parser.Tokens[it].Content.Split(new string[] { "(", ")" }, StringSplitOptions.RemoveEmptyEntries);
+                    if (StringHelper.IsNumericString(episodes[0]) && StringHelper.IsNumericString(episodes[1]))
+                    {
+                        SetEpisodeNumber(episodes[0], _parser.Tokens[it], false);
+                        SetAlternativeEpisodeNumber(episodes[1], _parser.Tokens[it]);
+                        return true;
+                    }
+                }
+
+                // e.g. [13 (341)]
+                if (it > 1 && _parser.Tokens[nextToken].Enclosed && _parser.ParseHelper.IsTokenIsolatedWithDelimiterAndBracket(nextToken))
+                {
+                    string episode = _parser.Tokens[nextToken].Content.Replace("(", "").Replace(")", "");
+                    if (StringHelper.IsNumericString(_parser.Tokens[it].Content) && StringHelper.IsNumericString(episode))
+                    {
+                        SetEpisodeNumber(_parser.Tokens[it].Content, _parser.Tokens[it], true);
+                        SetAlternativeEpisodeNumber(episode, _parser.Tokens[nextToken]);
+                        return true;
+                    }
+                }
+            }
             return false;
         }
 

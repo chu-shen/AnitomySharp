@@ -8,6 +8,22 @@
     }
   },
   {
+    "file_name": "[Gintama S4 Part2][01 (329)][BDRIP][1080P][H264_FLAC].mkv",
+    "id": 490,
+    "ignore": false,
+    "results": {
+      "ElementFileName": "[Gintama S4 Part2][01 (329)][BDRIP][1080P][H264_FLAC]",
+      "ElementEpisodeNumber": "01",
+      "ElementEpisodeNumberAlt":"329",
+      "ElementAudioTerm": "FLAC",
+      "ElementSource":"BDRIP",
+      "ElementVideoTerm":"H264",
+      "ElementVideoResolution":"1080P",
+      "ElementFileExtension":"mkv",
+      "ElementAnimeTitle": "Gintama S4 Part2"
+    }
+  },
+  {
     "file_name": "[Moozzi2] Dennou Coil - TV + SP",
     "id": 490,
     "ignore": false,
@@ -224,7 +240,7 @@
       "ElementFileName": "How.to.Train.Your.Dragon.2010.2160p.120FPS.SVFI.2.3.Blu-ray.x265.10bit.HDR.DTS-HD.MA.5.1-toothless",
       "ElementAnimeTitle": "How to Train Your Dragon",
       "ElementVideoResolution": "2160p",
-      "ElementEpisodeNumber": "2010",
+      "ElementAnimeYear": "2010",
       "ElementVideoTerm": [
         "120FPS",
         "x265",
@@ -429,7 +445,7 @@
       "ElementAudioTerm": "FLAC",
       "ElementVideoTerm": "AVC",
       "ElementVideoResolution": "1920x1080",
-      "ElementEpisodeNumber": "2010"
+      "ElementAnimeYear": "2010"
     }
   },
   {
