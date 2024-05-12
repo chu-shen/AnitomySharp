@@ -3283,5 +3283,14 @@
       ],
       "ElementVideoResolution": "720p"
     }
+  },
+  {
+    "file_name": "S03E09-Christmas [E5A9A7C6].mkv",
+    "results": {
+      "ElementAnimeTitle": "S03E09-Christmas",
+      "ElementFileChecksum": "E5A9A7C6",
+      "ElementFileExtension": "mkv",
+      "ElementFileName": "S03E09-Christmas [E5A9A7C6]"
+    }
   }
 ]
