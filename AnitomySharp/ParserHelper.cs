@@ -283,6 +283,7 @@ namespace AnitomySharp
         public bool IsPrevTokenContainAnimeType(int pos)
         {
             var prevToken = Token.FindPrevToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
+            if (prevToken < 0) return false;
             var nextToken = Token.FindNextToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
             if (!IsTokenCategory(nextToken, Token.TokenCategory.Bracket)) return false;
             return KeywordManager.Contains(Element.ElementCategory.ElementAnimeType, _parser.Tokens[prevToken].Content);
@@ -295,6 +296,7 @@ namespace AnitomySharp
         public bool IsPrevTokenContainAnimeTypeInPeekEntries(int pos)
         {
             var prevToken = Token.FindPrevToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
+            if (prevToken  < 0) return false;
             var nextToken = Token.FindNextToken(_parser.Tokens, pos, Token.TokenFlag.FlagNotDelimiter);
             if (!IsTokenCategory(nextToken, Token.TokenCategory.Bracket)) return false;
             return KeywordManager.ContainsInPeekEntries(Element.ElementCategory.ElementAnimeType, _parser.Tokens[prevToken].Content);
