@@ -1,0 +1,280 @@
+{
+  "source_base_path": "/home/runner/work/AnitomySharp/AnitomySharp/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.AnitomySharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.AnitomySharp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Element.ElementCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Element.ElementCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Element.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Element.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Keyword.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Keyword.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.KeywordManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.KeywordManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.KeywordOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.KeywordOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.ParserHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.ParserHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.ParserNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.ParserNumber.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.StringHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.StringHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Token.TokenCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Token.TokenCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Token.TokenFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Token.TokenFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.TokenRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.TokenRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.Tokenizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.Tokenizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharpTests.DataTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharpTests.DataTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharpTests.TestCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharpTests.TestCase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AnitomySharpTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AnitomySharpTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "articles/toc.json"
+        },
+        ".html": {
+          "relative_path": "articles/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

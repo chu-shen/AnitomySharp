@@ -1,0 +1,1785 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: AnitomySharp
+  name: AnitomySharp
+  href: api/AnitomySharp.html
+  commentId: N:AnitomySharp
+  fullName: AnitomySharp
+  nameWithType: AnitomySharp
+- uid: AnitomySharp.AnitomySharp
+  name: AnitomySharp
+  href: api/AnitomySharp.AnitomySharp.html
+  commentId: T:AnitomySharp.AnitomySharp
+  fullName: AnitomySharp.AnitomySharp
+  nameWithType: AnitomySharp
+- uid: AnitomySharp.AnitomySharp.Parse(System.String)
+  name: Parse(string)
+  href: api/AnitomySharp.AnitomySharp.html#AnitomySharp_AnitomySharp_Parse_System_String_
+  commentId: M:AnitomySharp.AnitomySharp.Parse(System.String)
+  name.vb: Parse(String)
+  fullName: AnitomySharp.AnitomySharp.Parse(string)
+  fullName.vb: AnitomySharp.AnitomySharp.Parse(String)
+  nameWithType: AnitomySharp.Parse(string)
+  nameWithType.vb: AnitomySharp.Parse(String)
+- uid: AnitomySharp.AnitomySharp.Parse(System.String,AnitomySharp.Options)
+  name: Parse(string, Options)
+  href: api/AnitomySharp.AnitomySharp.html#AnitomySharp_AnitomySharp_Parse_System_String_AnitomySharp_Options_
+  commentId: M:AnitomySharp.AnitomySharp.Parse(System.String,AnitomySharp.Options)
+  name.vb: Parse(String, Options)
+  fullName: AnitomySharp.AnitomySharp.Parse(string, AnitomySharp.Options)
+  fullName.vb: AnitomySharp.AnitomySharp.Parse(String, AnitomySharp.Options)
+  nameWithType: AnitomySharp.Parse(string, Options)
+  nameWithType.vb: AnitomySharp.Parse(String, Options)
+- uid: AnitomySharp.AnitomySharp.Parse*
+  name: Parse
+  href: api/AnitomySharp.AnitomySharp.html#AnitomySharp_AnitomySharp_Parse_
+  commentId: Overload:AnitomySharp.AnitomySharp.Parse
+  isSpec: "True"
+  fullName: AnitomySharp.AnitomySharp.Parse
+  nameWithType: AnitomySharp.Parse
+- uid: AnitomySharp.Element
+  name: Element
+  href: api/AnitomySharp.Element.html
+  commentId: T:AnitomySharp.Element
+  fullName: AnitomySharp.Element
+  nameWithType: Element
+- uid: AnitomySharp.Element.#ctor(AnitomySharp.Element.ElementCategory,System.String)
+  name: Element(ElementCategory, string)
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element__ctor_AnitomySharp_Element_ElementCategory_System_String_
+  commentId: M:AnitomySharp.Element.#ctor(AnitomySharp.Element.ElementCategory,System.String)
+  name.vb: New(ElementCategory, String)
+  fullName: AnitomySharp.Element.Element(AnitomySharp.Element.ElementCategory, string)
+  fullName.vb: AnitomySharp.Element.New(AnitomySharp.Element.ElementCategory, String)
+  nameWithType: Element.Element(Element.ElementCategory, string)
+  nameWithType.vb: Element.New(Element.ElementCategory, String)
+- uid: AnitomySharp.Element.#ctor*
+  name: Element
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element__ctor_
+  commentId: Overload:AnitomySharp.Element.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.Element.Element
+  fullName.vb: AnitomySharp.Element.New
+  nameWithType: Element.Element
+  nameWithType.vb: Element.New
+- uid: AnitomySharp.Element.Category
+  name: Category
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_Category
+  commentId: P:AnitomySharp.Element.Category
+  fullName: AnitomySharp.Element.Category
+  nameWithType: Element.Category
+- uid: AnitomySharp.Element.Category*
+  name: Category
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_Category_
+  commentId: Overload:AnitomySharp.Element.Category
+  isSpec: "True"
+  fullName: AnitomySharp.Element.Category
+  nameWithType: Element.Category
+- uid: AnitomySharp.Element.ElementCategory
+  name: Element.ElementCategory
+  href: api/AnitomySharp.Element.ElementCategory.html
+  commentId: T:AnitomySharp.Element.ElementCategory
+  fullName: AnitomySharp.Element.ElementCategory
+  nameWithType: Element.ElementCategory
+- uid: AnitomySharp.Element.ElementCategory.ElementAnimeSeason
+  name: ElementAnimeSeason
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementAnimeSeason
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementAnimeSeason
+  fullName: AnitomySharp.Element.ElementCategory.ElementAnimeSeason
+  nameWithType: Element.ElementCategory.ElementAnimeSeason
+- uid: AnitomySharp.Element.ElementCategory.ElementAnimeSeasonPrefix
+  name: ElementAnimeSeasonPrefix
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementAnimeSeasonPrefix
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementAnimeSeasonPrefix
+  fullName: AnitomySharp.Element.ElementCategory.ElementAnimeSeasonPrefix
+  nameWithType: Element.ElementCategory.ElementAnimeSeasonPrefix
+- uid: AnitomySharp.Element.ElementCategory.ElementAnimeTitle
+  name: ElementAnimeTitle
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementAnimeTitle
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementAnimeTitle
+  fullName: AnitomySharp.Element.ElementCategory.ElementAnimeTitle
+  nameWithType: Element.ElementCategory.ElementAnimeTitle
+- uid: AnitomySharp.Element.ElementCategory.ElementAnimeType
+  name: ElementAnimeType
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementAnimeType
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementAnimeType
+  fullName: AnitomySharp.Element.ElementCategory.ElementAnimeType
+  nameWithType: Element.ElementCategory.ElementAnimeType
+- uid: AnitomySharp.Element.ElementCategory.ElementAnimeYear
+  name: ElementAnimeYear
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementAnimeYear
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementAnimeYear
+  fullName: AnitomySharp.Element.ElementCategory.ElementAnimeYear
+  nameWithType: Element.ElementCategory.ElementAnimeYear
+- uid: AnitomySharp.Element.ElementCategory.ElementAudioTerm
+  name: ElementAudioTerm
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementAudioTerm
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementAudioTerm
+  fullName: AnitomySharp.Element.ElementCategory.ElementAudioTerm
+  nameWithType: Element.ElementCategory.ElementAudioTerm
+- uid: AnitomySharp.Element.ElementCategory.ElementDeviceCompatibility
+  name: ElementDeviceCompatibility
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementDeviceCompatibility
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementDeviceCompatibility
+  fullName: AnitomySharp.Element.ElementCategory.ElementDeviceCompatibility
+  nameWithType: Element.ElementCategory.ElementDeviceCompatibility
+- uid: AnitomySharp.Element.ElementCategory.ElementEpisodeNumber
+  name: ElementEpisodeNumber
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementEpisodeNumber
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementEpisodeNumber
+  fullName: AnitomySharp.Element.ElementCategory.ElementEpisodeNumber
+  nameWithType: Element.ElementCategory.ElementEpisodeNumber
+- uid: AnitomySharp.Element.ElementCategory.ElementEpisodeNumberAlt
+  name: ElementEpisodeNumberAlt
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementEpisodeNumberAlt
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementEpisodeNumberAlt
+  fullName: AnitomySharp.Element.ElementCategory.ElementEpisodeNumberAlt
+  nameWithType: Element.ElementCategory.ElementEpisodeNumberAlt
+- uid: AnitomySharp.Element.ElementCategory.ElementEpisodePrefix
+  name: ElementEpisodePrefix
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementEpisodePrefix
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementEpisodePrefix
+  fullName: AnitomySharp.Element.ElementCategory.ElementEpisodePrefix
+  nameWithType: Element.ElementCategory.ElementEpisodePrefix
+- uid: AnitomySharp.Element.ElementCategory.ElementEpisodeTitle
+  name: ElementEpisodeTitle
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementEpisodeTitle
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementEpisodeTitle
+  fullName: AnitomySharp.Element.ElementCategory.ElementEpisodeTitle
+  nameWithType: Element.ElementCategory.ElementEpisodeTitle
+- uid: AnitomySharp.Element.ElementCategory.ElementFileChecksum
+  name: ElementFileChecksum
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementFileChecksum
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementFileChecksum
+  fullName: AnitomySharp.Element.ElementCategory.ElementFileChecksum
+  nameWithType: Element.ElementCategory.ElementFileChecksum
+- uid: AnitomySharp.Element.ElementCategory.ElementFileExtension
+  name: ElementFileExtension
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementFileExtension
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementFileExtension
+  fullName: AnitomySharp.Element.ElementCategory.ElementFileExtension
+  nameWithType: Element.ElementCategory.ElementFileExtension
+- uid: AnitomySharp.Element.ElementCategory.ElementFileName
+  name: ElementFileName
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementFileName
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementFileName
+  fullName: AnitomySharp.Element.ElementCategory.ElementFileName
+  nameWithType: Element.ElementCategory.ElementFileName
+- uid: AnitomySharp.Element.ElementCategory.ElementLanguage
+  name: ElementLanguage
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementLanguage
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementLanguage
+  fullName: AnitomySharp.Element.ElementCategory.ElementLanguage
+  nameWithType: Element.ElementCategory.ElementLanguage
+- uid: AnitomySharp.Element.ElementCategory.ElementOther
+  name: ElementOther
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementOther
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementOther
+  fullName: AnitomySharp.Element.ElementCategory.ElementOther
+  nameWithType: Element.ElementCategory.ElementOther
+- uid: AnitomySharp.Element.ElementCategory.ElementReleaseGroup
+  name: ElementReleaseGroup
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementReleaseGroup
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementReleaseGroup
+  fullName: AnitomySharp.Element.ElementCategory.ElementReleaseGroup
+  nameWithType: Element.ElementCategory.ElementReleaseGroup
+- uid: AnitomySharp.Element.ElementCategory.ElementReleaseInformation
+  name: ElementReleaseInformation
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementReleaseInformation
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementReleaseInformation
+  fullName: AnitomySharp.Element.ElementCategory.ElementReleaseInformation
+  nameWithType: Element.ElementCategory.ElementReleaseInformation
+- uid: AnitomySharp.Element.ElementCategory.ElementReleaseVersion
+  name: ElementReleaseVersion
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementReleaseVersion
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementReleaseVersion
+  fullName: AnitomySharp.Element.ElementCategory.ElementReleaseVersion
+  nameWithType: Element.ElementCategory.ElementReleaseVersion
+- uid: AnitomySharp.Element.ElementCategory.ElementSource
+  name: ElementSource
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementSource
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementSource
+  fullName: AnitomySharp.Element.ElementCategory.ElementSource
+  nameWithType: Element.ElementCategory.ElementSource
+- uid: AnitomySharp.Element.ElementCategory.ElementSubtitles
+  name: ElementSubtitles
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementSubtitles
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementSubtitles
+  fullName: AnitomySharp.Element.ElementCategory.ElementSubtitles
+  nameWithType: Element.ElementCategory.ElementSubtitles
+- uid: AnitomySharp.Element.ElementCategory.ElementUnknown
+  name: ElementUnknown
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementUnknown
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementUnknown
+  fullName: AnitomySharp.Element.ElementCategory.ElementUnknown
+  nameWithType: Element.ElementCategory.ElementUnknown
+- uid: AnitomySharp.Element.ElementCategory.ElementVideoResolution
+  name: ElementVideoResolution
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementVideoResolution
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementVideoResolution
+  fullName: AnitomySharp.Element.ElementCategory.ElementVideoResolution
+  nameWithType: Element.ElementCategory.ElementVideoResolution
+- uid: AnitomySharp.Element.ElementCategory.ElementVideoTerm
+  name: ElementVideoTerm
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementVideoTerm
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementVideoTerm
+  fullName: AnitomySharp.Element.ElementCategory.ElementVideoTerm
+  nameWithType: Element.ElementCategory.ElementVideoTerm
+- uid: AnitomySharp.Element.ElementCategory.ElementVolumeNumber
+  name: ElementVolumeNumber
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementVolumeNumber
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementVolumeNumber
+  fullName: AnitomySharp.Element.ElementCategory.ElementVolumeNumber
+  nameWithType: Element.ElementCategory.ElementVolumeNumber
+- uid: AnitomySharp.Element.ElementCategory.ElementVolumePrefix
+  name: ElementVolumePrefix
+  href: api/AnitomySharp.Element.ElementCategory.html#AnitomySharp_Element_ElementCategory_ElementVolumePrefix
+  commentId: F:AnitomySharp.Element.ElementCategory.ElementVolumePrefix
+  fullName: AnitomySharp.Element.ElementCategory.ElementVolumePrefix
+  nameWithType: Element.ElementCategory.ElementVolumePrefix
+- uid: AnitomySharp.Element.Equals(System.Object)
+  name: Equals(object)
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_Equals_System_Object_
+  commentId: M:AnitomySharp.Element.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: AnitomySharp.Element.Equals(object)
+  fullName.vb: AnitomySharp.Element.Equals(Object)
+  nameWithType: Element.Equals(object)
+  nameWithType.vb: Element.Equals(Object)
+- uid: AnitomySharp.Element.Equals*
+  name: Equals
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_Equals_
+  commentId: Overload:AnitomySharp.Element.Equals
+  isSpec: "True"
+  fullName: AnitomySharp.Element.Equals
+  nameWithType: Element.Equals
+- uid: AnitomySharp.Element.GetHashCode
+  name: GetHashCode()
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_GetHashCode
+  commentId: M:AnitomySharp.Element.GetHashCode
+  fullName: AnitomySharp.Element.GetHashCode()
+  nameWithType: Element.GetHashCode()
+- uid: AnitomySharp.Element.GetHashCode*
+  name: GetHashCode
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_GetHashCode_
+  commentId: Overload:AnitomySharp.Element.GetHashCode
+  isSpec: "True"
+  fullName: AnitomySharp.Element.GetHashCode
+  nameWithType: Element.GetHashCode
+- uid: AnitomySharp.Element.ToString
+  name: ToString()
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_ToString
+  commentId: M:AnitomySharp.Element.ToString
+  fullName: AnitomySharp.Element.ToString()
+  nameWithType: Element.ToString()
+- uid: AnitomySharp.Element.ToString*
+  name: ToString
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_ToString_
+  commentId: Overload:AnitomySharp.Element.ToString
+  isSpec: "True"
+  fullName: AnitomySharp.Element.ToString
+  nameWithType: Element.ToString
+- uid: AnitomySharp.Element.Value
+  name: Value
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_Value
+  commentId: P:AnitomySharp.Element.Value
+  fullName: AnitomySharp.Element.Value
+  nameWithType: Element.Value
+- uid: AnitomySharp.Element.Value*
+  name: Value
+  href: api/AnitomySharp.Element.html#AnitomySharp_Element_Value_
+  commentId: Overload:AnitomySharp.Element.Value
+  isSpec: "True"
+  fullName: AnitomySharp.Element.Value
+  nameWithType: Element.Value
+- uid: AnitomySharp.Keyword
+  name: Keyword
+  href: api/AnitomySharp.Keyword.html
+  commentId: T:AnitomySharp.Keyword
+  fullName: AnitomySharp.Keyword
+  nameWithType: Keyword
+- uid: AnitomySharp.Keyword.#ctor(AnitomySharp.Element.ElementCategory,AnitomySharp.KeywordOptions)
+  name: Keyword(ElementCategory, KeywordOptions)
+  href: api/AnitomySharp.Keyword.html#AnitomySharp_Keyword__ctor_AnitomySharp_Element_ElementCategory_AnitomySharp_KeywordOptions_
+  commentId: M:AnitomySharp.Keyword.#ctor(AnitomySharp.Element.ElementCategory,AnitomySharp.KeywordOptions)
+  name.vb: New(ElementCategory, KeywordOptions)
+  fullName: AnitomySharp.Keyword.Keyword(AnitomySharp.Element.ElementCategory, AnitomySharp.KeywordOptions)
+  fullName.vb: AnitomySharp.Keyword.New(AnitomySharp.Element.ElementCategory, AnitomySharp.KeywordOptions)
+  nameWithType: Keyword.Keyword(Element.ElementCategory, KeywordOptions)
+  nameWithType.vb: Keyword.New(Element.ElementCategory, KeywordOptions)
+- uid: AnitomySharp.Keyword.#ctor*
+  name: Keyword
+  href: api/AnitomySharp.Keyword.html#AnitomySharp_Keyword__ctor_
+  commentId: Overload:AnitomySharp.Keyword.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.Keyword.Keyword
+  fullName.vb: AnitomySharp.Keyword.New
+  nameWithType: Keyword.Keyword
+  nameWithType.vb: Keyword.New
+- uid: AnitomySharp.Keyword.Category
+  name: Category
+  href: api/AnitomySharp.Keyword.html#AnitomySharp_Keyword_Category
+  commentId: F:AnitomySharp.Keyword.Category
+  fullName: AnitomySharp.Keyword.Category
+  nameWithType: Keyword.Category
+- uid: AnitomySharp.Keyword.Options
+  name: Options
+  href: api/AnitomySharp.Keyword.html#AnitomySharp_Keyword_Options
+  commentId: F:AnitomySharp.Keyword.Options
+  fullName: AnitomySharp.Keyword.Options
+  nameWithType: Keyword.Options
+- uid: AnitomySharp.KeywordManager
+  name: KeywordManager
+  href: api/AnitomySharp.KeywordManager.html
+  commentId: T:AnitomySharp.KeywordManager
+  fullName: AnitomySharp.KeywordManager
+  nameWithType: KeywordManager
+- uid: AnitomySharp.KeywordManager.Contains(AnitomySharp.Element.ElementCategory,System.String)
+  name: Contains(ElementCategory, string)
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_Contains_AnitomySharp_Element_ElementCategory_System_String_
+  commentId: M:AnitomySharp.KeywordManager.Contains(AnitomySharp.Element.ElementCategory,System.String)
+  name.vb: Contains(ElementCategory, String)
+  fullName: AnitomySharp.KeywordManager.Contains(AnitomySharp.Element.ElementCategory, string)
+  fullName.vb: AnitomySharp.KeywordManager.Contains(AnitomySharp.Element.ElementCategory, String)
+  nameWithType: KeywordManager.Contains(Element.ElementCategory, string)
+  nameWithType.vb: KeywordManager.Contains(Element.ElementCategory, String)
+- uid: AnitomySharp.KeywordManager.Contains*
+  name: Contains
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_Contains_
+  commentId: Overload:AnitomySharp.KeywordManager.Contains
+  isSpec: "True"
+  fullName: AnitomySharp.KeywordManager.Contains
+  nameWithType: KeywordManager.Contains
+- uid: AnitomySharp.KeywordManager.ContainsInPeekEntries(AnitomySharp.Element.ElementCategory,System.String)
+  name: ContainsInPeekEntries(ElementCategory, string)
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_ContainsInPeekEntries_AnitomySharp_Element_ElementCategory_System_String_
+  commentId: M:AnitomySharp.KeywordManager.ContainsInPeekEntries(AnitomySharp.Element.ElementCategory,System.String)
+  name.vb: ContainsInPeekEntries(ElementCategory, String)
+  fullName: AnitomySharp.KeywordManager.ContainsInPeekEntries(AnitomySharp.Element.ElementCategory, string)
+  fullName.vb: AnitomySharp.KeywordManager.ContainsInPeekEntries(AnitomySharp.Element.ElementCategory, String)
+  nameWithType: KeywordManager.ContainsInPeekEntries(Element.ElementCategory, string)
+  nameWithType.vb: KeywordManager.ContainsInPeekEntries(Element.ElementCategory, String)
+- uid: AnitomySharp.KeywordManager.ContainsInPeekEntries*
+  name: ContainsInPeekEntries
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_ContainsInPeekEntries_
+  commentId: Overload:AnitomySharp.KeywordManager.ContainsInPeekEntries
+  isSpec: "True"
+  fullName: AnitomySharp.KeywordManager.ContainsInPeekEntries
+  nameWithType: KeywordManager.ContainsInPeekEntries
+- uid: AnitomySharp.KeywordManager.FindAndSet(System.String,AnitomySharp.Element.ElementCategory@,AnitomySharp.KeywordOptions@)
+  name: FindAndSet(string, ref ElementCategory, ref KeywordOptions)
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_FindAndSet_System_String_AnitomySharp_Element_ElementCategory__AnitomySharp_KeywordOptions__
+  commentId: M:AnitomySharp.KeywordManager.FindAndSet(System.String,AnitomySharp.Element.ElementCategory@,AnitomySharp.KeywordOptions@)
+  name.vb: FindAndSet(String, ElementCategory, KeywordOptions)
+  fullName: AnitomySharp.KeywordManager.FindAndSet(string, ref AnitomySharp.Element.ElementCategory, ref AnitomySharp.KeywordOptions)
+  fullName.vb: AnitomySharp.KeywordManager.FindAndSet(String, AnitomySharp.Element.ElementCategory, AnitomySharp.KeywordOptions)
+  nameWithType: KeywordManager.FindAndSet(string, ref Element.ElementCategory, ref KeywordOptions)
+  nameWithType.vb: KeywordManager.FindAndSet(String, Element.ElementCategory, KeywordOptions)
+- uid: AnitomySharp.KeywordManager.FindAndSet*
+  name: FindAndSet
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_FindAndSet_
+  commentId: Overload:AnitomySharp.KeywordManager.FindAndSet
+  isSpec: "True"
+  fullName: AnitomySharp.KeywordManager.FindAndSet
+  nameWithType: KeywordManager.FindAndSet
+- uid: AnitomySharp.KeywordManager.Normalize(System.String)
+  name: Normalize(string)
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_Normalize_System_String_
+  commentId: M:AnitomySharp.KeywordManager.Normalize(System.String)
+  name.vb: Normalize(String)
+  fullName: AnitomySharp.KeywordManager.Normalize(string)
+  fullName.vb: AnitomySharp.KeywordManager.Normalize(String)
+  nameWithType: KeywordManager.Normalize(string)
+  nameWithType.vb: KeywordManager.Normalize(String)
+- uid: AnitomySharp.KeywordManager.Normalize*
+  name: Normalize
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_Normalize_
+  commentId: Overload:AnitomySharp.KeywordManager.Normalize
+  isSpec: "True"
+  fullName: AnitomySharp.KeywordManager.Normalize
+  nameWithType: KeywordManager.Normalize
+- uid: AnitomySharp.KeywordManager.PeekAndAdd(System.String,AnitomySharp.TokenRange,System.Collections.Generic.List{AnitomySharp.Element},System.Collections.Generic.List{AnitomySharp.TokenRange})
+  name: PeekAndAdd(string, TokenRange, List<Element>, List<TokenRange>)
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_PeekAndAdd_System_String_AnitomySharp_TokenRange_System_Collections_Generic_List_AnitomySharp_Element__System_Collections_Generic_List_AnitomySharp_TokenRange__
+  commentId: M:AnitomySharp.KeywordManager.PeekAndAdd(System.String,AnitomySharp.TokenRange,System.Collections.Generic.List{AnitomySharp.Element},System.Collections.Generic.List{AnitomySharp.TokenRange})
+  name.vb: PeekAndAdd(String, TokenRange, List(Of Element), List(Of TokenRange))
+  fullName: AnitomySharp.KeywordManager.PeekAndAdd(string, AnitomySharp.TokenRange, System.Collections.Generic.List<AnitomySharp.Element>, System.Collections.Generic.List<AnitomySharp.TokenRange>)
+  fullName.vb: AnitomySharp.KeywordManager.PeekAndAdd(String, AnitomySharp.TokenRange, System.Collections.Generic.List(Of AnitomySharp.Element), System.Collections.Generic.List(Of AnitomySharp.TokenRange))
+  nameWithType: KeywordManager.PeekAndAdd(string, TokenRange, List<Element>, List<TokenRange>)
+  nameWithType.vb: KeywordManager.PeekAndAdd(String, TokenRange, List(Of Element), List(Of TokenRange))
+- uid: AnitomySharp.KeywordManager.PeekAndAdd*
+  name: PeekAndAdd
+  href: api/AnitomySharp.KeywordManager.html#AnitomySharp_KeywordManager_PeekAndAdd_
+  commentId: Overload:AnitomySharp.KeywordManager.PeekAndAdd
+  isSpec: "True"
+  fullName: AnitomySharp.KeywordManager.PeekAndAdd
+  nameWithType: KeywordManager.PeekAndAdd
+- uid: AnitomySharp.KeywordOptions
+  name: KeywordOptions
+  href: api/AnitomySharp.KeywordOptions.html
+  commentId: T:AnitomySharp.KeywordOptions
+  fullName: AnitomySharp.KeywordOptions
+  nameWithType: KeywordOptions
+- uid: AnitomySharp.KeywordOptions.#ctor
+  name: KeywordOptions()
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions__ctor
+  commentId: M:AnitomySharp.KeywordOptions.#ctor
+  name.vb: New()
+  fullName: AnitomySharp.KeywordOptions.KeywordOptions()
+  fullName.vb: AnitomySharp.KeywordOptions.New()
+  nameWithType: KeywordOptions.KeywordOptions()
+  nameWithType.vb: KeywordOptions.New()
+- uid: AnitomySharp.KeywordOptions.#ctor(System.Boolean,System.Boolean,System.Boolean)
+  name: KeywordOptions(bool, bool, bool)
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions__ctor_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:AnitomySharp.KeywordOptions.#ctor(System.Boolean,System.Boolean,System.Boolean)
+  name.vb: New(Boolean, Boolean, Boolean)
+  fullName: AnitomySharp.KeywordOptions.KeywordOptions(bool, bool, bool)
+  fullName.vb: AnitomySharp.KeywordOptions.New(Boolean, Boolean, Boolean)
+  nameWithType: KeywordOptions.KeywordOptions(bool, bool, bool)
+  nameWithType.vb: KeywordOptions.New(Boolean, Boolean, Boolean)
+- uid: AnitomySharp.KeywordOptions.#ctor*
+  name: KeywordOptions
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions__ctor_
+  commentId: Overload:AnitomySharp.KeywordOptions.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.KeywordOptions.KeywordOptions
+  fullName.vb: AnitomySharp.KeywordOptions.New
+  nameWithType: KeywordOptions.KeywordOptions
+  nameWithType.vb: KeywordOptions.New
+- uid: AnitomySharp.KeywordOptions.Identifiable
+  name: Identifiable
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions_Identifiable
+  commentId: P:AnitomySharp.KeywordOptions.Identifiable
+  fullName: AnitomySharp.KeywordOptions.Identifiable
+  nameWithType: KeywordOptions.Identifiable
+- uid: AnitomySharp.KeywordOptions.Identifiable*
+  name: Identifiable
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions_Identifiable_
+  commentId: Overload:AnitomySharp.KeywordOptions.Identifiable
+  isSpec: "True"
+  fullName: AnitomySharp.KeywordOptions.Identifiable
+  nameWithType: KeywordOptions.Identifiable
+- uid: AnitomySharp.KeywordOptions.Searchable
+  name: Searchable
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions_Searchable
+  commentId: P:AnitomySharp.KeywordOptions.Searchable
+  fullName: AnitomySharp.KeywordOptions.Searchable
+  nameWithType: KeywordOptions.Searchable
+- uid: AnitomySharp.KeywordOptions.Searchable*
+  name: Searchable
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions_Searchable_
+  commentId: Overload:AnitomySharp.KeywordOptions.Searchable
+  isSpec: "True"
+  fullName: AnitomySharp.KeywordOptions.Searchable
+  nameWithType: KeywordOptions.Searchable
+- uid: AnitomySharp.KeywordOptions.Valid
+  name: Valid
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions_Valid
+  commentId: P:AnitomySharp.KeywordOptions.Valid
+  fullName: AnitomySharp.KeywordOptions.Valid
+  nameWithType: KeywordOptions.Valid
+- uid: AnitomySharp.KeywordOptions.Valid*
+  name: Valid
+  href: api/AnitomySharp.KeywordOptions.html#AnitomySharp_KeywordOptions_Valid_
+  commentId: Overload:AnitomySharp.KeywordOptions.Valid
+  isSpec: "True"
+  fullName: AnitomySharp.KeywordOptions.Valid
+  nameWithType: KeywordOptions.Valid
+- uid: AnitomySharp.Options
+  name: Options
+  href: api/AnitomySharp.Options.html
+  commentId: T:AnitomySharp.Options
+  fullName: AnitomySharp.Options
+  nameWithType: Options
+- uid: AnitomySharp.Options.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Options(string, bool, bool, bool, bool)
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options__ctor_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:AnitomySharp.Options.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: New(String, Boolean, Boolean, Boolean, Boolean)
+  fullName: AnitomySharp.Options.Options(string, bool, bool, bool, bool)
+  fullName.vb: AnitomySharp.Options.New(String, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: Options.Options(string, bool, bool, bool, bool)
+  nameWithType.vb: Options.New(String, Boolean, Boolean, Boolean, Boolean)
+- uid: AnitomySharp.Options.#ctor*
+  name: Options
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options__ctor_
+  commentId: Overload:AnitomySharp.Options.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.Options.Options
+  fullName.vb: AnitomySharp.Options.New
+  nameWithType: Options.Options
+  nameWithType.vb: Options.New
+- uid: AnitomySharp.Options.AllowedDelimiters
+  name: AllowedDelimiters
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_AllowedDelimiters
+  commentId: P:AnitomySharp.Options.AllowedDelimiters
+  fullName: AnitomySharp.Options.AllowedDelimiters
+  nameWithType: Options.AllowedDelimiters
+- uid: AnitomySharp.Options.AllowedDelimiters*
+  name: AllowedDelimiters
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_AllowedDelimiters_
+  commentId: Overload:AnitomySharp.Options.AllowedDelimiters
+  isSpec: "True"
+  fullName: AnitomySharp.Options.AllowedDelimiters
+  nameWithType: Options.AllowedDelimiters
+- uid: AnitomySharp.Options.ParseEpisodeNumber
+  name: ParseEpisodeNumber
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_ParseEpisodeNumber
+  commentId: P:AnitomySharp.Options.ParseEpisodeNumber
+  fullName: AnitomySharp.Options.ParseEpisodeNumber
+  nameWithType: Options.ParseEpisodeNumber
+- uid: AnitomySharp.Options.ParseEpisodeNumber*
+  name: ParseEpisodeNumber
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_ParseEpisodeNumber_
+  commentId: Overload:AnitomySharp.Options.ParseEpisodeNumber
+  isSpec: "True"
+  fullName: AnitomySharp.Options.ParseEpisodeNumber
+  nameWithType: Options.ParseEpisodeNumber
+- uid: AnitomySharp.Options.ParseEpisodeTitle
+  name: ParseEpisodeTitle
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_ParseEpisodeTitle
+  commentId: P:AnitomySharp.Options.ParseEpisodeTitle
+  fullName: AnitomySharp.Options.ParseEpisodeTitle
+  nameWithType: Options.ParseEpisodeTitle
+- uid: AnitomySharp.Options.ParseEpisodeTitle*
+  name: ParseEpisodeTitle
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_ParseEpisodeTitle_
+  commentId: Overload:AnitomySharp.Options.ParseEpisodeTitle
+  isSpec: "True"
+  fullName: AnitomySharp.Options.ParseEpisodeTitle
+  nameWithType: Options.ParseEpisodeTitle
+- uid: AnitomySharp.Options.ParseFileExtension
+  name: ParseFileExtension
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_ParseFileExtension
+  commentId: P:AnitomySharp.Options.ParseFileExtension
+  fullName: AnitomySharp.Options.ParseFileExtension
+  nameWithType: Options.ParseFileExtension
+- uid: AnitomySharp.Options.ParseFileExtension*
+  name: ParseFileExtension
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_ParseFileExtension_
+  commentId: Overload:AnitomySharp.Options.ParseFileExtension
+  isSpec: "True"
+  fullName: AnitomySharp.Options.ParseFileExtension
+  nameWithType: Options.ParseFileExtension
+- uid: AnitomySharp.Options.ParseReleaseGroup
+  name: ParseReleaseGroup
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_ParseReleaseGroup
+  commentId: P:AnitomySharp.Options.ParseReleaseGroup
+  fullName: AnitomySharp.Options.ParseReleaseGroup
+  nameWithType: Options.ParseReleaseGroup
+- uid: AnitomySharp.Options.ParseReleaseGroup*
+  name: ParseReleaseGroup
+  href: api/AnitomySharp.Options.html#AnitomySharp_Options_ParseReleaseGroup_
+  commentId: Overload:AnitomySharp.Options.ParseReleaseGroup
+  isSpec: "True"
+  fullName: AnitomySharp.Options.ParseReleaseGroup
+  nameWithType: Options.ParseReleaseGroup
+- uid: AnitomySharp.Parser
+  name: Parser
+  href: api/AnitomySharp.Parser.html
+  commentId: T:AnitomySharp.Parser
+  fullName: AnitomySharp.Parser
+  nameWithType: Parser
+- uid: AnitomySharp.Parser.#ctor(System.Collections.Generic.List{AnitomySharp.Element},AnitomySharp.Options,System.Collections.Generic.List{AnitomySharp.Token})
+  name: Parser(List<Element>, Options, List<Token>)
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser__ctor_System_Collections_Generic_List_AnitomySharp_Element__AnitomySharp_Options_System_Collections_Generic_List_AnitomySharp_Token__
+  commentId: M:AnitomySharp.Parser.#ctor(System.Collections.Generic.List{AnitomySharp.Element},AnitomySharp.Options,System.Collections.Generic.List{AnitomySharp.Token})
+  name.vb: New(List(Of Element), Options, List(Of Token))
+  fullName: AnitomySharp.Parser.Parser(System.Collections.Generic.List<AnitomySharp.Element>, AnitomySharp.Options, System.Collections.Generic.List<AnitomySharp.Token>)
+  fullName.vb: AnitomySharp.Parser.New(System.Collections.Generic.List(Of AnitomySharp.Element), AnitomySharp.Options, System.Collections.Generic.List(Of AnitomySharp.Token))
+  nameWithType: Parser.Parser(List<Element>, Options, List<Token>)
+  nameWithType.vb: Parser.New(List(Of Element), Options, List(Of Token))
+- uid: AnitomySharp.Parser.#ctor*
+  name: Parser
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser__ctor_
+  commentId: Overload:AnitomySharp.Parser.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.Parser.Parser
+  fullName.vb: AnitomySharp.Parser.New
+  nameWithType: Parser.Parser
+  nameWithType.vb: Parser.New
+- uid: AnitomySharp.Parser.Elements
+  name: Elements
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_Elements
+  commentId: P:AnitomySharp.Parser.Elements
+  fullName: AnitomySharp.Parser.Elements
+  nameWithType: Parser.Elements
+- uid: AnitomySharp.Parser.Elements*
+  name: Elements
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_Elements_
+  commentId: Overload:AnitomySharp.Parser.Elements
+  isSpec: "True"
+  fullName: AnitomySharp.Parser.Elements
+  nameWithType: Parser.Elements
+- uid: AnitomySharp.Parser.IsEpisodeKeywordsFound
+  name: IsEpisodeKeywordsFound
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_IsEpisodeKeywordsFound
+  commentId: P:AnitomySharp.Parser.IsEpisodeKeywordsFound
+  fullName: AnitomySharp.Parser.IsEpisodeKeywordsFound
+  nameWithType: Parser.IsEpisodeKeywordsFound
+- uid: AnitomySharp.Parser.IsEpisodeKeywordsFound*
+  name: IsEpisodeKeywordsFound
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_IsEpisodeKeywordsFound_
+  commentId: Overload:AnitomySharp.Parser.IsEpisodeKeywordsFound
+  isSpec: "True"
+  fullName: AnitomySharp.Parser.IsEpisodeKeywordsFound
+  nameWithType: Parser.IsEpisodeKeywordsFound
+- uid: AnitomySharp.Parser.Parse
+  name: Parse()
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_Parse
+  commentId: M:AnitomySharp.Parser.Parse
+  fullName: AnitomySharp.Parser.Parse()
+  nameWithType: Parser.Parse()
+- uid: AnitomySharp.Parser.Parse*
+  name: Parse
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_Parse_
+  commentId: Overload:AnitomySharp.Parser.Parse
+  isSpec: "True"
+  fullName: AnitomySharp.Parser.Parse
+  nameWithType: Parser.Parse
+- uid: AnitomySharp.Parser.ParseHelper
+  name: ParseHelper
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_ParseHelper
+  commentId: P:AnitomySharp.Parser.ParseHelper
+  fullName: AnitomySharp.Parser.ParseHelper
+  nameWithType: Parser.ParseHelper
+- uid: AnitomySharp.Parser.ParseHelper*
+  name: ParseHelper
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_ParseHelper_
+  commentId: Overload:AnitomySharp.Parser.ParseHelper
+  isSpec: "True"
+  fullName: AnitomySharp.Parser.ParseHelper
+  nameWithType: Parser.ParseHelper
+- uid: AnitomySharp.Parser.ParseNumber
+  name: ParseNumber
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_ParseNumber
+  commentId: P:AnitomySharp.Parser.ParseNumber
+  fullName: AnitomySharp.Parser.ParseNumber
+  nameWithType: Parser.ParseNumber
+- uid: AnitomySharp.Parser.ParseNumber*
+  name: ParseNumber
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_ParseNumber_
+  commentId: Overload:AnitomySharp.Parser.ParseNumber
+  isSpec: "True"
+  fullName: AnitomySharp.Parser.ParseNumber
+  nameWithType: Parser.ParseNumber
+- uid: AnitomySharp.Parser.Tokens
+  name: Tokens
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_Tokens
+  commentId: P:AnitomySharp.Parser.Tokens
+  fullName: AnitomySharp.Parser.Tokens
+  nameWithType: Parser.Tokens
+- uid: AnitomySharp.Parser.Tokens*
+  name: Tokens
+  href: api/AnitomySharp.Parser.html#AnitomySharp_Parser_Tokens_
+  commentId: Overload:AnitomySharp.Parser.Tokens
+  isSpec: "True"
+  fullName: AnitomySharp.Parser.Tokens
+  nameWithType: Parser.Tokens
+- uid: AnitomySharp.ParserHelper
+  name: ParserHelper
+  href: api/AnitomySharp.ParserHelper.html
+  commentId: T:AnitomySharp.ParserHelper
+  fullName: AnitomySharp.ParserHelper
+  nameWithType: ParserHelper
+- uid: AnitomySharp.ParserHelper.#ctor(AnitomySharp.Parser)
+  name: ParserHelper(Parser)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper__ctor_AnitomySharp_Parser_
+  commentId: M:AnitomySharp.ParserHelper.#ctor(AnitomySharp.Parser)
+  name.vb: New(Parser)
+  fullName: AnitomySharp.ParserHelper.ParserHelper(AnitomySharp.Parser)
+  fullName.vb: AnitomySharp.ParserHelper.New(AnitomySharp.Parser)
+  nameWithType: ParserHelper.ParserHelper(Parser)
+  nameWithType.vb: ParserHelper.New(Parser)
+- uid: AnitomySharp.ParserHelper.#ctor*
+  name: ParserHelper
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper__ctor_
+  commentId: Overload:AnitomySharp.ParserHelper.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.ParserHelper.ParserHelper
+  fullName.vb: AnitomySharp.ParserHelper.New
+  nameWithType: ParserHelper.ParserHelper
+  nameWithType.vb: ParserHelper.New
+- uid: AnitomySharp.ParserHelper.BuildElement(AnitomySharp.Element.ElementCategory,System.Boolean,System.Collections.Generic.List{AnitomySharp.Token})
+  name: BuildElement(ElementCategory, bool, List<Token>)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_BuildElement_AnitomySharp_Element_ElementCategory_System_Boolean_System_Collections_Generic_List_AnitomySharp_Token__
+  commentId: M:AnitomySharp.ParserHelper.BuildElement(AnitomySharp.Element.ElementCategory,System.Boolean,System.Collections.Generic.List{AnitomySharp.Token})
+  name.vb: BuildElement(ElementCategory, Boolean, List(Of Token))
+  fullName: AnitomySharp.ParserHelper.BuildElement(AnitomySharp.Element.ElementCategory, bool, System.Collections.Generic.List<AnitomySharp.Token>)
+  fullName.vb: AnitomySharp.ParserHelper.BuildElement(AnitomySharp.Element.ElementCategory, Boolean, System.Collections.Generic.List(Of AnitomySharp.Token))
+  nameWithType: ParserHelper.BuildElement(Element.ElementCategory, bool, List<Token>)
+  nameWithType.vb: ParserHelper.BuildElement(Element.ElementCategory, Boolean, List(Of Token))
+- uid: AnitomySharp.ParserHelper.BuildElement*
+  name: BuildElement
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_BuildElement_
+  commentId: Overload:AnitomySharp.ParserHelper.BuildElement
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.BuildElement
+  nameWithType: ParserHelper.BuildElement
+- uid: AnitomySharp.ParserHelper.CheckAndSetAnimeSeasonKeyword(AnitomySharp.Token,System.Int32)
+  name: CheckAndSetAnimeSeasonKeyword(Token, int)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_CheckAndSetAnimeSeasonKeyword_AnitomySharp_Token_System_Int32_
+  commentId: M:AnitomySharp.ParserHelper.CheckAndSetAnimeSeasonKeyword(AnitomySharp.Token,System.Int32)
+  name.vb: CheckAndSetAnimeSeasonKeyword(Token, Integer)
+  fullName: AnitomySharp.ParserHelper.CheckAndSetAnimeSeasonKeyword(AnitomySharp.Token, int)
+  fullName.vb: AnitomySharp.ParserHelper.CheckAndSetAnimeSeasonKeyword(AnitomySharp.Token, Integer)
+  nameWithType: ParserHelper.CheckAndSetAnimeSeasonKeyword(Token, int)
+  nameWithType.vb: ParserHelper.CheckAndSetAnimeSeasonKeyword(Token, Integer)
+- uid: AnitomySharp.ParserHelper.CheckAndSetAnimeSeasonKeyword*
+  name: CheckAndSetAnimeSeasonKeyword
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_CheckAndSetAnimeSeasonKeyword_
+  commentId: Overload:AnitomySharp.ParserHelper.CheckAndSetAnimeSeasonKeyword
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.CheckAndSetAnimeSeasonKeyword
+  nameWithType: ParserHelper.CheckAndSetAnimeSeasonKeyword
+- uid: AnitomySharp.ParserHelper.CheckExtentKeyword(AnitomySharp.Element.ElementCategory,System.Int32,AnitomySharp.Token)
+  name: CheckExtentKeyword(ElementCategory, int, Token)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_CheckExtentKeyword_AnitomySharp_Element_ElementCategory_System_Int32_AnitomySharp_Token_
+  commentId: M:AnitomySharp.ParserHelper.CheckExtentKeyword(AnitomySharp.Element.ElementCategory,System.Int32,AnitomySharp.Token)
+  name.vb: CheckExtentKeyword(ElementCategory, Integer, Token)
+  fullName: AnitomySharp.ParserHelper.CheckExtentKeyword(AnitomySharp.Element.ElementCategory, int, AnitomySharp.Token)
+  fullName.vb: AnitomySharp.ParserHelper.CheckExtentKeyword(AnitomySharp.Element.ElementCategory, Integer, AnitomySharp.Token)
+  nameWithType: ParserHelper.CheckExtentKeyword(Element.ElementCategory, int, Token)
+  nameWithType.vb: ParserHelper.CheckExtentKeyword(Element.ElementCategory, Integer, Token)
+- uid: AnitomySharp.ParserHelper.CheckExtentKeyword*
+  name: CheckExtentKeyword
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_CheckExtentKeyword_
+  commentId: Overload:AnitomySharp.ParserHelper.CheckExtentKeyword
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.CheckExtentKeyword
+  nameWithType: ParserHelper.CheckExtentKeyword
+- uid: AnitomySharp.ParserHelper.GetNumberFromFullWidth(System.String)
+  name: GetNumberFromFullWidth(string)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_GetNumberFromFullWidth_System_String_
+  commentId: M:AnitomySharp.ParserHelper.GetNumberFromFullWidth(System.String)
+  name.vb: GetNumberFromFullWidth(String)
+  fullName: AnitomySharp.ParserHelper.GetNumberFromFullWidth(string)
+  fullName.vb: AnitomySharp.ParserHelper.GetNumberFromFullWidth(String)
+  nameWithType: ParserHelper.GetNumberFromFullWidth(string)
+  nameWithType.vb: ParserHelper.GetNumberFromFullWidth(String)
+- uid: AnitomySharp.ParserHelper.GetNumberFromFullWidth*
+  name: GetNumberFromFullWidth
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_GetNumberFromFullWidth_
+  commentId: Overload:AnitomySharp.ParserHelper.GetNumberFromFullWidth
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.GetNumberFromFullWidth
+  nameWithType: ParserHelper.GetNumberFromFullWidth
+- uid: AnitomySharp.ParserHelper.GetNumberFromOrdinal(System.String)
+  name: GetNumberFromOrdinal(string)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_GetNumberFromOrdinal_System_String_
+  commentId: M:AnitomySharp.ParserHelper.GetNumberFromOrdinal(System.String)
+  name.vb: GetNumberFromOrdinal(String)
+  fullName: AnitomySharp.ParserHelper.GetNumberFromOrdinal(string)
+  fullName.vb: AnitomySharp.ParserHelper.GetNumberFromOrdinal(String)
+  nameWithType: ParserHelper.GetNumberFromOrdinal(string)
+  nameWithType.vb: ParserHelper.GetNumberFromOrdinal(String)
+- uid: AnitomySharp.ParserHelper.GetNumberFromOrdinal*
+  name: GetNumberFromOrdinal
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_GetNumberFromOrdinal_
+  commentId: Overload:AnitomySharp.ParserHelper.GetNumberFromOrdinal
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.GetNumberFromOrdinal
+  nameWithType: ParserHelper.GetNumberFromOrdinal
+- uid: AnitomySharp.ParserHelper.IndexOfFirstDigit(System.String)
+  name: IndexOfFirstDigit(string)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IndexOfFirstDigit_System_String_
+  commentId: M:AnitomySharp.ParserHelper.IndexOfFirstDigit(System.String)
+  name.vb: IndexOfFirstDigit(String)
+  fullName: AnitomySharp.ParserHelper.IndexOfFirstDigit(string)
+  fullName.vb: AnitomySharp.ParserHelper.IndexOfFirstDigit(String)
+  nameWithType: ParserHelper.IndexOfFirstDigit(string)
+  nameWithType.vb: ParserHelper.IndexOfFirstDigit(String)
+- uid: AnitomySharp.ParserHelper.IndexOfFirstDigit*
+  name: IndexOfFirstDigit
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IndexOfFirstDigit_
+  commentId: Overload:AnitomySharp.ParserHelper.IndexOfFirstDigit
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IndexOfFirstDigit
+  nameWithType: ParserHelper.IndexOfFirstDigit
+- uid: AnitomySharp.ParserHelper.IsCrc32(System.String)
+  name: IsCrc32(string)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsCrc32_System_String_
+  commentId: M:AnitomySharp.ParserHelper.IsCrc32(System.String)
+  name.vb: IsCrc32(String)
+  fullName: AnitomySharp.ParserHelper.IsCrc32(string)
+  fullName.vb: AnitomySharp.ParserHelper.IsCrc32(String)
+  nameWithType: ParserHelper.IsCrc32(string)
+  nameWithType.vb: ParserHelper.IsCrc32(String)
+- uid: AnitomySharp.ParserHelper.IsCrc32*
+  name: IsCrc32
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsCrc32_
+  commentId: Overload:AnitomySharp.ParserHelper.IsCrc32
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsCrc32
+  nameWithType: ParserHelper.IsCrc32
+- uid: AnitomySharp.ParserHelper.IsDashCharacter(System.Char)
+  name: IsDashCharacter(char)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsDashCharacter_System_Char_
+  commentId: M:AnitomySharp.ParserHelper.IsDashCharacter(System.Char)
+  name.vb: IsDashCharacter(Char)
+  fullName: AnitomySharp.ParserHelper.IsDashCharacter(char)
+  fullName.vb: AnitomySharp.ParserHelper.IsDashCharacter(Char)
+  nameWithType: ParserHelper.IsDashCharacter(char)
+  nameWithType.vb: ParserHelper.IsDashCharacter(Char)
+- uid: AnitomySharp.ParserHelper.IsDashCharacter*
+  name: IsDashCharacter
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsDashCharacter_
+  commentId: Overload:AnitomySharp.ParserHelper.IsDashCharacter
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsDashCharacter
+  nameWithType: ParserHelper.IsDashCharacter
+- uid: AnitomySharp.ParserHelper.IsElementCategorySearchable(AnitomySharp.Element.ElementCategory)
+  name: IsElementCategorySearchable(ElementCategory)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsElementCategorySearchable_AnitomySharp_Element_ElementCategory_
+  commentId: M:AnitomySharp.ParserHelper.IsElementCategorySearchable(AnitomySharp.Element.ElementCategory)
+  fullName: AnitomySharp.ParserHelper.IsElementCategorySearchable(AnitomySharp.Element.ElementCategory)
+  nameWithType: ParserHelper.IsElementCategorySearchable(Element.ElementCategory)
+- uid: AnitomySharp.ParserHelper.IsElementCategorySearchable*
+  name: IsElementCategorySearchable
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsElementCategorySearchable_
+  commentId: Overload:AnitomySharp.ParserHelper.IsElementCategorySearchable
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsElementCategorySearchable
+  nameWithType: ParserHelper.IsElementCategorySearchable
+- uid: AnitomySharp.ParserHelper.IsElementCategorySingular(AnitomySharp.Element.ElementCategory)
+  name: IsElementCategorySingular(ElementCategory)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsElementCategorySingular_AnitomySharp_Element_ElementCategory_
+  commentId: M:AnitomySharp.ParserHelper.IsElementCategorySingular(AnitomySharp.Element.ElementCategory)
+  fullName: AnitomySharp.ParserHelper.IsElementCategorySingular(AnitomySharp.Element.ElementCategory)
+  nameWithType: ParserHelper.IsElementCategorySingular(Element.ElementCategory)
+- uid: AnitomySharp.ParserHelper.IsElementCategorySingular*
+  name: IsElementCategorySingular
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsElementCategorySingular_
+  commentId: Overload:AnitomySharp.ParserHelper.IsElementCategorySingular
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsElementCategorySingular
+  nameWithType: ParserHelper.IsElementCategorySingular
+- uid: AnitomySharp.ParserHelper.IsNextTokenContainAnimeType(System.Int32)
+  name: IsNextTokenContainAnimeType(int)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsNextTokenContainAnimeType_System_Int32_
+  commentId: M:AnitomySharp.ParserHelper.IsNextTokenContainAnimeType(System.Int32)
+  name.vb: IsNextTokenContainAnimeType(Integer)
+  fullName: AnitomySharp.ParserHelper.IsNextTokenContainAnimeType(int)
+  fullName.vb: AnitomySharp.ParserHelper.IsNextTokenContainAnimeType(Integer)
+  nameWithType: ParserHelper.IsNextTokenContainAnimeType(int)
+  nameWithType.vb: ParserHelper.IsNextTokenContainAnimeType(Integer)
+- uid: AnitomySharp.ParserHelper.IsNextTokenContainAnimeType*
+  name: IsNextTokenContainAnimeType
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsNextTokenContainAnimeType_
+  commentId: Overload:AnitomySharp.ParserHelper.IsNextTokenContainAnimeType
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsNextTokenContainAnimeType
+  nameWithType: ParserHelper.IsNextTokenContainAnimeType
+- uid: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeType(System.Int32)
+  name: IsPrevTokenContainAnimeType(int)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsPrevTokenContainAnimeType_System_Int32_
+  commentId: M:AnitomySharp.ParserHelper.IsPrevTokenContainAnimeType(System.Int32)
+  name.vb: IsPrevTokenContainAnimeType(Integer)
+  fullName: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeType(int)
+  fullName.vb: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeType(Integer)
+  nameWithType: ParserHelper.IsPrevTokenContainAnimeType(int)
+  nameWithType.vb: ParserHelper.IsPrevTokenContainAnimeType(Integer)
+- uid: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeType*
+  name: IsPrevTokenContainAnimeType
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsPrevTokenContainAnimeType_
+  commentId: Overload:AnitomySharp.ParserHelper.IsPrevTokenContainAnimeType
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeType
+  nameWithType: ParserHelper.IsPrevTokenContainAnimeType
+- uid: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries(System.Int32)
+  name: IsPrevTokenContainAnimeTypeInPeekEntries(int)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsPrevTokenContainAnimeTypeInPeekEntries_System_Int32_
+  commentId: M:AnitomySharp.ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries(System.Int32)
+  name.vb: IsPrevTokenContainAnimeTypeInPeekEntries(Integer)
+  fullName: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries(int)
+  fullName.vb: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries(Integer)
+  nameWithType: ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries(int)
+  nameWithType.vb: ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries(Integer)
+- uid: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries*
+  name: IsPrevTokenContainAnimeTypeInPeekEntries
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsPrevTokenContainAnimeTypeInPeekEntries_
+  commentId: Overload:AnitomySharp.ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries
+  nameWithType: ParserHelper.IsPrevTokenContainAnimeTypeInPeekEntries
+- uid: AnitomySharp.ParserHelper.IsResolution(System.String)
+  name: IsResolution(string)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsResolution_System_String_
+  commentId: M:AnitomySharp.ParserHelper.IsResolution(System.String)
+  name.vb: IsResolution(String)
+  fullName: AnitomySharp.ParserHelper.IsResolution(string)
+  fullName.vb: AnitomySharp.ParserHelper.IsResolution(String)
+  nameWithType: ParserHelper.IsResolution(string)
+  nameWithType.vb: ParserHelper.IsResolution(String)
+- uid: AnitomySharp.ParserHelper.IsResolution*
+  name: IsResolution
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsResolution_
+  commentId: Overload:AnitomySharp.ParserHelper.IsResolution
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsResolution
+  nameWithType: ParserHelper.IsResolution
+- uid: AnitomySharp.ParserHelper.IsTokenCategory(System.Int32,AnitomySharp.Token.TokenCategory)
+  name: IsTokenCategory(int, TokenCategory)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsTokenCategory_System_Int32_AnitomySharp_Token_TokenCategory_
+  commentId: M:AnitomySharp.ParserHelper.IsTokenCategory(System.Int32,AnitomySharp.Token.TokenCategory)
+  name.vb: IsTokenCategory(Integer, TokenCategory)
+  fullName: AnitomySharp.ParserHelper.IsTokenCategory(int, AnitomySharp.Token.TokenCategory)
+  fullName.vb: AnitomySharp.ParserHelper.IsTokenCategory(Integer, AnitomySharp.Token.TokenCategory)
+  nameWithType: ParserHelper.IsTokenCategory(int, Token.TokenCategory)
+  nameWithType.vb: ParserHelper.IsTokenCategory(Integer, Token.TokenCategory)
+- uid: AnitomySharp.ParserHelper.IsTokenCategory*
+  name: IsTokenCategory
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsTokenCategory_
+  commentId: Overload:AnitomySharp.ParserHelper.IsTokenCategory
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsTokenCategory
+  nameWithType: ParserHelper.IsTokenCategory
+- uid: AnitomySharp.ParserHelper.IsTokenIsolated(System.Int32)
+  name: IsTokenIsolated(int)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsTokenIsolated_System_Int32_
+  commentId: M:AnitomySharp.ParserHelper.IsTokenIsolated(System.Int32)
+  name.vb: IsTokenIsolated(Integer)
+  fullName: AnitomySharp.ParserHelper.IsTokenIsolated(int)
+  fullName.vb: AnitomySharp.ParserHelper.IsTokenIsolated(Integer)
+  nameWithType: ParserHelper.IsTokenIsolated(int)
+  nameWithType.vb: ParserHelper.IsTokenIsolated(Integer)
+- uid: AnitomySharp.ParserHelper.IsTokenIsolated*
+  name: IsTokenIsolated
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsTokenIsolated_
+  commentId: Overload:AnitomySharp.ParserHelper.IsTokenIsolated
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsTokenIsolated
+  nameWithType: ParserHelper.IsTokenIsolated
+- uid: AnitomySharp.ParserHelper.IsTokenIsolatedWithDelimiterAndBracket(System.Int32)
+  name: IsTokenIsolatedWithDelimiterAndBracket(int)
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsTokenIsolatedWithDelimiterAndBracket_System_Int32_
+  commentId: M:AnitomySharp.ParserHelper.IsTokenIsolatedWithDelimiterAndBracket(System.Int32)
+  name.vb: IsTokenIsolatedWithDelimiterAndBracket(Integer)
+  fullName: AnitomySharp.ParserHelper.IsTokenIsolatedWithDelimiterAndBracket(int)
+  fullName.vb: AnitomySharp.ParserHelper.IsTokenIsolatedWithDelimiterAndBracket(Integer)
+  nameWithType: ParserHelper.IsTokenIsolatedWithDelimiterAndBracket(int)
+  nameWithType.vb: ParserHelper.IsTokenIsolatedWithDelimiterAndBracket(Integer)
+- uid: AnitomySharp.ParserHelper.IsTokenIsolatedWithDelimiterAndBracket*
+  name: IsTokenIsolatedWithDelimiterAndBracket
+  href: api/AnitomySharp.ParserHelper.html#AnitomySharp_ParserHelper_IsTokenIsolatedWithDelimiterAndBracket_
+  commentId: Overload:AnitomySharp.ParserHelper.IsTokenIsolatedWithDelimiterAndBracket
+  isSpec: "True"
+  fullName: AnitomySharp.ParserHelper.IsTokenIsolatedWithDelimiterAndBracket
+  nameWithType: ParserHelper.IsTokenIsolatedWithDelimiterAndBracket
+- uid: AnitomySharp.ParserNumber
+  name: ParserNumber
+  href: api/AnitomySharp.ParserNumber.html
+  commentId: T:AnitomySharp.ParserNumber
+  fullName: AnitomySharp.ParserNumber
+  nameWithType: ParserNumber
+- uid: AnitomySharp.ParserNumber.#ctor(AnitomySharp.Parser)
+  name: ParserNumber(Parser)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber__ctor_AnitomySharp_Parser_
+  commentId: M:AnitomySharp.ParserNumber.#ctor(AnitomySharp.Parser)
+  name.vb: New(Parser)
+  fullName: AnitomySharp.ParserNumber.ParserNumber(AnitomySharp.Parser)
+  fullName.vb: AnitomySharp.ParserNumber.New(AnitomySharp.Parser)
+  nameWithType: ParserNumber.ParserNumber(Parser)
+  nameWithType.vb: ParserNumber.New(Parser)
+- uid: AnitomySharp.ParserNumber.#ctor*
+  name: ParserNumber
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber__ctor_
+  commentId: Overload:AnitomySharp.ParserNumber.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.ParserNumber.ParserNumber
+  fullName.vb: AnitomySharp.ParserNumber.New
+  nameWithType: ParserNumber.ParserNumber
+  nameWithType.vb: ParserNumber.New
+- uid: AnitomySharp.ParserNumber.AnimeYearMax
+  name: AnimeYearMax
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_AnimeYearMax
+  commentId: F:AnitomySharp.ParserNumber.AnimeYearMax
+  fullName: AnitomySharp.ParserNumber.AnimeYearMax
+  nameWithType: ParserNumber.AnimeYearMax
+- uid: AnitomySharp.ParserNumber.AnimeYearMin
+  name: AnimeYearMin
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_AnimeYearMin
+  commentId: F:AnitomySharp.ParserNumber.AnimeYearMin
+  fullName: AnitomySharp.ParserNumber.AnimeYearMin
+  nameWithType: ParserNumber.AnimeYearMin
+- uid: AnitomySharp.ParserNumber.MatchEpisodePatterns(System.String,AnitomySharp.Token)
+  name: MatchEpisodePatterns(string, Token)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_MatchEpisodePatterns_System_String_AnitomySharp_Token_
+  commentId: M:AnitomySharp.ParserNumber.MatchEpisodePatterns(System.String,AnitomySharp.Token)
+  name.vb: MatchEpisodePatterns(String, Token)
+  fullName: AnitomySharp.ParserNumber.MatchEpisodePatterns(string, AnitomySharp.Token)
+  fullName.vb: AnitomySharp.ParserNumber.MatchEpisodePatterns(String, AnitomySharp.Token)
+  nameWithType: ParserNumber.MatchEpisodePatterns(string, Token)
+  nameWithType.vb: ParserNumber.MatchEpisodePatterns(String, Token)
+- uid: AnitomySharp.ParserNumber.MatchEpisodePatterns*
+  name: MatchEpisodePatterns
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_MatchEpisodePatterns_
+  commentId: Overload:AnitomySharp.ParserNumber.MatchEpisodePatterns
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.MatchEpisodePatterns
+  nameWithType: ParserNumber.MatchEpisodePatterns
+- uid: AnitomySharp.ParserNumber.MatchJapaneseCounterPattern(System.String,AnitomySharp.Token)
+  name: MatchJapaneseCounterPattern(string, Token)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_MatchJapaneseCounterPattern_System_String_AnitomySharp_Token_
+  commentId: M:AnitomySharp.ParserNumber.MatchJapaneseCounterPattern(System.String,AnitomySharp.Token)
+  name.vb: MatchJapaneseCounterPattern(String, Token)
+  fullName: AnitomySharp.ParserNumber.MatchJapaneseCounterPattern(string, AnitomySharp.Token)
+  fullName.vb: AnitomySharp.ParserNumber.MatchJapaneseCounterPattern(String, AnitomySharp.Token)
+  nameWithType: ParserNumber.MatchJapaneseCounterPattern(string, Token)
+  nameWithType.vb: ParserNumber.MatchJapaneseCounterPattern(String, Token)
+- uid: AnitomySharp.ParserNumber.MatchJapaneseCounterPattern*
+  name: MatchJapaneseCounterPattern
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_MatchJapaneseCounterPattern_
+  commentId: Overload:AnitomySharp.ParserNumber.MatchJapaneseCounterPattern
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.MatchJapaneseCounterPattern
+  nameWithType: ParserNumber.MatchJapaneseCounterPattern
+- uid: AnitomySharp.ParserNumber.MatchVolumePatterns(System.String,AnitomySharp.Token)
+  name: MatchVolumePatterns(string, Token)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_MatchVolumePatterns_System_String_AnitomySharp_Token_
+  commentId: M:AnitomySharp.ParserNumber.MatchVolumePatterns(System.String,AnitomySharp.Token)
+  name.vb: MatchVolumePatterns(String, Token)
+  fullName: AnitomySharp.ParserNumber.MatchVolumePatterns(string, AnitomySharp.Token)
+  fullName.vb: AnitomySharp.ParserNumber.MatchVolumePatterns(String, AnitomySharp.Token)
+  nameWithType: ParserNumber.MatchVolumePatterns(string, Token)
+  nameWithType.vb: ParserNumber.MatchVolumePatterns(String, Token)
+- uid: AnitomySharp.ParserNumber.MatchVolumePatterns*
+  name: MatchVolumePatterns
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_MatchVolumePatterns_
+  commentId: Overload:AnitomySharp.ParserNumber.MatchVolumePatterns
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.MatchVolumePatterns
+  nameWithType: ParserNumber.MatchVolumePatterns
+- uid: AnitomySharp.ParserNumber.RegexMatchOnlyEnd
+  name: RegexMatchOnlyEnd
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_RegexMatchOnlyEnd
+  commentId: F:AnitomySharp.ParserNumber.RegexMatchOnlyEnd
+  fullName: AnitomySharp.ParserNumber.RegexMatchOnlyEnd
+  nameWithType: ParserNumber.RegexMatchOnlyEnd
+- uid: AnitomySharp.ParserNumber.RegexMatchOnlyStart
+  name: RegexMatchOnlyStart
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_RegexMatchOnlyStart
+  commentId: F:AnitomySharp.ParserNumber.RegexMatchOnlyStart
+  fullName: AnitomySharp.ParserNumber.RegexMatchOnlyStart
+  nameWithType: ParserNumber.RegexMatchOnlyStart
+- uid: AnitomySharp.ParserNumber.SearchForEpisodePatterns(System.Collections.Generic.List{System.Int32})
+  name: SearchForEpisodePatterns(List<int>)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForEpisodePatterns_System_Collections_Generic_List_System_Int32__
+  commentId: M:AnitomySharp.ParserNumber.SearchForEpisodePatterns(System.Collections.Generic.List{System.Int32})
+  name.vb: SearchForEpisodePatterns(List(Of Integer))
+  fullName: AnitomySharp.ParserNumber.SearchForEpisodePatterns(System.Collections.Generic.List<int>)
+  fullName.vb: AnitomySharp.ParserNumber.SearchForEpisodePatterns(System.Collections.Generic.List(Of Integer))
+  nameWithType: ParserNumber.SearchForEpisodePatterns(List<int>)
+  nameWithType.vb: ParserNumber.SearchForEpisodePatterns(List(Of Integer))
+- uid: AnitomySharp.ParserNumber.SearchForEpisodePatterns*
+  name: SearchForEpisodePatterns
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForEpisodePatterns_
+  commentId: Overload:AnitomySharp.ParserNumber.SearchForEpisodePatterns
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SearchForEpisodePatterns
+  nameWithType: ParserNumber.SearchForEpisodePatterns
+- uid: AnitomySharp.ParserNumber.SearchForEquivalentNumbers(System.Collections.Generic.List{System.Int32})
+  name: SearchForEquivalentNumbers(List<int>)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForEquivalentNumbers_System_Collections_Generic_List_System_Int32__
+  commentId: M:AnitomySharp.ParserNumber.SearchForEquivalentNumbers(System.Collections.Generic.List{System.Int32})
+  name.vb: SearchForEquivalentNumbers(List(Of Integer))
+  fullName: AnitomySharp.ParserNumber.SearchForEquivalentNumbers(System.Collections.Generic.List<int>)
+  fullName.vb: AnitomySharp.ParserNumber.SearchForEquivalentNumbers(System.Collections.Generic.List(Of Integer))
+  nameWithType: ParserNumber.SearchForEquivalentNumbers(List<int>)
+  nameWithType.vb: ParserNumber.SearchForEquivalentNumbers(List(Of Integer))
+- uid: AnitomySharp.ParserNumber.SearchForEquivalentNumbers*
+  name: SearchForEquivalentNumbers
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForEquivalentNumbers_
+  commentId: Overload:AnitomySharp.ParserNumber.SearchForEquivalentNumbers
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SearchForEquivalentNumbers
+  nameWithType: ParserNumber.SearchForEquivalentNumbers
+- uid: AnitomySharp.ParserNumber.SearchForEquivalentNumbersWithBracket(System.Collections.Generic.List{System.Int32})
+  name: SearchForEquivalentNumbersWithBracket(List<int>)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForEquivalentNumbersWithBracket_System_Collections_Generic_List_System_Int32__
+  commentId: M:AnitomySharp.ParserNumber.SearchForEquivalentNumbersWithBracket(System.Collections.Generic.List{System.Int32})
+  name.vb: SearchForEquivalentNumbersWithBracket(List(Of Integer))
+  fullName: AnitomySharp.ParserNumber.SearchForEquivalentNumbersWithBracket(System.Collections.Generic.List<int>)
+  fullName.vb: AnitomySharp.ParserNumber.SearchForEquivalentNumbersWithBracket(System.Collections.Generic.List(Of Integer))
+  nameWithType: ParserNumber.SearchForEquivalentNumbersWithBracket(List<int>)
+  nameWithType.vb: ParserNumber.SearchForEquivalentNumbersWithBracket(List(Of Integer))
+- uid: AnitomySharp.ParserNumber.SearchForEquivalentNumbersWithBracket*
+  name: SearchForEquivalentNumbersWithBracket
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForEquivalentNumbersWithBracket_
+  commentId: Overload:AnitomySharp.ParserNumber.SearchForEquivalentNumbersWithBracket
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SearchForEquivalentNumbersWithBracket
+  nameWithType: ParserNumber.SearchForEquivalentNumbersWithBracket
+- uid: AnitomySharp.ParserNumber.SearchForIsolatedNumbers(System.Collections.Generic.IEnumerable{System.Int32})
+  name: SearchForIsolatedNumbers(IEnumerable<int>)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForIsolatedNumbers_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:AnitomySharp.ParserNumber.SearchForIsolatedNumbers(System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: SearchForIsolatedNumbers(IEnumerable(Of Integer))
+  fullName: AnitomySharp.ParserNumber.SearchForIsolatedNumbers(System.Collections.Generic.IEnumerable<int>)
+  fullName.vb: AnitomySharp.ParserNumber.SearchForIsolatedNumbers(System.Collections.Generic.IEnumerable(Of Integer))
+  nameWithType: ParserNumber.SearchForIsolatedNumbers(IEnumerable<int>)
+  nameWithType.vb: ParserNumber.SearchForIsolatedNumbers(IEnumerable(Of Integer))
+- uid: AnitomySharp.ParserNumber.SearchForIsolatedNumbers*
+  name: SearchForIsolatedNumbers
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForIsolatedNumbers_
+  commentId: Overload:AnitomySharp.ParserNumber.SearchForIsolatedNumbers
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SearchForIsolatedNumbers
+  nameWithType: ParserNumber.SearchForIsolatedNumbers
+- uid: AnitomySharp.ParserNumber.SearchForLastNumber(System.Collections.Generic.List{System.Int32})
+  name: SearchForLastNumber(List<int>)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForLastNumber_System_Collections_Generic_List_System_Int32__
+  commentId: M:AnitomySharp.ParserNumber.SearchForLastNumber(System.Collections.Generic.List{System.Int32})
+  name.vb: SearchForLastNumber(List(Of Integer))
+  fullName: AnitomySharp.ParserNumber.SearchForLastNumber(System.Collections.Generic.List<int>)
+  fullName.vb: AnitomySharp.ParserNumber.SearchForLastNumber(System.Collections.Generic.List(Of Integer))
+  nameWithType: ParserNumber.SearchForLastNumber(List<int>)
+  nameWithType.vb: ParserNumber.SearchForLastNumber(List(Of Integer))
+- uid: AnitomySharp.ParserNumber.SearchForLastNumber*
+  name: SearchForLastNumber
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForLastNumber_
+  commentId: Overload:AnitomySharp.ParserNumber.SearchForLastNumber
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SearchForLastNumber
+  nameWithType: ParserNumber.SearchForLastNumber
+- uid: AnitomySharp.ParserNumber.SearchForSeparatedNumbers(System.Collections.Generic.List{System.Int32})
+  name: SearchForSeparatedNumbers(List<int>)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForSeparatedNumbers_System_Collections_Generic_List_System_Int32__
+  commentId: M:AnitomySharp.ParserNumber.SearchForSeparatedNumbers(System.Collections.Generic.List{System.Int32})
+  name.vb: SearchForSeparatedNumbers(List(Of Integer))
+  fullName: AnitomySharp.ParserNumber.SearchForSeparatedNumbers(System.Collections.Generic.List<int>)
+  fullName.vb: AnitomySharp.ParserNumber.SearchForSeparatedNumbers(System.Collections.Generic.List(Of Integer))
+  nameWithType: ParserNumber.SearchForSeparatedNumbers(List<int>)
+  nameWithType.vb: ParserNumber.SearchForSeparatedNumbers(List(Of Integer))
+- uid: AnitomySharp.ParserNumber.SearchForSeparatedNumbers*
+  name: SearchForSeparatedNumbers
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForSeparatedNumbers_
+  commentId: Overload:AnitomySharp.ParserNumber.SearchForSeparatedNumbers
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SearchForSeparatedNumbers
+  nameWithType: ParserNumber.SearchForSeparatedNumbers
+- uid: AnitomySharp.ParserNumber.SearchForSymbolWithEpisode(System.Collections.Generic.List{System.Int32})
+  name: SearchForSymbolWithEpisode(List<int>)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForSymbolWithEpisode_System_Collections_Generic_List_System_Int32__
+  commentId: M:AnitomySharp.ParserNumber.SearchForSymbolWithEpisode(System.Collections.Generic.List{System.Int32})
+  name.vb: SearchForSymbolWithEpisode(List(Of Integer))
+  fullName: AnitomySharp.ParserNumber.SearchForSymbolWithEpisode(System.Collections.Generic.List<int>)
+  fullName.vb: AnitomySharp.ParserNumber.SearchForSymbolWithEpisode(System.Collections.Generic.List(Of Integer))
+  nameWithType: ParserNumber.SearchForSymbolWithEpisode(List<int>)
+  nameWithType.vb: ParserNumber.SearchForSymbolWithEpisode(List(Of Integer))
+- uid: AnitomySharp.ParserNumber.SearchForSymbolWithEpisode*
+  name: SearchForSymbolWithEpisode
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SearchForSymbolWithEpisode_
+  commentId: Overload:AnitomySharp.ParserNumber.SearchForSymbolWithEpisode
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SearchForSymbolWithEpisode
+  nameWithType: ParserNumber.SearchForSymbolWithEpisode
+- uid: AnitomySharp.ParserNumber.SetEpisodeNumber(System.String,AnitomySharp.Token,System.Boolean)
+  name: SetEpisodeNumber(string, Token, bool)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SetEpisodeNumber_System_String_AnitomySharp_Token_System_Boolean_
+  commentId: M:AnitomySharp.ParserNumber.SetEpisodeNumber(System.String,AnitomySharp.Token,System.Boolean)
+  name.vb: SetEpisodeNumber(String, Token, Boolean)
+  fullName: AnitomySharp.ParserNumber.SetEpisodeNumber(string, AnitomySharp.Token, bool)
+  fullName.vb: AnitomySharp.ParserNumber.SetEpisodeNumber(String, AnitomySharp.Token, Boolean)
+  nameWithType: ParserNumber.SetEpisodeNumber(string, Token, bool)
+  nameWithType.vb: ParserNumber.SetEpisodeNumber(String, Token, Boolean)
+- uid: AnitomySharp.ParserNumber.SetEpisodeNumber*
+  name: SetEpisodeNumber
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SetEpisodeNumber_
+  commentId: Overload:AnitomySharp.ParserNumber.SetEpisodeNumber
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SetEpisodeNumber
+  nameWithType: ParserNumber.SetEpisodeNumber
+- uid: AnitomySharp.ParserNumber.SetVolumeNumber(System.String,AnitomySharp.Token,System.Boolean)
+  name: SetVolumeNumber(string, Token, bool)
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SetVolumeNumber_System_String_AnitomySharp_Token_System_Boolean_
+  commentId: M:AnitomySharp.ParserNumber.SetVolumeNumber(System.String,AnitomySharp.Token,System.Boolean)
+  name.vb: SetVolumeNumber(String, Token, Boolean)
+  fullName: AnitomySharp.ParserNumber.SetVolumeNumber(string, AnitomySharp.Token, bool)
+  fullName.vb: AnitomySharp.ParserNumber.SetVolumeNumber(String, AnitomySharp.Token, Boolean)
+  nameWithType: ParserNumber.SetVolumeNumber(string, Token, bool)
+  nameWithType.vb: ParserNumber.SetVolumeNumber(String, Token, Boolean)
+- uid: AnitomySharp.ParserNumber.SetVolumeNumber*
+  name: SetVolumeNumber
+  href: api/AnitomySharp.ParserNumber.html#AnitomySharp_ParserNumber_SetVolumeNumber_
+  commentId: Overload:AnitomySharp.ParserNumber.SetVolumeNumber
+  isSpec: "True"
+  fullName: AnitomySharp.ParserNumber.SetVolumeNumber
+  nameWithType: ParserNumber.SetVolumeNumber
+- uid: AnitomySharp.StringHelper
+  name: StringHelper
+  href: api/AnitomySharp.StringHelper.html
+  commentId: T:AnitomySharp.StringHelper
+  fullName: AnitomySharp.StringHelper
+  nameWithType: StringHelper
+- uid: AnitomySharp.StringHelper.IsAlphaString(System.String)
+  name: IsAlphaString(string)
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsAlphaString_System_String_
+  commentId: M:AnitomySharp.StringHelper.IsAlphaString(System.String)
+  name.vb: IsAlphaString(String)
+  fullName: AnitomySharp.StringHelper.IsAlphaString(string)
+  fullName.vb: AnitomySharp.StringHelper.IsAlphaString(String)
+  nameWithType: StringHelper.IsAlphaString(string)
+  nameWithType.vb: StringHelper.IsAlphaString(String)
+- uid: AnitomySharp.StringHelper.IsAlphaString*
+  name: IsAlphaString
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsAlphaString_
+  commentId: Overload:AnitomySharp.StringHelper.IsAlphaString
+  isSpec: "True"
+  fullName: AnitomySharp.StringHelper.IsAlphaString
+  nameWithType: StringHelper.IsAlphaString
+- uid: AnitomySharp.StringHelper.IsAlphanumericChar(System.Char)
+  name: IsAlphanumericChar(char)
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsAlphanumericChar_System_Char_
+  commentId: M:AnitomySharp.StringHelper.IsAlphanumericChar(System.Char)
+  name.vb: IsAlphanumericChar(Char)
+  fullName: AnitomySharp.StringHelper.IsAlphanumericChar(char)
+  fullName.vb: AnitomySharp.StringHelper.IsAlphanumericChar(Char)
+  nameWithType: StringHelper.IsAlphanumericChar(char)
+  nameWithType.vb: StringHelper.IsAlphanumericChar(Char)
+- uid: AnitomySharp.StringHelper.IsAlphanumericChar*
+  name: IsAlphanumericChar
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsAlphanumericChar_
+  commentId: Overload:AnitomySharp.StringHelper.IsAlphanumericChar
+  isSpec: "True"
+  fullName: AnitomySharp.StringHelper.IsAlphanumericChar
+  nameWithType: StringHelper.IsAlphanumericChar
+- uid: AnitomySharp.StringHelper.IsHexadecimalString(System.String)
+  name: IsHexadecimalString(string)
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsHexadecimalString_System_String_
+  commentId: M:AnitomySharp.StringHelper.IsHexadecimalString(System.String)
+  name.vb: IsHexadecimalString(String)
+  fullName: AnitomySharp.StringHelper.IsHexadecimalString(string)
+  fullName.vb: AnitomySharp.StringHelper.IsHexadecimalString(String)
+  nameWithType: StringHelper.IsHexadecimalString(string)
+  nameWithType.vb: StringHelper.IsHexadecimalString(String)
+- uid: AnitomySharp.StringHelper.IsHexadecimalString*
+  name: IsHexadecimalString
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsHexadecimalString_
+  commentId: Overload:AnitomySharp.StringHelper.IsHexadecimalString
+  isSpec: "True"
+  fullName: AnitomySharp.StringHelper.IsHexadecimalString
+  nameWithType: StringHelper.IsHexadecimalString
+- uid: AnitomySharp.StringHelper.IsMostlyChineseString(System.String)
+  name: IsMostlyChineseString(string)
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsMostlyChineseString_System_String_
+  commentId: M:AnitomySharp.StringHelper.IsMostlyChineseString(System.String)
+  name.vb: IsMostlyChineseString(String)
+  fullName: AnitomySharp.StringHelper.IsMostlyChineseString(string)
+  fullName.vb: AnitomySharp.StringHelper.IsMostlyChineseString(String)
+  nameWithType: StringHelper.IsMostlyChineseString(string)
+  nameWithType.vb: StringHelper.IsMostlyChineseString(String)
+- uid: AnitomySharp.StringHelper.IsMostlyChineseString*
+  name: IsMostlyChineseString
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsMostlyChineseString_
+  commentId: Overload:AnitomySharp.StringHelper.IsMostlyChineseString
+  isSpec: "True"
+  fullName: AnitomySharp.StringHelper.IsMostlyChineseString
+  nameWithType: StringHelper.IsMostlyChineseString
+- uid: AnitomySharp.StringHelper.IsMostlyLatinString(System.String)
+  name: IsMostlyLatinString(string)
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsMostlyLatinString_System_String_
+  commentId: M:AnitomySharp.StringHelper.IsMostlyLatinString(System.String)
+  name.vb: IsMostlyLatinString(String)
+  fullName: AnitomySharp.StringHelper.IsMostlyLatinString(string)
+  fullName.vb: AnitomySharp.StringHelper.IsMostlyLatinString(String)
+  nameWithType: StringHelper.IsMostlyLatinString(string)
+  nameWithType.vb: StringHelper.IsMostlyLatinString(String)
+- uid: AnitomySharp.StringHelper.IsMostlyLatinString*
+  name: IsMostlyLatinString
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsMostlyLatinString_
+  commentId: Overload:AnitomySharp.StringHelper.IsMostlyLatinString
+  isSpec: "True"
+  fullName: AnitomySharp.StringHelper.IsMostlyLatinString
+  nameWithType: StringHelper.IsMostlyLatinString
+- uid: AnitomySharp.StringHelper.IsNumericString(System.String)
+  name: IsNumericString(string)
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsNumericString_System_String_
+  commentId: M:AnitomySharp.StringHelper.IsNumericString(System.String)
+  name.vb: IsNumericString(String)
+  fullName: AnitomySharp.StringHelper.IsNumericString(string)
+  fullName.vb: AnitomySharp.StringHelper.IsNumericString(String)
+  nameWithType: StringHelper.IsNumericString(string)
+  nameWithType.vb: StringHelper.IsNumericString(String)
+- uid: AnitomySharp.StringHelper.IsNumericString*
+  name: IsNumericString
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_IsNumericString_
+  commentId: Overload:AnitomySharp.StringHelper.IsNumericString
+  isSpec: "True"
+  fullName: AnitomySharp.StringHelper.IsNumericString
+  nameWithType: StringHelper.IsNumericString
+- uid: AnitomySharp.StringHelper.StringToInt(System.String)
+  name: StringToInt(string)
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_StringToInt_System_String_
+  commentId: M:AnitomySharp.StringHelper.StringToInt(System.String)
+  name.vb: StringToInt(String)
+  fullName: AnitomySharp.StringHelper.StringToInt(string)
+  fullName.vb: AnitomySharp.StringHelper.StringToInt(String)
+  nameWithType: StringHelper.StringToInt(string)
+  nameWithType.vb: StringHelper.StringToInt(String)
+- uid: AnitomySharp.StringHelper.StringToInt*
+  name: StringToInt
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_StringToInt_
+  commentId: Overload:AnitomySharp.StringHelper.StringToInt
+  isSpec: "True"
+  fullName: AnitomySharp.StringHelper.StringToInt
+  nameWithType: StringHelper.StringToInt
+- uid: AnitomySharp.StringHelper.SubstringWithCheck(System.String,System.Int32,System.Int32)
+  name: SubstringWithCheck(string, int, int)
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_SubstringWithCheck_System_String_System_Int32_System_Int32_
+  commentId: M:AnitomySharp.StringHelper.SubstringWithCheck(System.String,System.Int32,System.Int32)
+  name.vb: SubstringWithCheck(String, Integer, Integer)
+  fullName: AnitomySharp.StringHelper.SubstringWithCheck(string, int, int)
+  fullName.vb: AnitomySharp.StringHelper.SubstringWithCheck(String, Integer, Integer)
+  nameWithType: StringHelper.SubstringWithCheck(string, int, int)
+  nameWithType.vb: StringHelper.SubstringWithCheck(String, Integer, Integer)
+- uid: AnitomySharp.StringHelper.SubstringWithCheck*
+  name: SubstringWithCheck
+  href: api/AnitomySharp.StringHelper.html#AnitomySharp_StringHelper_SubstringWithCheck_
+  commentId: Overload:AnitomySharp.StringHelper.SubstringWithCheck
+  isSpec: "True"
+  fullName: AnitomySharp.StringHelper.SubstringWithCheck
+  nameWithType: StringHelper.SubstringWithCheck
+- uid: AnitomySharp.Token
+  name: Token
+  href: api/AnitomySharp.Token.html
+  commentId: T:AnitomySharp.Token
+  fullName: AnitomySharp.Token
+  nameWithType: Token
+- uid: AnitomySharp.Token.#ctor(AnitomySharp.Token.TokenCategory,System.Boolean,System.String)
+  name: Token(TokenCategory, bool, string)
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token__ctor_AnitomySharp_Token_TokenCategory_System_Boolean_System_String_
+  commentId: M:AnitomySharp.Token.#ctor(AnitomySharp.Token.TokenCategory,System.Boolean,System.String)
+  name.vb: New(TokenCategory, Boolean, String)
+  fullName: AnitomySharp.Token.Token(AnitomySharp.Token.TokenCategory, bool, string)
+  fullName.vb: AnitomySharp.Token.New(AnitomySharp.Token.TokenCategory, Boolean, String)
+  nameWithType: Token.Token(Token.TokenCategory, bool, string)
+  nameWithType.vb: Token.New(Token.TokenCategory, Boolean, String)
+- uid: AnitomySharp.Token.#ctor*
+  name: Token
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token__ctor_
+  commentId: Overload:AnitomySharp.Token.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.Token.Token
+  fullName.vb: AnitomySharp.Token.New
+  nameWithType: Token.Token
+  nameWithType.vb: Token.New
+- uid: AnitomySharp.Token.Category
+  name: Category
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_Category
+  commentId: P:AnitomySharp.Token.Category
+  fullName: AnitomySharp.Token.Category
+  nameWithType: Token.Category
+- uid: AnitomySharp.Token.Category*
+  name: Category
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_Category_
+  commentId: Overload:AnitomySharp.Token.Category
+  isSpec: "True"
+  fullName: AnitomySharp.Token.Category
+  nameWithType: Token.Category
+- uid: AnitomySharp.Token.Content
+  name: Content
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_Content
+  commentId: P:AnitomySharp.Token.Content
+  fullName: AnitomySharp.Token.Content
+  nameWithType: Token.Content
+- uid: AnitomySharp.Token.Content*
+  name: Content
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_Content_
+  commentId: Overload:AnitomySharp.Token.Content
+  isSpec: "True"
+  fullName: AnitomySharp.Token.Content
+  nameWithType: Token.Content
+- uid: AnitomySharp.Token.Enclosed
+  name: Enclosed
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_Enclosed
+  commentId: P:AnitomySharp.Token.Enclosed
+  fullName: AnitomySharp.Token.Enclosed
+  nameWithType: Token.Enclosed
+- uid: AnitomySharp.Token.Enclosed*
+  name: Enclosed
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_Enclosed_
+  commentId: Overload:AnitomySharp.Token.Enclosed
+  isSpec: "True"
+  fullName: AnitomySharp.Token.Enclosed
+  nameWithType: Token.Enclosed
+- uid: AnitomySharp.Token.Equals(System.Object)
+  name: Equals(object)
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_Equals_System_Object_
+  commentId: M:AnitomySharp.Token.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: AnitomySharp.Token.Equals(object)
+  fullName.vb: AnitomySharp.Token.Equals(Object)
+  nameWithType: Token.Equals(object)
+  nameWithType.vb: Token.Equals(Object)
+- uid: AnitomySharp.Token.Equals*
+  name: Equals
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_Equals_
+  commentId: Overload:AnitomySharp.Token.Equals
+  isSpec: "True"
+  fullName: AnitomySharp.Token.Equals
+  nameWithType: Token.Equals
+- uid: AnitomySharp.Token.FindNextToken(System.Collections.Generic.List{AnitomySharp.Token},System.Int32,AnitomySharp.Token.TokenFlag[])
+  name: FindNextToken(List<Token>, int, params TokenFlag[])
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_FindNextToken_System_Collections_Generic_List_AnitomySharp_Token__System_Int32_AnitomySharp_Token_TokenFlag___
+  commentId: M:AnitomySharp.Token.FindNextToken(System.Collections.Generic.List{AnitomySharp.Token},System.Int32,AnitomySharp.Token.TokenFlag[])
+  name.vb: FindNextToken(List(Of Token), Integer, ParamArray TokenFlag())
+  fullName: AnitomySharp.Token.FindNextToken(System.Collections.Generic.List<AnitomySharp.Token>, int, params AnitomySharp.Token.TokenFlag[])
+  fullName.vb: AnitomySharp.Token.FindNextToken(System.Collections.Generic.List(Of AnitomySharp.Token), Integer, ParamArray AnitomySharp.Token.TokenFlag())
+  nameWithType: Token.FindNextToken(List<Token>, int, params Token.TokenFlag[])
+  nameWithType.vb: Token.FindNextToken(List(Of Token), Integer, ParamArray Token.TokenFlag())
+- uid: AnitomySharp.Token.FindNextToken*
+  name: FindNextToken
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_FindNextToken_
+  commentId: Overload:AnitomySharp.Token.FindNextToken
+  isSpec: "True"
+  fullName: AnitomySharp.Token.FindNextToken
+  nameWithType: Token.FindNextToken
+- uid: AnitomySharp.Token.FindPrevToken(System.Collections.Generic.List{AnitomySharp.Token},System.Int32,AnitomySharp.Token.TokenFlag[])
+  name: FindPrevToken(List<Token>, int, params TokenFlag[])
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_FindPrevToken_System_Collections_Generic_List_AnitomySharp_Token__System_Int32_AnitomySharp_Token_TokenFlag___
+  commentId: M:AnitomySharp.Token.FindPrevToken(System.Collections.Generic.List{AnitomySharp.Token},System.Int32,AnitomySharp.Token.TokenFlag[])
+  name.vb: FindPrevToken(List(Of Token), Integer, ParamArray TokenFlag())
+  fullName: AnitomySharp.Token.FindPrevToken(System.Collections.Generic.List<AnitomySharp.Token>, int, params AnitomySharp.Token.TokenFlag[])
+  fullName.vb: AnitomySharp.Token.FindPrevToken(System.Collections.Generic.List(Of AnitomySharp.Token), Integer, ParamArray AnitomySharp.Token.TokenFlag())
+  nameWithType: Token.FindPrevToken(List<Token>, int, params Token.TokenFlag[])
+  nameWithType.vb: Token.FindPrevToken(List(Of Token), Integer, ParamArray Token.TokenFlag())
+- uid: AnitomySharp.Token.FindPrevToken*
+  name: FindPrevToken
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_FindPrevToken_
+  commentId: Overload:AnitomySharp.Token.FindPrevToken
+  isSpec: "True"
+  fullName: AnitomySharp.Token.FindPrevToken
+  nameWithType: Token.FindPrevToken
+- uid: AnitomySharp.Token.FindToken(System.Collections.Generic.List{AnitomySharp.Token},System.Int32,System.Int32,AnitomySharp.Token.TokenFlag[])
+  name: FindToken(List<Token>, int, int, params TokenFlag[])
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_FindToken_System_Collections_Generic_List_AnitomySharp_Token__System_Int32_System_Int32_AnitomySharp_Token_TokenFlag___
+  commentId: M:AnitomySharp.Token.FindToken(System.Collections.Generic.List{AnitomySharp.Token},System.Int32,System.Int32,AnitomySharp.Token.TokenFlag[])
+  name.vb: FindToken(List(Of Token), Integer, Integer, ParamArray TokenFlag())
+  fullName: AnitomySharp.Token.FindToken(System.Collections.Generic.List<AnitomySharp.Token>, int, int, params AnitomySharp.Token.TokenFlag[])
+  fullName.vb: AnitomySharp.Token.FindToken(System.Collections.Generic.List(Of AnitomySharp.Token), Integer, Integer, ParamArray AnitomySharp.Token.TokenFlag())
+  nameWithType: Token.FindToken(List<Token>, int, int, params Token.TokenFlag[])
+  nameWithType.vb: Token.FindToken(List(Of Token), Integer, Integer, ParamArray Token.TokenFlag())
+- uid: AnitomySharp.Token.FindToken*
+  name: FindToken
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_FindToken_
+  commentId: Overload:AnitomySharp.Token.FindToken
+  isSpec: "True"
+  fullName: AnitomySharp.Token.FindToken
+  nameWithType: Token.FindToken
+- uid: AnitomySharp.Token.GetHashCode
+  name: GetHashCode()
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_GetHashCode
+  commentId: M:AnitomySharp.Token.GetHashCode
+  fullName: AnitomySharp.Token.GetHashCode()
+  nameWithType: Token.GetHashCode()
+- uid: AnitomySharp.Token.GetHashCode*
+  name: GetHashCode
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_GetHashCode_
+  commentId: Overload:AnitomySharp.Token.GetHashCode
+  isSpec: "True"
+  fullName: AnitomySharp.Token.GetHashCode
+  nameWithType: Token.GetHashCode
+- uid: AnitomySharp.Token.InListRange(System.Int32,System.Collections.Generic.List{AnitomySharp.Token})
+  name: InListRange(int, List<Token>)
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_InListRange_System_Int32_System_Collections_Generic_List_AnitomySharp_Token__
+  commentId: M:AnitomySharp.Token.InListRange(System.Int32,System.Collections.Generic.List{AnitomySharp.Token})
+  name.vb: InListRange(Integer, List(Of Token))
+  fullName: AnitomySharp.Token.InListRange(int, System.Collections.Generic.List<AnitomySharp.Token>)
+  fullName.vb: AnitomySharp.Token.InListRange(Integer, System.Collections.Generic.List(Of AnitomySharp.Token))
+  nameWithType: Token.InListRange(int, List<Token>)
+  nameWithType.vb: Token.InListRange(Integer, List(Of Token))
+- uid: AnitomySharp.Token.InListRange*
+  name: InListRange
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_InListRange_
+  commentId: Overload:AnitomySharp.Token.InListRange
+  isSpec: "True"
+  fullName: AnitomySharp.Token.InListRange
+  nameWithType: Token.InListRange
+- uid: AnitomySharp.Token.ToString
+  name: ToString()
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_ToString
+  commentId: M:AnitomySharp.Token.ToString
+  fullName: AnitomySharp.Token.ToString()
+  nameWithType: Token.ToString()
+- uid: AnitomySharp.Token.ToString*
+  name: ToString
+  href: api/AnitomySharp.Token.html#AnitomySharp_Token_ToString_
+  commentId: Overload:AnitomySharp.Token.ToString
+  isSpec: "True"
+  fullName: AnitomySharp.Token.ToString
+  nameWithType: Token.ToString
+- uid: AnitomySharp.Token.TokenCategory
+  name: Token.TokenCategory
+  href: api/AnitomySharp.Token.TokenCategory.html
+  commentId: T:AnitomySharp.Token.TokenCategory
+  fullName: AnitomySharp.Token.TokenCategory
+  nameWithType: Token.TokenCategory
+- uid: AnitomySharp.Token.TokenCategory.Bracket
+  name: Bracket
+  href: api/AnitomySharp.Token.TokenCategory.html#AnitomySharp_Token_TokenCategory_Bracket
+  commentId: F:AnitomySharp.Token.TokenCategory.Bracket
+  fullName: AnitomySharp.Token.TokenCategory.Bracket
+  nameWithType: Token.TokenCategory.Bracket
+- uid: AnitomySharp.Token.TokenCategory.Delimiter
+  name: Delimiter
+  href: api/AnitomySharp.Token.TokenCategory.html#AnitomySharp_Token_TokenCategory_Delimiter
+  commentId: F:AnitomySharp.Token.TokenCategory.Delimiter
+  fullName: AnitomySharp.Token.TokenCategory.Delimiter
+  nameWithType: Token.TokenCategory.Delimiter
+- uid: AnitomySharp.Token.TokenCategory.Identifier
+  name: Identifier
+  href: api/AnitomySharp.Token.TokenCategory.html#AnitomySharp_Token_TokenCategory_Identifier
+  commentId: F:AnitomySharp.Token.TokenCategory.Identifier
+  fullName: AnitomySharp.Token.TokenCategory.Identifier
+  nameWithType: Token.TokenCategory.Identifier
+- uid: AnitomySharp.Token.TokenCategory.Invalid
+  name: Invalid
+  href: api/AnitomySharp.Token.TokenCategory.html#AnitomySharp_Token_TokenCategory_Invalid
+  commentId: F:AnitomySharp.Token.TokenCategory.Invalid
+  fullName: AnitomySharp.Token.TokenCategory.Invalid
+  nameWithType: Token.TokenCategory.Invalid
+- uid: AnitomySharp.Token.TokenCategory.Unknown
+  name: Unknown
+  href: api/AnitomySharp.Token.TokenCategory.html#AnitomySharp_Token_TokenCategory_Unknown
+  commentId: F:AnitomySharp.Token.TokenCategory.Unknown
+  fullName: AnitomySharp.Token.TokenCategory.Unknown
+  nameWithType: Token.TokenCategory.Unknown
+- uid: AnitomySharp.Token.TokenFlag
+  name: Token.TokenFlag
+  href: api/AnitomySharp.Token.TokenFlag.html
+  commentId: T:AnitomySharp.Token.TokenFlag
+  fullName: AnitomySharp.Token.TokenFlag
+  nameWithType: Token.TokenFlag
+- uid: AnitomySharp.Token.TokenFlag.FlagBracket
+  name: FlagBracket
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagBracket
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagBracket
+  fullName: AnitomySharp.Token.TokenFlag.FlagBracket
+  nameWithType: Token.TokenFlag.FlagBracket
+- uid: AnitomySharp.Token.TokenFlag.FlagDelimiter
+  name: FlagDelimiter
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagDelimiter
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagDelimiter
+  fullName: AnitomySharp.Token.TokenFlag.FlagDelimiter
+  nameWithType: Token.TokenFlag.FlagDelimiter
+- uid: AnitomySharp.Token.TokenFlag.FlagEnclosed
+  name: FlagEnclosed
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagEnclosed
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagEnclosed
+  fullName: AnitomySharp.Token.TokenFlag.FlagEnclosed
+  nameWithType: Token.TokenFlag.FlagEnclosed
+- uid: AnitomySharp.Token.TokenFlag.FlagIdentifier
+  name: FlagIdentifier
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagIdentifier
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagIdentifier
+  fullName: AnitomySharp.Token.TokenFlag.FlagIdentifier
+  nameWithType: Token.TokenFlag.FlagIdentifier
+- uid: AnitomySharp.Token.TokenFlag.FlagNone
+  name: FlagNone
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagNone
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagNone
+  fullName: AnitomySharp.Token.TokenFlag.FlagNone
+  nameWithType: Token.TokenFlag.FlagNone
+- uid: AnitomySharp.Token.TokenFlag.FlagNotBracket
+  name: FlagNotBracket
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagNotBracket
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagNotBracket
+  fullName: AnitomySharp.Token.TokenFlag.FlagNotBracket
+  nameWithType: Token.TokenFlag.FlagNotBracket
+- uid: AnitomySharp.Token.TokenFlag.FlagNotDelimiter
+  name: FlagNotDelimiter
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagNotDelimiter
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagNotDelimiter
+  fullName: AnitomySharp.Token.TokenFlag.FlagNotDelimiter
+  nameWithType: Token.TokenFlag.FlagNotDelimiter
+- uid: AnitomySharp.Token.TokenFlag.FlagNotEnclosed
+  name: FlagNotEnclosed
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagNotEnclosed
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagNotEnclosed
+  fullName: AnitomySharp.Token.TokenFlag.FlagNotEnclosed
+  nameWithType: Token.TokenFlag.FlagNotEnclosed
+- uid: AnitomySharp.Token.TokenFlag.FlagNotIdentifier
+  name: FlagNotIdentifier
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagNotIdentifier
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagNotIdentifier
+  fullName: AnitomySharp.Token.TokenFlag.FlagNotIdentifier
+  nameWithType: Token.TokenFlag.FlagNotIdentifier
+- uid: AnitomySharp.Token.TokenFlag.FlagNotUnknown
+  name: FlagNotUnknown
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagNotUnknown
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagNotUnknown
+  fullName: AnitomySharp.Token.TokenFlag.FlagNotUnknown
+  nameWithType: Token.TokenFlag.FlagNotUnknown
+- uid: AnitomySharp.Token.TokenFlag.FlagNotValid
+  name: FlagNotValid
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagNotValid
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagNotValid
+  fullName: AnitomySharp.Token.TokenFlag.FlagNotValid
+  nameWithType: Token.TokenFlag.FlagNotValid
+- uid: AnitomySharp.Token.TokenFlag.FlagUnknown
+  name: FlagUnknown
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagUnknown
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagUnknown
+  fullName: AnitomySharp.Token.TokenFlag.FlagUnknown
+  nameWithType: Token.TokenFlag.FlagUnknown
+- uid: AnitomySharp.Token.TokenFlag.FlagValid
+  name: FlagValid
+  href: api/AnitomySharp.Token.TokenFlag.html#AnitomySharp_Token_TokenFlag_FlagValid
+  commentId: F:AnitomySharp.Token.TokenFlag.FlagValid
+  fullName: AnitomySharp.Token.TokenFlag.FlagValid
+  nameWithType: Token.TokenFlag.FlagValid
+- uid: AnitomySharp.TokenRange
+  name: TokenRange
+  href: api/AnitomySharp.TokenRange.html
+  commentId: T:AnitomySharp.TokenRange
+  fullName: AnitomySharp.TokenRange
+  nameWithType: TokenRange
+- uid: AnitomySharp.TokenRange.#ctor(System.Int32,System.Int32)
+  name: TokenRange(int, int)
+  href: api/AnitomySharp.TokenRange.html#AnitomySharp_TokenRange__ctor_System_Int32_System_Int32_
+  commentId: M:AnitomySharp.TokenRange.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: AnitomySharp.TokenRange.TokenRange(int, int)
+  fullName.vb: AnitomySharp.TokenRange.New(Integer, Integer)
+  nameWithType: TokenRange.TokenRange(int, int)
+  nameWithType.vb: TokenRange.New(Integer, Integer)
+- uid: AnitomySharp.TokenRange.#ctor*
+  name: TokenRange
+  href: api/AnitomySharp.TokenRange.html#AnitomySharp_TokenRange__ctor_
+  commentId: Overload:AnitomySharp.TokenRange.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.TokenRange.TokenRange
+  fullName.vb: AnitomySharp.TokenRange.New
+  nameWithType: TokenRange.TokenRange
+  nameWithType.vb: TokenRange.New
+- uid: AnitomySharp.TokenRange.Offset
+  name: Offset
+  href: api/AnitomySharp.TokenRange.html#AnitomySharp_TokenRange_Offset
+  commentId: F:AnitomySharp.TokenRange.Offset
+  fullName: AnitomySharp.TokenRange.Offset
+  nameWithType: TokenRange.Offset
+- uid: AnitomySharp.TokenRange.Size
+  name: Size
+  href: api/AnitomySharp.TokenRange.html#AnitomySharp_TokenRange_Size
+  commentId: F:AnitomySharp.TokenRange.Size
+  fullName: AnitomySharp.TokenRange.Size
+  nameWithType: TokenRange.Size
+- uid: AnitomySharp.Tokenizer
+  name: Tokenizer
+  href: api/AnitomySharp.Tokenizer.html
+  commentId: T:AnitomySharp.Tokenizer
+  fullName: AnitomySharp.Tokenizer
+  nameWithType: Tokenizer
+- uid: AnitomySharp.Tokenizer.#ctor(System.String,System.Collections.Generic.List{AnitomySharp.Element},AnitomySharp.Options,System.Collections.Generic.List{AnitomySharp.Token})
+  name: Tokenizer(string, List<Element>, Options, List<Token>)
+  href: api/AnitomySharp.Tokenizer.html#AnitomySharp_Tokenizer__ctor_System_String_System_Collections_Generic_List_AnitomySharp_Element__AnitomySharp_Options_System_Collections_Generic_List_AnitomySharp_Token__
+  commentId: M:AnitomySharp.Tokenizer.#ctor(System.String,System.Collections.Generic.List{AnitomySharp.Element},AnitomySharp.Options,System.Collections.Generic.List{AnitomySharp.Token})
+  name.vb: New(String, List(Of Element), Options, List(Of Token))
+  fullName: AnitomySharp.Tokenizer.Tokenizer(string, System.Collections.Generic.List<AnitomySharp.Element>, AnitomySharp.Options, System.Collections.Generic.List<AnitomySharp.Token>)
+  fullName.vb: AnitomySharp.Tokenizer.New(String, System.Collections.Generic.List(Of AnitomySharp.Element), AnitomySharp.Options, System.Collections.Generic.List(Of AnitomySharp.Token))
+  nameWithType: Tokenizer.Tokenizer(string, List<Element>, Options, List<Token>)
+  nameWithType.vb: Tokenizer.New(String, List(Of Element), Options, List(Of Token))
+- uid: AnitomySharp.Tokenizer.#ctor*
+  name: Tokenizer
+  href: api/AnitomySharp.Tokenizer.html#AnitomySharp_Tokenizer__ctor_
+  commentId: Overload:AnitomySharp.Tokenizer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: AnitomySharp.Tokenizer.Tokenizer
+  fullName.vb: AnitomySharp.Tokenizer.New
+  nameWithType: Tokenizer.Tokenizer
+  nameWithType.vb: Tokenizer.New
+- uid: AnitomySharp.Tokenizer.Tokenize
+  name: Tokenize()
+  href: api/AnitomySharp.Tokenizer.html#AnitomySharp_Tokenizer_Tokenize
+  commentId: M:AnitomySharp.Tokenizer.Tokenize
+  fullName: AnitomySharp.Tokenizer.Tokenize()
+  nameWithType: Tokenizer.Tokenize()
+- uid: AnitomySharp.Tokenizer.Tokenize*
+  name: Tokenize
+  href: api/AnitomySharp.Tokenizer.html#AnitomySharp_Tokenizer_Tokenize_
+  commentId: Overload:AnitomySharp.Tokenizer.Tokenize
+  isSpec: "True"
+  fullName: AnitomySharp.Tokenizer.Tokenize
+  nameWithType: Tokenizer.Tokenize
+- uid: AnitomySharpTests
+  name: AnitomySharpTests
+  href: api/AnitomySharpTests.html
+  commentId: N:AnitomySharpTests
+  fullName: AnitomySharpTests
+  nameWithType: AnitomySharpTests
+- uid: AnitomySharpTests.DataTest
+  name: DataTest
+  href: api/AnitomySharpTests.DataTest.html
+  commentId: T:AnitomySharpTests.DataTest
+  fullName: AnitomySharpTests.DataTest
+  nameWithType: DataTest
+- uid: AnitomySharpTests.DataTest.ValidateParsingResults
+  name: ValidateParsingResults()
+  href: api/AnitomySharpTests.DataTest.html#AnitomySharpTests_DataTest_ValidateParsingResults
+  commentId: M:AnitomySharpTests.DataTest.ValidateParsingResults
+  fullName: AnitomySharpTests.DataTest.ValidateParsingResults()
+  nameWithType: DataTest.ValidateParsingResults()
+- uid: AnitomySharpTests.DataTest.ValidateParsingResults*
+  name: ValidateParsingResults
+  href: api/AnitomySharpTests.DataTest.html#AnitomySharpTests_DataTest_ValidateParsingResults_
+  commentId: Overload:AnitomySharpTests.DataTest.ValidateParsingResults
+  isSpec: "True"
+  fullName: AnitomySharpTests.DataTest.ValidateParsingResults
+  nameWithType: DataTest.ValidateParsingResults
+- uid: AnitomySharpTests.TestCase
+  name: TestCase
+  href: api/AnitomySharpTests.TestCase.html
+  commentId: T:AnitomySharpTests.TestCase
+  fullName: AnitomySharpTests.TestCase
+  nameWithType: TestCase
+- uid: AnitomySharpTests.TestCase.FileName
+  name: FileName
+  href: api/AnitomySharpTests.TestCase.html#AnitomySharpTests_TestCase_FileName
+  commentId: P:AnitomySharpTests.TestCase.FileName
+  fullName: AnitomySharpTests.TestCase.FileName
+  nameWithType: TestCase.FileName
+- uid: AnitomySharpTests.TestCase.FileName*
+  name: FileName
+  href: api/AnitomySharpTests.TestCase.html#AnitomySharpTests_TestCase_FileName_
+  commentId: Overload:AnitomySharpTests.TestCase.FileName
+  isSpec: "True"
+  fullName: AnitomySharpTests.TestCase.FileName
+  nameWithType: TestCase.FileName
+- uid: AnitomySharpTests.TestCase.Ignore
+  name: Ignore
+  href: api/AnitomySharpTests.TestCase.html#AnitomySharpTests_TestCase_Ignore
+  commentId: P:AnitomySharpTests.TestCase.Ignore
+  fullName: AnitomySharpTests.TestCase.Ignore
+  nameWithType: TestCase.Ignore
+- uid: AnitomySharpTests.TestCase.Ignore*
+  name: Ignore
+  href: api/AnitomySharpTests.TestCase.html#AnitomySharpTests_TestCase_Ignore_
+  commentId: Overload:AnitomySharpTests.TestCase.Ignore
+  isSpec: "True"
+  fullName: AnitomySharpTests.TestCase.Ignore
+  nameWithType: TestCase.Ignore
+- uid: AnitomySharpTests.TestCase.Results
+  name: Results
+  href: api/AnitomySharpTests.TestCase.html#AnitomySharpTests_TestCase_Results
+  commentId: P:AnitomySharpTests.TestCase.Results
+  fullName: AnitomySharpTests.TestCase.Results
+  nameWithType: TestCase.Results
+- uid: AnitomySharpTests.TestCase.Results*
+  name: Results
+  href: api/AnitomySharpTests.TestCase.html#AnitomySharpTests_TestCase_Results_
+  commentId: Overload:AnitomySharpTests.TestCase.Results
+  isSpec: "True"
+  fullName: AnitomySharpTests.TestCase.Results
+  nameWithType: TestCase.Results
