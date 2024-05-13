@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/chu-shen/AnitomySharp/compare/v0.5.0...v0.5.1) (2024-05-13)
+
+
+### Bug Fixes
+
+* update version ([1cf3f20](https://github.com/chu-shen/AnitomySharp/commit/1cf3f20792c0bb67c45ccf016da7ab4027470e4c))
+
 ## [0.5.0](https://github.com/chu-shen/AnitomySharp/compare/v0.4.0...v0.5.0) (2024-05-13)
 
 
