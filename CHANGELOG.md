@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.5.0](https://github.com/chu-shen/AnitomySharp/compare/v0.4.0...v0.5.0) (2024-05-13)
+
+
+### Features
+
+* `SearchForSymbolWithEpisode`: check keyword in PeekEntries when match episode number ([46a0ed2](https://github.com/chu-shen/AnitomySharp/commit/46a0ed2607b3d324b82a731b85237e9421b9257d))
+* add new episode rule to match `OtherToken[Disc 01]` ([be12b5a](https://github.com/chu-shen/AnitomySharp/commit/be12b5ac87e93f9224229aee20e08a08ba9dd558))
+* add new rule to match episode number with bracket e.g. `[13 (341)]` ([3d7373c](https://github.com/chu-shen/AnitomySharp/commit/3d7373c032be3407abfebd14d13b2569977175ee))
+* check anime title: shoule not be number ([97af21e](https://github.com/chu-shen/AnitomySharp/commit/97af21e383429b9ee5603002ca3e8c8f6c124d3b))
+
+
+### Bug Fixes
+
+* fix the rule of anime year ([83e4686](https://github.com/chu-shen/AnitomySharp/commit/83e4686d21e6b082a2ca409b69ab4d0d26bb9c7b))
+* properly handle full width digits & check if tokens are within range ([e8659ee](https://github.com/chu-shen/AnitomySharp/commit/e8659ee54f5a20875c4f01420c8c0207c6ce979f))
+
+
+### Reverts
+
+* check if tokens are within range ([9ee8216](https://github.com/chu-shen/AnitomySharp/commit/9ee82163ce768545d2dae071569f23de5414ed34))
+
 ## [0.3.0](https://github.com/chu-shen/AnitomySharp/compare/0.2.0...v0.3.0) (2023-08-03)
 
 
